@@ -399,7 +399,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "start":
         buttons = [[
             InlineKeyboardButton('Aᴅᴅ Mᴇ Tᴏ Gʀᴘ', url=f'http://t.me/{temp.U_NAME}?startgroup=true'),
-            InlineKeyboardButton('Mᴏᴠɪᴇs Aʟʟ', url='https://t.me/tomoviesall'),
+            InlineKeyboardButton('Cɪɴᴇᴍᴀ Sᴛᴇʟʟᴀʀ', url='https://t.me/Cinema_Stellar_talks'),
             InlineKeyboardButton('Sᴇᴀʀᴄʜ', switch_inline_query_current_chat='')
             ],[
             InlineKeyboardButton('Mʏ Pʀᴏғɪʟᴇ', url='https://telegra.ph/file/d1bf0c0b166b4ba50c0ca.jpg'),
@@ -436,7 +436,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "about":
         buttons= [[
             InlineKeyboardButton('Aᴅᴅ Mᴇ Tᴏ Gʀᴘ', url=f'http://t.me/{temp.U_NAME}?startgroup=true'),
-            InlineKeyboardButton('Mᴏᴠɪᴇs Aʟʟ', url='https://t.me/tomoviesall'),
+            InlineKeyboardButton('Cɪɴᴇᴍᴀ Sᴛᴇʟʟᴀʀ', url='https://t.me/Cinema_Stellar_talks'),
             InlineKeyboardButton('Sᴇᴀʀᴄʜ', switch_inline_query_current_chat='')
             ],[
             InlineKeyboardButton('Mʏ Pʀᴏғɪʟᴇ', url='https://telegra.ph/file/d1bf0c0b166b4ba50c0ca.jpg'),
