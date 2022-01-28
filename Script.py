@@ -4,12 +4,11 @@ class script(object):
     HELP_TXT = """𝙷𝙴𝚈 {}
 Tʜᴇsᴇ Aʀᴇ Tʜᴇ Aᴠᴀɪʟᴀʙʟᴇ Lɪsᴛ Oғ Mʏ Cᴏᴍᴍᴀɴᴅs."""
     ABOUT_TXT = """I AM: {}
-  ✫ Cʀᴇᴀᴛᴏʀ:  <a href=@Lisa_My_Lub>Arjun Pradeep</a>
-  ✫ Bᴏᴛ Uᴘᴅᴀᴛᴇs:  <a href=https://t.me/+WqhO2sfnZxcxYjk1>ERCEL</a>
-  ✫ Lɪʙʀᴀʀʏ:  𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
-  ✫ Lᴀɴɢᴜᴀɢᴇ:  𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
-  ✫ Dᴀᴛᴀ Bᴀsᴇ:  𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
-  ✫ Bᴏᴛ Sᴇʀᴠᴇʀ:  𝙷𝙴𝚁𝙾𝙺𝚄"""
+  BLΛƆKPIИK ` Cʀᴇᴀᴛᴏʀ:  <a href=@Arjun_La_Lis_A>𝗔𝗿𝗷𝘂𝗻</a>
+  BLΛƆKPIИK ` Lɪʙʀᴀʀʏ:     𝗣𝘆𝗿𝗼𝗴𝗿𝗮𝗺
+  BLΛƆKPIИK ` Lᴀɴɢᴜᴀɢᴇ:    𝗣𝘆𝘁𝗵𝗼𝗻 𝟯
+  BLΛƆKPIИK ` Dᴀᴛᴀ Bᴀsᴇ:   𝗠𝗼𝗻𝗴𝗼 𝗗𝗕
+  BLΛƆKPIИK ` Bᴏᴛ Sᴇʀᴠᴇʀ:  𝗛𝗲𝗿𝗼𝗸𝘂"""
     SOURCE_TXT = """<b>NOTE:</b>
 - Ercel is a clone of Eva Maria - a open source project. 
 - Source - https://github.com/EvamariaTG/EvaMaria  
