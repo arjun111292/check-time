@@ -9,12 +9,6 @@ Tʜᴇsᴇ Aʀᴇ Tʜᴇ Aᴠᴀɪʟᴀʙʟᴇ Lɪsᴛ Oғ Mʏ Cᴏᴍᴍᴀɴ�
   BLΛƆKPIИK ` Lᴀɴɢᴜᴀɢᴇ:    𝗣𝘆𝘁𝗵𝗼𝗻 𝟯
   BLΛƆKPIИK ` Dᴀᴛᴀ Bᴀsᴇ:   𝗠𝗼𝗻𝗴𝗼 𝗗𝗕
   BLΛƆKPIИK ` Bᴏᴛ Sᴇʀᴠᴇʀ:  𝗛𝗲𝗿𝗼𝗸𝘂"""
-    SOURCE_TXT = """<b>NOTE:</b>
-- Ercel is a clone of Eva Maria - a open source project. 
-- Source - https://github.com/EvamariaTG/EvaMaria  
-
-<b>DEVS:</b>
-- <a href=@Lisa_My_Lub>Arjun Pradeep</a>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and Ercel will respond whenever a keyword is found the message
