@@ -399,11 +399,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "start":
         buttons = [[
             InlineKeyboardButton('Aᴅᴅ Mᴇ Tᴏ Gʀᴘ', url=f'http://t.me/{temp.U_NAME}?startgroup=true'),
-            InlineKeyboardButton('Cɪɴᴇᴍᴀ Sᴛᴇʟʟᴀʀ', url='https://t.me/Cinema_Stellar_talks'),
             InlineKeyboardButton('Sᴇᴀʀᴄʜ', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('Mʏ Pʀᴏғɪʟᴇ', url='https://telegra.ph/file/d1bf0c0b166b4ba50c0ca.jpg'),
             InlineKeyboardButton('Sᴏᴜʀᴄᴇ', url='https://t.me/+2II-zW8UCLw4ZTFl'),
+            InlineKeyboardButton('BLΛƆKPIИK', url='https://telegra.ph/file/4d999119fe0bbf0af7037.jpg'),
             InlineKeyboardButton('Mʏ Fɪʟᴇs', url='https://t.me/+f2zfFt4QnHszYjll')
             ],[
             InlineKeyboardButton('Nᴇᴇᴅ Hᴇʟᴘ?', callback_data='help'),
@@ -436,11 +435,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "about":
         buttons= [[
             InlineKeyboardButton('Aᴅᴅ Mᴇ Tᴏ Gʀᴘ', url=f'http://t.me/{temp.U_NAME}?startgroup=true'),
-            InlineKeyboardButton('Cɪɴᴇᴍᴀ Sᴛᴇʟʟᴀʀ', url='https://t.me/Cinema_Stellar_talks'),
             InlineKeyboardButton('Sᴇᴀʀᴄʜ', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('Mʏ Pʀᴏғɪʟᴇ', url='https://telegra.ph/file/d1bf0c0b166b4ba50c0ca.jpg'),
             InlineKeyboardButton('Sᴏᴜʀᴄᴇ', url='https://t.me/+2II-zW8UCLw4ZTFl'),
+            InlineKeyboardButton('BLΛƆKPIИK', url='https://telegra.ph/file/4d999119fe0bbf0af7037.jpg'),
             InlineKeyboardButton('Mʏ Fɪʟᴇs', url='https://t.me/+f2zfFt4QnHszYjll')
             ],[
             InlineKeyboardButton('Nᴇᴇᴅ Hᴇʟᴘ?', callback_data='help'),
