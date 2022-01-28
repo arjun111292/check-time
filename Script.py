@@ -21,7 +21,7 @@ Tʜᴇsᴇ Aʀᴇ Tʜᴇ Aᴠᴀɪʟᴀʙʟᴇ Lɪsᴛ Oғ Mʏ Cᴏᴍᴍᴀɴ�
 <b>Commands and Usage:</b>
 • /filter - <code>add a filter in chat</code>
 • /filters - <code>list all the filters of a chat</code>
-• /del - <code>delete a specific filter in chat</code>
+• /del - <code>ᴅᴇʟᴇᴛᴇ ᴀ sᴘᴇᴄɪғɪᴄ ғɪʟᴛᴇʀ ɪɴ ᴄʜᴀᴛ</code>
 • /delall - <code>ᴅᴇʟᴇᴛᴇ ᴛʜᴇ ᴡʜᴏʟᴇ ғɪʟᴛᴇʀs ɪɴ ᴀ ᴄʜᴀᴛ (chat owner only)</code>"""
     BUTTON_TXT = """Help: <b>Buttons</b>
 
