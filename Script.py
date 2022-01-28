@@ -25,7 +25,7 @@ Tʜᴇsᴇ Aʀᴇ Tʜᴇ Aᴠᴀɪʟᴀʙʟᴇ Lɪsᴛ Oғ Mʏ Cᴏᴍᴍᴀɴ�
 • /delall - <code>ᴅᴇʟᴇᴛᴇ ᴛʜᴇ ᴡʜᴏʟᴇ ғɪʟᴛᴇʀs ɪɴ ᴀ ᴄʜᴀᴛ (chat owner only)</code>"""
     BUTTON_TXT = """Help: <b>Buttons</b>
 
-- Jennie Supports both url and alert inline buttons.
+- Jᴇɴɴɪᴇ Sᴜᴘᴘᴏʀᴛs ʙᴏᴛʜ ᴜʀʟ ᴀɴᴅ ᴀʟᴇʀᴛ ɪɴʟɪɴᴇ ʙᴜᴛᴛᴏɴs.
 
 <b>NOTE:</b>
 1. Tᴇʟᴇɢʀᴀᴍ ᴡɪʟʟ ɴᴏᴛ ᴀʟʟᴏᴡs ʏᴏᴜ ᴛᴏ sᴇɴᴅ ʙᴜᴛᴛᴏɴs ᴡɪᴛʜᴏᴜᴛ ᴀɴʏ ᴄᴏɴᴛᴇɴᴛ, sᴏ ᴄᴏɴᴛᴇɴᴛ ɪs ᴍᴀɴᴅᴀᴛᴏʀʏ.
@@ -43,51 +43,51 @@ Tʜᴇsᴇ Aʀᴇ Tʜᴇ Aᴠᴀɪʟᴀʙʟᴇ Lɪsᴛ Oғ Mʏ Cᴏᴍᴍᴀɴ�
 2. ᴍᴀᴋᴇ sᴜʀᴇ ᴛʜᴀᴛ ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ ᴅᴏᴇs ɴᴏᴛ ᴄᴏɴᴛᴀɪɴs ᴄᴀᴍʀɪᴘs, ᴘᴏʀɴ ᴀɴᴅ ғᴀᴋᴇ ғɪʟᴇs.
 3. Fᴏʀᴡᴀʀᴅ ᴛʜᴇ ʟᴀsᴛ ᴍᴇssᴀɢᴇ ᴛᴏ ᴍᴇ.
  I'ʟʟ ᴀᴅᴅ ᴀʟʟ ᴛʜᴇ ғɪʟᴇs ɪɴ ᴛʜᴀᴛ ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴍʏ ᴅʙ."""
-    CONNECTION_TXT = """Help: <b>Connections</b>
+    CONNECTION_TXT = """Help: <b>Aᴛᴛᴀᴄʜᴍᴇɴᴛs</b>
 
-- Used to connect bot to PM for managing filters 
-- it helps to avoid spamming in groups.
+- Usᴇᴅ ᴛᴏ ᴄᴏɴɴᴇᴄᴛ ʙᴏᴛ ᴛᴏ PM ғᴏʀ ᴍᴀɴᴀɢɪɴɢ ғɪʟᴛᴇʀs 
+- ɪᴛ ʜᴇʟᴘs ᴛᴏ ᴀᴠᴏɪᴅ sᴘᴀᴍᴍɪɴɢ ɪɴ ɢʀᴏᴜᴘs.
 
-<b>NOTE:</b>
-1. Only admins can add a connection.
-2. Send <code>/connect</code> for connecting me to ur PM
+<ʙ>NOTE:</ʙ>
+1. Oɴʟʏ ᴀᴅᴍɪɴs ᴄᴀɴ ᴀᴅᴅ ᴀ ᴄᴏɴɴᴇᴄᴛɪᴏɴ.
+2. Sᴇɴᴅ <ᴄᴏᴅᴇ>/ᴄᴏɴɴᴇᴄᴛ</ᴄᴏᴅᴇ> ғᴏʀ ᴄᴏɴɴᴇᴄᴛɪɴɢ ᴍᴇ ᴛᴏ ᴜʀ PM
 
-<b>Commands and Usage:</b>
-• /connect  - <code>connect a particular chat to your PM</code>
-• /disconnect  - <code>disconnect from a chat</code>
-• /connections - <code>list all your connections</code>"""
-    EXTRAMOD_TXT = """Help: <b>Extra Modules</b>
-
-<b>NOTE:</b>
-these are the extra features of Eva Maria
-
-<b>Commands and Usage:</b>
-• /id - <code>get id of a specified user.</code>
-• /info  - <code>get information about a user.</code>
-• /imdb  - <code>get the film information from IMDb source.</code>
-• /search  - <code>get the film information from various sources.</code>"""
-    ADMIN_TXT = """Help: <b>Admin mods</b>
+<ʙ>Cᴏᴍᴍᴀɴᴅs ᴀɴᴅ Usᴀɢᴇ:</ʙ>
+• /ᴄᴏɴɴᴇᴄᴛ  - <ᴄᴏᴅᴇ>ᴄᴏɴɴᴇᴄᴛ ᴀ ᴘᴀʀᴛɪᴄᴜʟᴀʀ ᴄʜᴀᴛ ᴛᴏ ʏᴏᴜʀ PM</ᴄᴏᴅᴇ>
+• /ᴅɪsᴄᴏɴɴᴇᴄᴛ  - <ᴄᴏᴅᴇ>ᴅɪsᴄᴏɴɴᴇᴄᴛ ғʀᴏᴍ ᴀ ᴄʜᴀᴛ</ᴄᴏᴅᴇ>
+• /ᴄᴏɴɴᴇᴄᴛɪᴏɴs - <ᴄᴏᴅᴇ>ʟɪsᴛ ᴀʟʟ ʏᴏᴜʀ ᴄᴏɴɴᴇᴄᴛɪᴏɴs</ᴄᴏᴅᴇ>"""
+    EXTRAMOD_TXT = """Help: <b>Cᴜsᴛᴏᴍ Mᴏᴅᴜʟᴇs</b>
 
 <b>NOTE:</b>
-This module only works for my admins
+ᴛʜᴇsᴇ ᴀʀᴇ ᴛʜᴇ ᴇxᴛʀᴀ ғᴇᴀᴛᴜʀᴇs ᴏғ Jᴇɴɴɪᴇ
 
-<b>Commands and Usage:</b>
-• /logs - <code>to get the rescent errors</code>
-• /stats - <code>to get status of files in db.</code>
-• /delete - <code>to delete a specific file from db.</code>
-• /users - <code>to get list of my users and ids.</code>
-• /chats - <code>to get list of the my chats and ids </code>
-• /leave  - <code>to leave from a chat.</code>
-• /disable  -  <code>do disable a chat.</code>
-• /ban  - <code>to ban a user.</code>
-• /unban  - <code>to unban a user.</code>
-• /channel - <code>to get list of total connected channels</code>
-• /broadcast - <code>to broadcast a message to all users</code>"""
-    STATUS_TXT = """★ TOTAL FILES SAVED: <code>{}</code>
-★ ERCEL USERS: <code>{}</code>
-★ TOTAL CHAT: <code>{}</code>
-★ STORAGE USED: <code>{}</code> 𝙼𝚒𝙱
-★ AVAILABLE STORAGE: <code>{}</code> 𝙼𝚒𝙱"""
+<ʙ>Cᴏᴍᴍᴀɴᴅs ᴀɴᴅ Usᴀɢᴇ:</ʙ>
+• /ɪᴅ - <ᴄᴏᴅᴇ>ɢᴇᴛ ɪᴅ ᴏғ ᴀ sᴘᴇᴄɪғɪᴇᴅ ᴜsᴇʀ.</ᴄᴏᴅᴇ>
+• /ɪɴғᴏ  - <ᴄᴏᴅᴇ>ɢᴇᴛ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴀ ᴜsᴇʀ.</ᴄᴏᴅᴇ>
+• /ɪᴍᴅʙ  - <ᴄᴏᴅᴇ>ɢᴇᴛ ᴛʜᴇ ғɪʟᴍ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ғʀᴏᴍ IMDʙ sᴏᴜʀᴄᴇ.</ᴄᴏᴅᴇ>
+• /sᴇᴀʀᴄʜ  - <ᴄᴏᴅᴇ>ɢᴇᴛ ᴛʜᴇ ғɪʟᴍ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ғʀᴏᴍ ᴠᴀʀɪᴏᴜs sᴏᴜʀᴄᴇs.</ᴄᴏᴅᴇ>"""
+    ADMIN_TXT = """Help: <b>Aᴅᴍɪɴ Mᴏᴅᴜʟᴇs</b>
+
+<b>NOTE:</b>
+Tʜɪs ᴍᴏᴅᴜʟᴇ ᴏɴʟʏ ᴡᴏʀᴋs ғᴏʀ ᴍʏ ᴀᴅᴍɪɴs
+
+<ʙ>Cᴏᴍᴍᴀɴᴅs ᴀɴᴅ Usᴀɢᴇ:</ʙ>
+• /ʟᴏɢs - <ᴄᴏᴅᴇ>ᴛᴏ ɢᴇᴛ ᴛʜᴇ ʀᴇsᴄᴇɴᴛ ᴇʀʀᴏʀs</ᴄᴏᴅᴇ>
+• /sᴛᴀᴛs - <ᴄᴏᴅᴇ>ᴛᴏ ɢᴇᴛ sᴛᴀᴛᴜs ᴏғ ғɪʟᴇs ɪɴ ᴅʙ.</ᴄᴏᴅᴇ>
+• /ᴅᴇʟᴇᴛᴇ - <ᴄᴏᴅᴇ>ᴛᴏ ᴅᴇʟᴇᴛᴇ ᴀ sᴘᴇᴄɪғɪᴄ ғɪʟᴇ ғʀᴏᴍ ᴅʙ.</ᴄᴏᴅᴇ>
+• /ᴜsᴇʀs - <ᴄᴏᴅᴇ>ᴛᴏ ɢᴇᴛ ʟɪsᴛ ᴏғ ᴍʏ ᴜsᴇʀs ᴀɴᴅ ɪᴅs.</ᴄᴏᴅᴇ>
+• /ᴄʜᴀᴛs - <ᴄᴏᴅᴇ>ᴛᴏ ɢᴇᴛ ʟɪsᴛ ᴏғ ᴛʜᴇ ᴍʏ ᴄʜᴀᴛs ᴀɴᴅ ɪᴅs </ᴄᴏᴅᴇ>
+• /ʟᴇᴀᴠᴇ  - <ᴄᴏᴅᴇ>ᴛᴏ ʟᴇᴀᴠᴇ ғʀᴏᴍ ᴀ ᴄʜᴀᴛ.</ᴄᴏᴅᴇ>
+• /ᴅɪsᴀʙʟᴇ  -  <ᴄᴏᴅᴇ>ᴅᴏ ᴅɪsᴀʙʟᴇ ᴀ ᴄʜᴀᴛ.</ᴄᴏᴅᴇ>
+• /ʙᴀɴ  - <ᴄᴏᴅᴇ>ᴛᴏ ʙᴀɴ ᴀ ᴜsᴇʀ.</ᴄᴏᴅᴇ>
+• /ᴜɴʙᴀɴ  - <ᴄᴏᴅᴇ>ᴛᴏ ᴜɴʙᴀɴ ᴀ ᴜsᴇʀ.</ᴄᴏᴅᴇ>
+• /ᴄʜᴀɴɴᴇʟ - <ᴄᴏᴅᴇ>ᴛᴏ ɢᴇᴛ ʟɪsᴛ ᴏғ ᴛᴏᴛᴀʟ ᴄᴏɴɴᴇᴄᴛᴇᴅ ᴄʜᴀɴɴᴇʟs</ᴄᴏᴅᴇ>
+• /ʙʀᴏᴀᴅᴄᴀsᴛ - <ᴄᴏᴅᴇ>ᴛᴏ ʙʀᴏᴀᴅᴄᴀsᴛ ᴀ ᴍᴇssᴀɢᴇ ᴛᴏ ᴀʟʟ ᴜsᴇʀs</ᴄᴏᴅᴇ>"""
+    STATUS_TXT = """❊ 𝗧𝗼𝘁𝗮𝗹 𝗜𝗻𝗱𝗲𝘅𝗲𝗱 𝗙𝗶𝗹𝗲𝘀: <code>{}</code>
+❊ 𝗧𝗼𝘁𝗮𝗹 𝗨𝘀𝗲𝗿𝘀: <code>{}</code>
+❊ 𝗧𝗼𝘁𝗮𝗹 𝗖𝗵𝗮𝘁: <code>{}</code>
+❊ 𝗦𝘁𝗼𝗿𝗮𝗴𝗲 𝗨𝘀𝗲𝗱: <code>{}</code> 𝙼𝚒𝙱
+❊ 𝗔𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 𝗖𝗽𝗰: <code>{}</code> 𝙼𝚒𝙱"""
     LOG_TEXT_G = """#NewGroup
 Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
