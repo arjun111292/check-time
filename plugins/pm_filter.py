@@ -527,7 +527,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Rᴇғʀᴇsʜ', callback_data='rfrsh')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        total = await 1984721()
+        total = ('1988325')
         users = await db.total_users_count()
         chats = await db.total_chat_count()
         monsize = await db.get_db_size()
