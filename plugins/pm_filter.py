@@ -419,6 +419,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('Aᴜᴛᴏᴍᴀᴛɪᴄ Fɪʟᴛᴇʀs', callback_data='autofilter') 
             ],[
+            InlineKeyboardButton('Tʀᴀɴsʟᴀᴛᴏʀ', callback_data='gtrans')
+            ],[
             InlineKeyboardButton('Aᴛᴛᴀᴄʜᴍᴇɴᴛs', callback_data='coct'),
             InlineKeyboardButton('Cᴜsᴛᴏᴍs', callback_data='extra')
             ],[
@@ -456,6 +458,17 @@ async def cb_handler(client: Client, query: CallbackQuery):
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.SOURCE_TXT,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+          elif query.data == "gtrans":
+        buttons = [[
+            InlineKeyboardButton('Bᴀᴄᴋ', callback_data='Hᴇʟᴘ')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=Script.GTRANS_TXT,
+            disable_web_page_preview=True,
             reply_markup=reply_markup,
             parse_mode='html'
         )
