@@ -5,7 +5,7 @@ import asyncio
 from pyrogram import Client, filters
 
 from plugins.neededshits.admin_check import admin_check
-from plugins.josprojects.help_func.cust_p_filters import f_onw_fliter
+from plugins.neededshits.cust_p_filters import f_onw_fliter
 
 TG_MAX_SELECT_LEN = 100
 
