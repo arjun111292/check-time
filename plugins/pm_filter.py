@@ -513,7 +513,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text=Script.TGRAPH_TXT,
+            text=script.TGRAPH_TXT,
             disable_web_page_preview=True,
             reply_markup=reply_markup,
             parse_mode='html'
