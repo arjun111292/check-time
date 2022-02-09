@@ -424,6 +424,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Purge', callback_data='purge')
             ],[
             InlineKeyboardButton('Telegraph', callback_data='tgraph'),
+            InlineKeyboardButton('Json', callback_data='json')
             ],[
             InlineKeyboardButton('Home', callback_data='start'),
         ]]
@@ -525,6 +526,17 @@ async def cb_handler(client: Client, query: CallbackQuery):
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.TGRAPH_TXT,
+            disable_web_page_preview=True,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "info":
+        buttons = [[
+            InlineKeyboardButton('Back', callback_data='fltr')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=Script.INFO_TXT,
             disable_web_page_preview=True,
             reply_markup=reply_markup,
             parse_mode='html'
