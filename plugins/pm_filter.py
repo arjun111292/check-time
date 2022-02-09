@@ -470,7 +470,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ) 
     elif query.data == "manuelfilter":
         buttons = [[
-            InlineKeyboardButton('Bᴀᴄᴋ', callback_data='help'),
+            InlineKeyboardButton('Bᴀᴄᴋ', callback_data='start'),
             InlineKeyboardButton('Bᴜᴛᴛᴏɴs', callback_data='button')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -491,7 +491,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "autofilter":
         buttons = [[
-            InlineKeyboardButton('Bᴀᴄᴋ', callback_data='help')
+            InlineKeyboardButton('Bᴀᴄᴋ', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -502,7 +502,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "purge":
         buttons = [[
-            InlineKeyboardButton('Back', callback_data='help')
+            InlineKeyboardButton('Back', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -513,7 +513,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "tgraph":
         buttons = [[
-            InlineKeyboardButton('Back', callback_data='help')
+            InlineKeyboardButton('Back', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -528,7 +528,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text=Script.CONNECTION_TXT,
+            text=script.CONNECTION_TXT,
             disable_web_page_preview=True,
             reply_markup=reply_markup,
             parse_mode='html'
