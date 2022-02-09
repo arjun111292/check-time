@@ -416,10 +416,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton('Mᴀɴᴜᴀʟ Fɪʟᴛᴇʀs', callback_data='manuelfilter')
+            InlineKeyboardButton('Mᴀɴᴜᴀʟ/Aᴜᴛᴏ Fɪʟᴛᴇʀs', callback_data='manuelfilter')
             ],[
-            InlineKeyboardButton('Aᴜᴛᴏᴍᴀᴛɪᴄ Fɪʟᴛᴇʀs', callback_data='autofilter'),
-            InlineKeyboardButton('Tʀᴀɴsʟᴀᴛᴏʀ', callback_data='gtrans')
+            InlineKeyboardButton('Tʀᴀɴsʟᴀᴛᴏʀ', callback_data='autofilter'),
             ],[
             InlineKeyboardButton('Aᴛᴛᴀᴄʜᴍᴇɴᴛs', callback_data='coct'),
             InlineKeyboardButton('Cᴜsᴛᴏᴍs', callback_data='extra')
@@ -482,7 +481,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
-   elif query.data == "autofilter":
+    elif query.data == "autofilter":
         buttons = [[
             InlineKeyboardButton('Bᴀᴄᴋ', callback_data='help')
         ]]
@@ -492,24 +491,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
-   elif query.data == "gtrans":
-        buttons = [[
-            InlineKeyboardButton('Bᴀᴄᴋ', callback_data='help')
-        ]]
-        reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
-            text=Script.GTRANS_TXT,
-            disable_web_page_preview=True,
-            reply_markup=reply_markup,
-            parse_mode='html'
-        )
     elif query.data == "coct":
         buttons = [[
-            InlineKeyboardButton('Bᴀᴄᴋ', callback_data='help')
+            InlineKeyboardButton('« Back', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text=script.CONNECTION_TXT,
+            text=Script.CONNECTION_TXT,
+            disable_web_page_preview=True,
             reply_markup=reply_markup,
             parse_mode='html'
         )
