@@ -427,6 +427,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('Home', callback_data='start'),
         ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.FLTR_TXT.format(query.from_user.mention),
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
     elif query.data == "help":
         buttons = [[
             InlineKeyboardButton('Aᴛᴛᴀᴄʜᴍᴇɴᴛs', callback_data='coct'),
