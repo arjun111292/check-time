@@ -422,6 +422,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('Tʀᴀɴsʟᴀᴛᴏʀ', callback_data='autofilter'),
             InlineKeyboardButton('Purge', callback_data='purge'),
+            InlineKeyboardButton('Telegraph', callback_data='tgraph'),
             ],[
             InlineKeyboardButton('Aᴛᴛᴀᴄʜᴍᴇɴᴛs', callback_data='coct'),
             InlineKeyboardButton('Cᴜsᴛᴏᴍs', callback_data='extra')
@@ -502,6 +503,17 @@ async def cb_handler(client: Client, query: CallbackQuery):
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.PURGE_TXT,
+            disable_web_page_preview=True,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "tgraph":
+        buttons = [[
+            InlineKeyboardButton('Back', callback_data='help')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=Script.TGRAPH_TXT,
             disable_web_page_preview=True,
             reply_markup=reply_markup,
             parse_mode='html'
