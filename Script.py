@@ -48,6 +48,14 @@ Need to delete lots of messages? That's what purges are for!
 • IMDb should have admin privillage.
 • These commands works on group.
 • These commands can be used by Only admin."""
+    TGRAPH_TXT = """Help: <b>TGraph & Paste</b>
+Do as you wish with telegra.ph module!
+<b>Commands and Usage:</b>
+• /tgmedia or /tgraph - upload supported media (within 5MB) to telegraph.
+<b>NOTE:</b>
+• IMDb should have admin privillage.
+• These commands works on both pm and group.
+• These commands can be used by any group member."""
     BUTTON_TXT = """Help: <b>Buttons</b>
 
 - Jᴇɴɴɪᴇ Sᴜᴘᴘᴏʀᴛs ʙᴏᴛʜ ᴜʀʟ ᴀɴᴅ ᴀʟᴇʀᴛ ɪɴʟɪɴᴇ ʙᴜᴛᴛᴏɴs.
