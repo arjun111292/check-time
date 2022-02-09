@@ -40,6 +40,14 @@ Tʀᴀɴsʟᴀᴛᴇ ᴛᴇxᴛs ᴛᴏ ᴀ sᴘᴇᴄɪғɪᴄ ʟᴀɴɢᴜᴀ�
 • Rᴇᴘʟʏ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ ᴛᴇxᴛ ᴡʜɪᴄʜ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴛʀᴀɴsʟᴀᴛᴇ.
 • Tʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴡᴏʀᴋs ᴏɴ ʙᴏᴛʜ ᴘᴍ ᴀɴᴅ ɢʀᴏᴜᴘ.
 • Jᴇɴɴɪᴇ ᴄᴀɴ ᴛʀᴀɴsʟᴀᴛᴇ ᴛᴇxᴛs ᴛᴏ 200+ ʟᴀɴɢᴜᴀɢᴇs."""
+    PURGE_TXT = """Help: <b>Purge</b>
+Need to delete lots of messages? That's what purges are for!
+<b>Commands and Usage:</b>
+• /purge - delete all messages from the replied to message, to the current message.
+<b>NOTE:</b>
+• IMDb should have admin privillage.
+• These commands works on group.
+• These commands can be used by Only admin."""
     BUTTON_TXT = """Help: <b>Buttons</b>
 
 - Jᴇɴɴɪᴇ Sᴜᴘᴘᴏʀᴛs ʙᴏᴛʜ ᴜʀʟ ᴀɴᴅ ᴀʟᴇʀᴛ ɪɴʟɪɴᴇ ʙᴜᴛᴛᴏɴs.
