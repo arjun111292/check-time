@@ -404,7 +404,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Aᴅᴅ Mᴇ Tᴏ Gʀᴘ', url=f'http://t.me/{temp.U_NAME}?startgroup=true'),
             InlineKeyboardButton('Sᴇᴀʀᴄʜ', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('BLΛƆKPIИK', url='https://telegra.ph/file/4d999119fe0bbf0af7037.jpg')
+            InlineKeyboardButton('BLΛƆKPIИK', callback_data='thefilters')
             ],[
             InlineKeyboardButton('Nᴇᴇᴅ Hᴇʟᴘ?', callback_data='help'),
             InlineKeyboardButton('Aʙᴏᴜᴛ Mᴇ', callback_data='about'),
@@ -416,7 +416,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
-    elif query.data == "help":
+    elif query.data == "thefilters":
         buttons = [[
             InlineKeyboardButton('Mᴀɴᴜᴀʟ/Aᴜᴛᴏ Fɪʟᴛᴇʀs', callback_data='manuelfilter')
             ],[
@@ -424,6 +424,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Purge', callback_data='purge'),
             InlineKeyboardButton('Telegraph', callback_data='tgraph'),
             ],[
+            InlineKeyboardButton('Home', callback_data='start'),
+        ]]
+    elif query.data == "help":
+        buttons = [[
             InlineKeyboardButton('Aᴛᴛᴀᴄʜᴍᴇɴᴛs', callback_data='coct'),
             InlineKeyboardButton('Cᴜsᴛᴏᴍs', callback_data='extra')
             ],[
