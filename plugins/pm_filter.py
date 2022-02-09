@@ -483,7 +483,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
-    elif query.data == "autofilter":
+   elif query.data == "autofilter":
         buttons = [[
             InlineKeyboardButton('Bᴀᴄᴋ', callback_data='help')
         ]]
@@ -493,9 +493,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
-           elif query.data == "gtrans":
+   elif query.data == "gtrans":
         buttons = [[
-            InlineKeyboardButton('Bᴀᴄᴋ', callback_data='Hᴇʟᴘ')
+            InlineKeyboardButton('Bᴀᴄᴋ', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
