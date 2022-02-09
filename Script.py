@@ -59,6 +59,16 @@ Do as you wish with telegra.ph module!
 • IMDb should have admin privillage.
 • These commands works on both pm and group.
 • These commands can be used by any group member."""
+    INFO_TXT = """Help: <b>Information</b>
+Get information about something!
+<b>Commands and Usage:</b>
+• /id - get id of a specified user.
+• /info  - get information about a user.
+• /json - get the json details of a message.
+<b>NOTE:</b>
+• IMDb should have admin privillage.
+• These commands works on both pm and group.
+• These commands can be used by any group member."""
     BUTTON_TXT = """Help: <b>Buttons</b>
 
 - Jᴇɴɴɪᴇ Sᴜᴘᴘᴏʀᴛs ʙᴏᴛʜ ᴜʀʟ ᴀɴᴅ ᴀʟᴇʀᴛ ɪɴʟɪɴᴇ ʙᴜᴛᴛᴏɴs.
