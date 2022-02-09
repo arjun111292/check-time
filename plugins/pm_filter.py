@@ -404,7 +404,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Aᴅᴅ Mᴇ Tᴏ Gʀᴘ', url=f'http://t.me/{temp.U_NAME}?startgroup=true'),
             InlineKeyboardButton('Sᴇᴀʀᴄʜ', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('BLΛƆKPIИK', callback_data='thefiltersnio')
+            InlineKeyboardButton('Filters', callback_data='thefiltersnio')
             ],[
             InlineKeyboardButton('Nᴇᴇᴅ Hᴇʟᴘ?', callback_data='help'),
             InlineKeyboardButton('Aʙᴏᴜᴛ Mᴇ', callback_data='about'),
@@ -421,7 +421,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Mᴀɴᴜᴀʟ/Aᴜᴛᴏ Fɪʟᴛᴇʀs', callback_data='manuelfilter')
             ],[
             InlineKeyboardButton('Tʀᴀɴsʟᴀᴛᴏʀ', callback_data='autofilter'),
-            InlineKeyboardButton('Purge', callback_data='purge'),
+            InlineKeyboardButton('Purge', callback_data='purge')
+            ],[
             InlineKeyboardButton('Telegraph', callback_data='tgraph'),
             ],[
             InlineKeyboardButton('Home', callback_data='start'),
