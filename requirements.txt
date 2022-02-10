@@ -12,3 +12,4 @@ bs4
 imdbpy
 PyPDF2
 pypdf2
+pyshorteners
