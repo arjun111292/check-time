@@ -48,7 +48,7 @@ Need to delete lots of messages? That's what purges are for!
 <b>Commands and Usage:</b>
 • /purge - delete all messages from the replied to message, to the current message.
 <b>NOTE:</b>
-• IMDb should have admin privillage.
+• Bot should have admin privillage.
 • These commands works on group.
 • These commands can be used by Only admin."""
     TGRAPH_TXT = """Help: <b>TGraph & Paste</b>
@@ -56,7 +56,7 @@ Do as you wish with telegra.ph module!
 <b>Commands and Usage:</b>
 • /tgmedia or /tgraph - upload supported media (within 5MB) to telegraph.
 <b>NOTE:</b>
-• IMDb should have admin privillage.
+• Bot should have admin privillage.
 • These commands works on both pm and group.
 • These commands can be used by any group member."""
     ABOOK_TXT = """➤ 𝐇𝐞𝐥𝐩: 𝖠𝗎𝖽𝗂𝗈𝖻𝗈𝗈𝗄
@@ -71,7 +71,7 @@ Get information about something!
 • /info  - get information about a user.
 • /json - get the json details of a message.
 <b>NOTE:</b>
-• IMDb should have admin privillage.
+• Bot should have admin privillage.
 • These commands works on both pm and group.
 • These commands can be used by any group member."""
     TTS_TXT = """Help: <b>Text to Speech</b>
@@ -79,12 +79,23 @@ A module to convert text to voice with language support.
 <b>Commands and Usage:</b>
 • /tts - Reply to any text message with language code to convert as audio.
 <b>NOTE:</b>
-• IMDb should have admin privillage.
+• Bot should have admin privillage.
 • These commands works on both pm and group.
 • These commands can be used by any group member."""
     CORONA_TXT ="""<b>Here is the help for the coron information module</b>
 ➡️ /covid <code>(countryname)</code> <b>you can find a corona information of every country</b>
 ➡️ <b>example</b> : - /covid India"""
+    URL_SHORTNER_TXT = """Help: <b>URL Shortner</b>
+Some URLs is Shortner
+<b>Commands and Usage:</b>
+• /short <code>(link)</code> - I will send the shorted links.
+<b>Example:</b>
+<code>/short https://t.me/tomoviesall</code>
+<b>NOTE:</b>
+• Bot should have admin privillage.
+• These commands works on both pm and group.
+• These commands can be used by any group member."""
+
     BUTTON_TXT = """Help: <b>Buttons</b>
 
 - Jᴇɴɴɪᴇ Sᴜᴘᴘᴏʀᴛs ʙᴏᴛʜ ᴜʀʟ ᴀɴᴅ ᴀʟᴇʀᴛ ɪɴʟɪɴᴇ ʙᴜᴛᴛᴏɴs.
