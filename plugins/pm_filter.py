@@ -426,7 +426,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Telegraph', callback_data='tgraph'),
             InlineKeyboardButton('Json', callback_data='json')
             ],[
-            InlineKeyboardButton('T T V', callback_data='tts'),
+            InlineKeyboardButton('Audio-Book', callback_data='abook'),
+            ],[
+            InlineKeyboardButton('T T S', callback_data='tts'),
             InlineKeyboardButton('Corona', callback_data='corona')
             ],[
             InlineKeyboardButton('Home', callback_data='start'),
@@ -466,6 +468,17 @@ async def cb_handler(client: Client, query: CallbackQuery):
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.ABOUT_TXT.format(temp.B_NAME),
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "abook":
+        buttons = [[
+            InlineKeyboardButton('Back', callback_data='fltr')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.ABOOK_TXT,
+            disable_web_page_preview=True,
             reply_markup=reply_markup,
             parse_mode='html'
         )
