@@ -427,6 +427,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Json', callback_data='json')
             ],[
             InlineKeyboardButton('Audio-Book', callback_data='abook'),
+            InlineKeyboardButton('Url-Shortner', callback_data='shortner ')
             ],[
             InlineKeyboardButton('T T S', callback_data='tts'),
             InlineKeyboardButton('Corona', callback_data='corona')
@@ -575,6 +576,17 @@ async def cb_handler(client: Client, query: CallbackQuery):
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.CORONA_TXT,
+            disable_web_page_preview=True,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "shortner":
+        buttons = [[
+            InlineKeyboardButton('« Back', callback_data='help')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.URL_SHORTNER_TXT,
             disable_web_page_preview=True,
             reply_markup=reply_markup,
             parse_mode='html'
