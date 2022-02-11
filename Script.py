@@ -95,7 +95,17 @@ Some URLs is Shortner
 • Bot should have admin privillage.
 • These commands works on both pm and group.
 • These commands can be used by any group member."""
+    SHARE_TXT = """Help: <b>Sharing Text Maker</b>
 
+A feature to create a link to share text in the telegram.
+
+<b>Commands and Usage:</b>
+• /share (text or reply to message)
+
+<b>NOTE:</b>
+• Bot should have admin privillage.
+• These commands works on both pm and group.
+• These commands can be used by any group member."""
     BUTTON_TXT = """Help: <b>Buttons</b>
 
 - Jᴇɴɴɪᴇ Sᴜᴘᴘᴏʀᴛs ʙᴏᴛʜ ᴜʀʟ ᴀɴᴅ ᴀʟᴇʀᴛ ɪɴʟɪɴᴇ ʙᴜᴛᴛᴏɴs.
