@@ -118,6 +118,14 @@ Music download modules, for those who love music.
 • Bot should have admin privillage.
 • These commands works on both pm and group.
 • These commands can be used by any group member."""
+    DEAD_TXT = """Help: <b>Zombies</b>
+<b>Kick incative members from group. Add me as admin with ban users permission in group.</b>
+<b>Commands and Usage:</b>
+• /inkick - command with required arguments and i will kick members from group.
+• /instatus - to check current status of chat member from group.
+• /inkick within_month long_time_ago - to kick users who are offline for more than 6-7 days.
+• /inkick long_time_ago - to kick members who are offline for more than a month and Deleted Accounts.
+• /dkick - to kick deleted accounts."""
     BUTTON_TXT = """Help: <b>Buttons</b>
 
 - Jᴇɴɴɪᴇ Sᴜᴘᴘᴏʀᴛs ʙᴏᴛʜ ᴜʀʟ ᴀɴᴅ ᴀʟᴇʀᴛ ɪɴʟɪɴᴇ ʙᴜᴛᴛᴏɴs.
