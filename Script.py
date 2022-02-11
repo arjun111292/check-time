@@ -126,6 +126,7 @@ Music download modules, for those who love music.
 • /inkick within_month long_time_ago - to kick users who are offline for more than 6-7 days.
 • /inkick long_time_ago - to kick members who are offline for more than a month and Deleted Accounts.
 • /dkick - to kick deleted accounts."""
+    STICKER_TXT ="""<b>Send /stickerid As the reply to a sticker to find its ID</b>"""
     BUTTON_TXT = """Help: <b>Buttons</b>
 
 - Jᴇɴɴɪᴇ Sᴜᴘᴘᴏʀᴛs ʙᴏᴛʜ ᴜʀʟ ᴀɴᴅ ᴀʟᴇʀᴛ ɪɴʟɪɴᴇ ʙᴜᴛᴛᴏɴs.
