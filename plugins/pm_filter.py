@@ -432,6 +432,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('T T S', callback_data='tts'),
             InlineKeyboardButton('Corona', callback_data='corona')
             ],[
+            InlineKeyboardButton('Share-Text', callback_data='sharetext')
+            ],[
             InlineKeyboardButton('Home', callback_data='start'),
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -582,11 +584,22 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "shortner":
         buttons = [[
-            InlineKeyboardButton('« Back', callback_data='help')
+            InlineKeyboardButton('Back', callback_data='fltr')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.URL_SHORTNER_TXT,
+            disable_web_page_preview=True,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "sharetext":
+        buttons = [[
+            InlineKeyboardButton('Back', callback_data='fltr')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.SHARE_TXT,
             disable_web_page_preview=True,
             reply_markup=reply_markup,
             parse_mode='html'
