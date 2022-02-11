@@ -106,6 +106,18 @@ A feature to create a link to share text in the telegram.
 • Bot should have admin privillage.
 • These commands works on both pm and group.
 • These commands can be used by any group member."""
+    MUSIC_TXT = """Help: <b>Music</b>
+Music download modules, for those who love music.
+<b>Commands and Usage:</b>
+• /song or /mp3 (songname) - download song from yt servers.
+• /video or /mp4 (songname) - download video from yt servers.
+<b>YouTube Thumbnail Download</b>
+• /ytthumb (youtube link)
+<b>Example:</b> <code>/ytthumb https://youtu.be/h6PtzFYaMxQ</code>
+<b>NOTE:</b>
+• Bot should have admin privillage.
+• These commands works on both pm and group.
+• These commands can be used by any group member."""
     BUTTON_TXT = """Help: <b>Buttons</b>
 
 - Jᴇɴɴɪᴇ Sᴜᴘᴘᴏʀᴛs ʙᴏᴛʜ ᴜʀʟ ᴀɴᴅ ᴀʟᴇʀᴛ ɪɴʟɪɴᴇ ʙᴜᴛᴛᴏɴs.
