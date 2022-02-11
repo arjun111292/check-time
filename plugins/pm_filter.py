@@ -427,7 +427,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Json', callback_data='json')
             ],[
             InlineKeyboardButton('Audio-Book', callback_data='abook'),
-            InlineKeyboardButton('Url-Shortner', callback_data='shortner ')
+            InlineKeyboardButton('Url-Shortner', callback_data='shortner')
             ],[
             InlineKeyboardButton('T T S', callback_data='tts'),
             InlineKeyboardButton('Corona', callback_data='corona')
