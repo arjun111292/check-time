@@ -435,6 +435,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Share-Text', callback_data='sharetext'),
             InlineKeyboardButton('YT-Assets', callback_data='music')
             ],[
+            InlineKeyboardButton('Deads', callback_data='dead')
+            ],[
             InlineKeyboardButton('Home', callback_data='start'),
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -612,6 +614,17 @@ async def cb_handler(client: Client, query: CallbackQuery):
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.MUSIC_TXT,
+            disable_web_page_preview=True,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "dead":
+        buttons = [[
+            InlineKeyboardButton('Back', callback_data='fltr')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.DEAD_TXT,
             disable_web_page_preview=True,
             reply_markup=reply_markup,
             parse_mode='html'
