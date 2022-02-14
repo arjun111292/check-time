@@ -418,13 +418,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "fltr":
         buttons = [[
-            InlineKeyboardButton('Mᴀɴᴜᴀʟ/Aᴜᴛᴏ Fɪʟᴛᴇʀs', callback_data='manuelfilter')
+            InlineKeyboardButton('Mᴀɴᴜᴀʟ/Aᴜᴛᴏ', callback_data='manuelfilter'),
+            InlineKeyboardButton('Json', callback_data='thejson')
             ],[
             InlineKeyboardButton('Tʀᴀɴsʟᴀᴛᴏʀ', callback_data='autofilter'),
             InlineKeyboardButton('Purge', callback_data='purge')
             ],[
             InlineKeyboardButton('Telegraph', callback_data='tgraph'),
-            InlineKeyboardButton('Json', callback_data='json')
+            InlineKeyboardButton('Information', callback_data='json')
             ],[
             InlineKeyboardButton('Audio-Book', callback_data='abook'),
             InlineKeyboardButton('Url-Shortner', callback_data='shortner')
@@ -440,6 +441,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('Deads', callback_data='dead'),
             InlineKeyboardButton('Sticker-ID', callback_data='stk')
+            ],[
+            InlineKeyboardButton('Bᴜᴛᴛᴏɴs', callback_data='button'),
+            InlineKeyboardButton('Aᴅᴍɪɴ', callback_data='admin')
             ],[
             InlineKeyboardButton('Home', callback_data='start'),
         ]]
@@ -505,7 +509,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "manuelfilter":
         buttons = [[
             InlineKeyboardButton('Bᴀᴄᴋ', callback_data='fltr'),
-            InlineKeyboardButton('Bᴜᴛᴛᴏɴs', callback_data='button')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -513,9 +516,19 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
+    elif query.data == "thejson":
+        buttons = [[
+            InlineKeyboardButton('Bᴀᴄᴋ', callback_data='fltr')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.JSON_TXT,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
     elif query.data == "button":
         buttons = [[
-            InlineKeyboardButton('Bᴀᴄᴋ', callback_data='manuelfilter')
+            InlineKeyboardButton('Bᴀᴄᴋ', callback_data='fltr')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -680,7 +693,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "extra":
         buttons = [[
             InlineKeyboardButton('Bᴀᴄᴋ', callback_data='help'),
-            InlineKeyboardButton('Aᴅᴍɪɴ', callback_data='admin')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -690,7 +702,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "admin":
         buttons = [[
-            InlineKeyboardButton('Bᴀᴄᴋ', callback_data='extra')
+            InlineKeyboardButton('Bᴀᴄᴋ', callback_data='fltr')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
