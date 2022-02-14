@@ -418,29 +418,29 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "fltr":
         buttons = [[
-            InlineKeyboardButton('Mᴀɴ/Aᴜᴛ', callback_data='manuelfilter'),
-            InlineKeyboardButton('Json', callback_data='thejson'),
-            InlineKeyboardButton('G-Tʀᴀɴs', callback_data='autofilter')
+            InlineKeyboardButton('FILTERS', callback_data='manuelfilter'),
+            InlineKeyboardButton('JSON', callback_data='thejson'),
+            InlineKeyboardButton('G-TRANS', callback_data='autofilter')
             ],[
-            InlineKeyboardButton('Purge', callback_data='purge'),
-            InlineKeyboardButton('T-Grp', callback_data='tgraph'),
-            InlineKeyboardButton('Info', callback_data='json')
+            InlineKeyboardButton('PURGE', callback_data='purge'),
+            InlineKeyboardButton('TELEGRAPH', callback_data='tgraph'),
+            InlineKeyboardButton('INFORMATION', callback_data='json')
             ],[
-            InlineKeyboardButton('Aud-Buk', callback_data='abook'),
-            InlineKeyboardButton('Url-Shtnr', callback_data='shortner'),
+            InlineKeyboardButton('AUDIO-BOOK', callback_data='abook'),
+            InlineKeyboardButton('URL-SHORTNER', callback_data='shortner'),
             InlineKeyboardButton('TTS', callback_data='tts')
             ],[
-            InlineKeyboardButton('Covid', callback_data='corona'),
-            InlineKeyboardButton('Share-Txt', callback_data='sharetext'),
-            InlineKeyboardButton('Song', callback_data='music')
+            InlineKeyboardButton('COVID', callback_data='corona'),
+            InlineKeyboardButton('SHARE-TEXT', callback_data='sharetext'),
+            InlineKeyboardButton('SONG', callback_data='music')
             ],[
-            InlineKeyboardButton('Videos', callback_data='video'),
-            InlineKeyboardButton('T-Nail', callback_data='thumbnail'),
-            InlineKeyboardButton('Deads', callback_data='dead')
+            InlineKeyboardButton('VIDEOS', callback_data='video'),
+            InlineKeyboardButton('THUMBNAIL', callback_data='thumbnail'),
+            InlineKeyboardButton('DEAD-USERS', callback_data='dead')
             ],[
-            InlineKeyboardButton('Stk-ID', callback_data='stk'),
-            InlineKeyboardButton('BTNS', callback_data='button'),
-            InlineKeyboardButton('Aᴅᴍɪɴ', callback_data='admin')
+            InlineKeyboardButton('STICKER', callback_data='stk'),
+            InlineKeyboardButton('BUTTONS', callback_data='button'),
+            InlineKeyboardButton('ADMIN', callback_data='admin')
             ],[
             InlineKeyboardButton('Home', callback_data='start'),
         ]]
