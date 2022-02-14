@@ -418,31 +418,28 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "fltr":
         buttons = [[
-            InlineKeyboardButton('Mᴀɴᴜᴀʟ/Aᴜᴛᴏ', callback_data='manuelfilter'),
-            InlineKeyboardButton('Json', callback_data='thejson')
+            InlineKeyboardButton('Mᴀɴ/Aᴜᴛ', callback_data='manuelfilter'),
+            InlineKeyboardButton('Json', callback_data='thejson'),
+            InlineKeyboardButton('G-Tʀᴀɴs', callback_data='autofilter')
             ],[
-            InlineKeyboardButton('Tʀᴀɴsʟᴀᴛᴏʀ', callback_data='autofilter'),
-            InlineKeyboardButton('Purge', callback_data='purge')
+            InlineKeyboardButton('Purge', callback_data='purge'),
+            InlineKeyboardButton('T-Grp', callback_data='tgraph'),
+            InlineKeyboardButton('Info', callback_data='json')
             ],[
-            InlineKeyboardButton('Telegraph', callback_data='tgraph'),
-            InlineKeyboardButton('Information', callback_data='json')
+            InlineKeyboardButton('Aud-Buk', callback_data='abook'),
+            InlineKeyboardButton('Url-Shtnr', callback_data='shortner'),
+            InlineKeyboardButton('TTS', callback_data='tts')
             ],[
-            InlineKeyboardButton('Audio-Book', callback_data='abook'),
-            InlineKeyboardButton('Url-Shortner', callback_data='shortner')
-            ],[
-            InlineKeyboardButton('T T S', callback_data='tts'),
-            InlineKeyboardButton('Corona', callback_data='corona')
-            ],[
-            InlineKeyboardButton('Share-Text', callback_data='sharetext'),
-            InlineKeyboardButton('Music', callback_data='music')
+            InlineKeyboardButton('Covid', callback_data='corona'),
+            InlineKeyboardButton('Share-Txt', callback_data='sharetext'),
+            InlineKeyboardButton('Song', callback_data='music')
             ],[
             InlineKeyboardButton('Videos', callback_data='video'),
-            InlineKeyboardButton('Thumbnail', callback_data='thumbnail')
+            InlineKeyboardButton('T-Nail', callback_data='thumbnail'),
+            InlineKeyboardButton('Deads', callback_data='dead')
             ],[
-            InlineKeyboardButton('Deads', callback_data='dead'),
-            InlineKeyboardButton('Sticker-ID', callback_data='stk')
-            ],[
-            InlineKeyboardButton('Bᴜᴛᴛᴏɴs', callback_data='button'),
+            InlineKeyboardButton('Stk-ID', callback_data='stk'),
+            InlineKeyboardButton('BTNS', callback_data='button'),
             InlineKeyboardButton('Aᴅᴍɪɴ', callback_data='admin')
             ],[
             InlineKeyboardButton('Home', callback_data='start'),
