@@ -433,7 +433,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Corona', callback_data='corona')
             ],[
             InlineKeyboardButton('Share-Text', callback_data='sharetext'),
-            InlineKeyboardButton('YT-Assets', callback_data='music')
+            InlineKeyboardButton('Music', callback_data='music')
+            ],[
+            InlineKeyboardButton('Videos', callback_data='video'),
+            InlineKeyboardButton('Thumbnail', callback_data='thumbnail')
             ],[
             InlineKeyboardButton('Deads', callback_data='dead'),
             InlineKeyboardButton('Sticker-ID', callback_data='stk')
@@ -641,6 +644,28 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
+    elif query.data == "video":
+        buttons = [[
+            InlineKeyboardButton('Back', callback_data='fltr')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.MP4_TXT,
+            disable_web_page_preview=True,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "thumbnail":
+        buttons = [[
+            InlineKeyboardButton('Back', callback_data='fltr')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.THUMBNAIL_TXT,
+            disable_web_page_preview=True,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )        
     elif query.data == "coct":
         buttons = [[
             InlineKeyboardButton('« Back', callback_data='help')
