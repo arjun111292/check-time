@@ -74,6 +74,14 @@ Get information about something!
 • Bot should have admin privillage.
 • These commands works on both pm and group.
 • These commands can be used by any group member."""
+    JSON_TXT = """Help: <b>Json</b>
+Get information of a message!
+<b>Commands and Usage:</b>
+• /json - get the json details of a message.
+<b>NOTE:</b>
+• Bot should have admin privillage.
+• These commands works on both pm and group.
+• These commands can be used by any group member."""
     TTS_TXT = """Help: <b>Text to Speech</b>
 A module to convert text to voice with language support.
 <b>Commands and Usage:</b>
