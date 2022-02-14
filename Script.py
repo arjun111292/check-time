@@ -116,7 +116,7 @@ Music download modules, for those who love music.
 • These commands can be used by any group member."""
     MP4_TXT = """Help: <b>YT Video Downloader</b>
     Video download modules, for those who love videos.
-• /video or /mp4 (songname) - download video from yt servers.
+• /video or /mp4 (videoname) - download video from yt servers.
 <b>NOTE:</b>
 • Bot should have admin privillage.
 • These commands works on both pm and group.
