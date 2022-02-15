@@ -8,8 +8,8 @@ from plugins.neededshits.cust_p_filters import f_onw_fliter
 
 
 THEABUSE_STRINGS = (
-    "Shut your mouth, U F@cking B%$ch",
-    "Keep it in your A$s Hole",
+    "Shut your mouth, U Fucking Bitch",
+    "Keep it in your Ass Hole",
     "Keep your tiny d%ck Safe in dyper..",
     "F#ck you A#s Hole",
     "Whatsup Mother F#cker..",
