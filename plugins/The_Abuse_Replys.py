@@ -14,11 +14,11 @@ AUNTYCX9_STRINGS = (
 
 
 @Client.on_message(
-    filters.command("abuse","myre","theri","fuck" COMMAND_HAND_LER) &
+    filters.command("abuse", COMMAND_HAND_LER) &
     f_onw_fliter
 )
 async def aunty(_, message):
-    """ /abuse, myre, theri, fuck strings """
+    """ /abuse strings """
     effective_string = random.choice(AUNTYCX9)
     if message.reply_to_message:
         await message.reply_to_message.reply_text(effective_string)
