@@ -26,7 +26,7 @@ async def help_me(_, message):
     
     
     @Client.on_message(filters.command("abuse", COMMAND_HAND_LER) & f_onw_fliter)
-async def abuse(_, message):
+async def help_me(_, message):
     await message.reply_text(ABUSE)
 
     
