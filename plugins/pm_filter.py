@@ -422,7 +422,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('AUTOMATIC FILTER', callback_data='autofilter')
             ],[
             InlineKeyboardButton('JSON', callback_data='thejson'),
-            InlineKeyboardButton('G-TRANS', callback_data='autofilter')
+            InlineKeyboardButton('G-TRANS', callback_data='autofilter'),
+            InlineKeyboardButton('ALIVE', callback_data='alive')
             ],[
             InlineKeyboardButton('PURGE', callback_data='purge'),
             InlineKeyboardButton('TELEGRAPH', callback_data='tgraph'),
@@ -522,6 +523,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.AUTOFILTER_TXT,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "alive":
+        buttons = [[
+            InlineKeyboardButton('Bᴀᴄᴋ', callback_data='fltr'),
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.ALIVE_TXT,
             reply_markup=reply_markup,
             parse_mode='html'
         )
