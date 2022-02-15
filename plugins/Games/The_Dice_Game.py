@@ -1,4 +1,4 @@
-#created by by @Arjun_La_Lis_A - tg
+#created by by @Arjun_La_Lis_A  telegram
 #codes by @PaulWalker_tg
 
 from pyrogram import Client, filters
