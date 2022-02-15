@@ -34,6 +34,27 @@ Tʜᴇsᴇ Aʀᴇ Tʜᴇ Aᴠᴀɪʟᴀʙʟᴇ Lɪsᴛ Oғ Mʏ Cᴏᴍᴍᴀɴ�
 2. ᴍᴀᴋᴇ sᴜʀᴇ ᴛʜᴀᴛ ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ ᴅᴏᴇs ɴᴏᴛ ᴄᴏɴᴛᴀɪɴs ᴄᴀᴍʀɪᴘs, ᴘᴏʀɴ ᴀɴᴅ ғᴀᴋᴇ ғɪʟᴇs.
 3. Fᴏʀᴡᴀʀᴅ ᴛʜᴇ ʟᴀsᴛ ᴍᴇssᴀɢᴇ ᴛᴏ ᴍᴇ.
  I'ʟʟ ᴀᴅᴅ ᴀʟʟ ᴛʜᴇ ғɪʟᴇs ɪɴ ᴛʜᴀᴛ ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴍʏ ᴅʙ."""
+    ALIVE_TXT = """Help: <b>Alive</b>
+
+<b>Commands:</b>
+
+Send /alive to check whether I am alive or not...😂😂
+
+"""
+    HELPME_TXT = """Help: <b>Help 😂</b>
+
+<b>Commands:</b>
+
+Send /help if you need any help from me...😂😂
+
+"""
+    NETPING_TXT = """Help: <b>Ping</b>
+
+<b>Commands:</b>
+
+Send /ping to check your internet speed...
+
+"""
     GTRANS_TXT = """Help: <b>Tʀᴀɴsʟᴀᴛᴏʀ</b>
 Tʀᴀɴsʟᴀᴛᴇ ᴛᴇxᴛs ᴛᴏ ᴀ sᴘᴇᴄɪғɪᴄ ʟᴀɴɢᴜᴀɢᴇ!
 <b>Cᴏᴍᴍᴀɴᴅs ᴀɴᴅ Usᴀɢᴇ:</b>
