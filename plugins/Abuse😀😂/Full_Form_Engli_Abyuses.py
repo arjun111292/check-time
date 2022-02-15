@@ -10,8 +10,8 @@ from plugins.neededshits.cust_p_filters import f_onw_fliter
 THEABUSE_STRINGS = (
     "Shut your mouth, U Fucking Bitch",
     "Keep it in your Ass Hole",
-    "Keep your tiny d%ck Safe in dyper..",
-    "F#ck you A#s Hole",
+    "Keep your tiny dick Safe in dyper..",
+    "Fuck you Ass Hole",
     "Whatsup Mother F#cker..",
     "Kiss Me, Klose Yuvar Eyes And Fck Me..",
     "The Whole Country Is Just A Bo#ty Garden",
