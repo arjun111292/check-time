@@ -423,7 +423,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ALIVE', callback_data='alive')
             ],[
             InlineKeyboardButton('HELP', callback_data='needahelp'),
-            InlineKeyboardButton('GAMES', callback_data='games')
+            InlineKeyboardButton('GAMES', callback_data='games'),
+            InlineKeyboardButton('WHO IS', callback_data='whois')
             ],[
             InlineKeyboardButton('MANUAL FILTER', callback_data='manuelfilter'),
             InlineKeyboardButton('AUTOMATIC FILTER', callback_data='autofilter'),
@@ -617,7 +618,17 @@ async def cb_handler(client: Client, query: CallbackQuery):
             text=script.GOAL_TXT,
             reply_markup=reply_markup,
             parse_mode='html'
-        )     
+        )
+    elif query.data == "whois":
+        buttons = [[
+            InlineKeyboardButton('Bᴀᴄᴋ', callback_data='fltr')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.WHOIS_TXT,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
     elif query.data == "thejson":
         buttons = [[
             InlineKeyboardButton('Bᴀᴄᴋ', callback_data='fltr')
