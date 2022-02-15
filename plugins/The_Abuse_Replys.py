@@ -19,7 +19,7 @@ AUNTYCX9_STRINGS = (
 )
 async def aunty(_, message):
     """ /abuse strings """
-    effective_string = random.choice(AUNTYCX9)
+    effective_string = random.choice(AUNTYCX9_STRINGS)
     if message.reply_to_message:
         await message.reply_to_message.reply_text(effective_string)
     else:
