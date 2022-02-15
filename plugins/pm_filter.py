@@ -418,12 +418,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "fltr":
         buttons = [[
-            InlineKeyboardButton('MANUAL FILTER', callback_data='manuelfilter'),
-            InlineKeyboardButton('AUTOMATIC FILTER', callback_data='autofilter')
-            ],[
             InlineKeyboardButton('JSON', callback_data='thejson'),
             InlineKeyboardButton('G-TRANS', callback_data='autofilter'),
-            InlineKeyboardButton('ALIVE', callback_data='alive')
+            InlineKeyboardButton('ALIVE', callback_data='alive'),
+            InlineKeyboardButton('HELP', callback_data='needahelp')
+            ],[
+            InlineKeyboardButton('MANUAL FILTER', callback_data='manuelfilter'),
+            InlineKeyboardButton('AUTOMATIC FILTER', callback_data='autofilter'),
+            InlineKeyboardButton('INTERNET SPEED', callback_data='bsnl')
             ],[
             InlineKeyboardButton('PURGE', callback_data='purge'),
             InlineKeyboardButton('TELEGRAPH', callback_data='tgraph'),
@@ -526,6 +528,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
+    elif query.data == "bsnl":
+        buttons = [[
+            InlineKeyboardButton('Bᴀᴄᴋ', callback_data='fltr'),
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.NETPING_TXT,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
     elif query.data == "alive":
         buttons = [[
             InlineKeyboardButton('Bᴀᴄᴋ', callback_data='fltr'),
@@ -533,6 +545,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.ALIVE_TXT,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "needahelp":
+        buttons = [[
+            InlineKeyboardButton('Bᴀᴄᴋ', callback_data='fltr'),
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.HELPME_TXT,
             reply_markup=reply_markup,
             parse_mode='html'
         )
