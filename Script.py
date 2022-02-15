@@ -55,6 +55,32 @@ Send /help if you need any help from me...😂😂
 Send /ping to check your internet speed...
 
 """
+    GAMES_TXT ="""<b>FUN MODULE</b> 
+    
+<b>NOTHING MUCH, JUST SOME FUN GAMES TO PASS THE TIME</b>"""
+    
+    AUNTY_TXT ="""<b>THE GREAT MALLU AUNTY</b>
+    
+    Send /aunty Then Mallu Aunty Will Text You Some Jokes 😂😂 """
+        
+    ARROW_TXT ="""<b>Throw / Dart</b>
+    
+    Send /throw 𝗈𝗋 /dart - 𝖳𝗈 𝖬𝖺𝗄𝖾 Drat... 
+    
+    😄😊"""
+    
+    DICE_TXT ="""<b>THE DICE..</b>
+    
+    Send /dice To Roll A Dice... 
+    
+    😄😊"""
+    
+    GOAL_TXT ="""<b>THE DICE..</b>
+    
+    Send /goal or /shoot - To Make A Goal Or Shoot...
+    
+    😄😊"""
+    
     GTRANS_TXT = """Help: <b>Tʀᴀɴsʟᴀᴛᴏʀ</b>
 Tʀᴀɴsʟᴀᴛᴇ ᴛᴇxᴛs ᴛᴏ ᴀ sᴘᴇᴄɪғɪᴄ ʟᴀɴɢᴜᴀɢᴇ!
 <b>Cᴏᴍᴍᴀɴᴅs ᴀɴᴅ Usᴀɢᴇ:</b>
