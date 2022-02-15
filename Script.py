@@ -48,6 +48,13 @@ Send /alive to check whether I am alive or not...😂😂
 Send /help if you need any help from me...😂😂
 
 """
+    
+    WHOIS_TXT ="""Help: <b>WHO IS MODULE</b>
+    
+    Usage- Give a user details
+
+    •/whois :-Gives Full Details Of An User.."""
+        
     NETPING_TXT = """Help: <b>Ping</b>
 
 <b>Commands:</b>
