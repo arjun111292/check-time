@@ -11,7 +11,7 @@ from pyrogram.errors import UserNotParticipant
 from info import COMMAND_HAND_LER
 from plugins.extract.extract_user import extract_user
 from plugins.neededshits.cust_p_filters import f_onw_fliter
-from plugins.online_Ammaven.last_online_hlpr.py import last_online
+from plugins.online_Ammaven.last_online_hlpr import last_online
 
 
 @Client.on_message(
