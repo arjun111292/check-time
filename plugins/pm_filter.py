@@ -420,8 +420,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('JSON', callback_data='thejson'),
             InlineKeyboardButton('G-TRANS', callback_data='autofilter'),
-            InlineKeyboardButton('ALIVE', callback_data='alive'),
-            InlineKeyboardButton('HELP', callback_data='needahelp')
+            InlineKeyboardButton('ALIVE', callback_data='alive')
+            ],[
+            InlineKeyboardButton('HELP', callback_data='needahelp'),
+            InlineKeyboardButton('GAMES', callback_data='games')
             ],[
             InlineKeyboardButton('MANUAL FILTER', callback_data='manuelfilter'),
             InlineKeyboardButton('AUTOMATIC FILTER', callback_data='autofilter'),
@@ -558,6 +560,65 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
+    elif query.data == "games":
+        buttons = [[
+            InlineKeyboardButton('Tʜᴇ Gʀᴇᴀᴛ Mᴀʟʟᴜ Aᴜɴᴛʏ', callback_data='aunty')
+            ],[
+            InlineKeyboardButton('Tʜᴇ Aʀʀᴏᴡ Gᴀᴍᴇ', callback_data='arrowg')
+            ],[
+            InlineKeyboardButton('Tʜᴇ Dɪᴄᴇ Gᴀᴍᴇ', callback_data='diceg')
+            ],[
+            InlineKeyboardButton('Tʜᴇ Gᴏᴀʟ Gᴀᴍᴇ', callback_data='goalg')
+            ],[
+            InlineKeyboardButton('Bᴀᴄᴋ', callback_data='fltr'),
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.GAMES_TXT,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+                )
+    elif query.data == "aunty":
+        buttons = [[
+            InlineKeyboardButton('Bᴀᴄᴋ', callback_data='games')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.AUNTY_TXT,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "arrowg":
+        buttons = [[
+            InlineKeyboardButton('Bᴀᴄᴋ', callback_data='games')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.ARROW_TXT,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "diceg":
+        buttons = [[
+            InlineKeyboardButton('Bᴀᴄᴋ', callback_data='games')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.DICE_TXT,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "goalg":
+        buttons = [[
+            InlineKeyboardButton('Bᴀᴄᴋ', callback_data='games')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.GOAL_TXT,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )     
     elif query.data == "thejson":
         buttons = [[
             InlineKeyboardButton('Bᴀᴄᴋ', callback_data='fltr')
