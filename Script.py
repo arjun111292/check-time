@@ -123,12 +123,12 @@ Need to delete lots of messages? That's what purges are for!
     """
     PASSWORD_GEN_TXT = """Help: <b>Password Generator</b>
     
-- Send me /pass command.. to make a password😄.
+- Send me /password command.. to make a password😄.
 
 - I Will Give The Password...
 
 <b>Commands and Usage:</b>
-• /pass
+• /password
 
 """
     TGRAPH_TXT = """Help: <b>TGraph & Paste</b>
