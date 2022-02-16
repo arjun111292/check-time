@@ -7,19 +7,20 @@ from info import COMMAND_HAND_LER
 from plugins.neededshits.cust_p_filters import f_onw_fliter
 
 
-BREAKUP_STRINGS = (
-    "Habeebi.. Come to dubai 😂😂 ",
-    "Habeebi.. Come to dubai 😂😂",
+BREAK_STRINGS = (
+    "Habeebi.. Come to dubai 😂😂😂..",
+    "Habeebi.. Come to dubai 😂😂😂.",
+    "Habeebi...Come to dubaii 😂😂😂😂..", 
 )
 
 
 @Client.on_message(
-    filters.command("/breakup", COMMAND_HAND_LER) &
+    filters.command("breakup", COMMAND_HAND_LER) &
     f_onw_fliter
 )
 async def breakup(_, message):
     """ /breakup strings """
-    effective_string = random.choice(PASSWORD_STRINGS)
+    effective_string = random.choice(BREAK_STRINGS)
     if message.reply_to_message:
         await message.reply_to_message.reply_text(effective_string)
     else:
