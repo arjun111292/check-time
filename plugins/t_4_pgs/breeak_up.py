@@ -7,7 +7,7 @@ from info import COMMAND_HAND_LER
 from plugins.neededshits.cust_p_filters import f_onw_fliter
 
 
-PASSWORD_STRINGS = (
+BREAKUP_STRINGS = (
     "Habeebi.. Come to dubai 😂😂 ",
     "Habeebi.. Come to dubai 😂😂",
 )
@@ -17,7 +17,7 @@ PASSWORD_STRINGS = (
     filters.command("/breakup", COMMAND_HAND_LER) &
     f_onw_fliter
 )
-async def password(_, message):
+async def breakup(_, message):
     """ /breakup strings """
     effective_string = random.choice(PASSWORD_STRINGS)
     if message.reply_to_message:
