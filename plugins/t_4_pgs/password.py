@@ -9,16 +9,17 @@ from plugins.neededshits.cust_p_filters import f_onw_fliter
 
 PASSWORD_STRINGS = (
     "പാസ്‌വേഡ് ഉണ്ടാക്കാൻ എനിക്കറിയില്ല🙄",
-    "പാസ്‌വേഡ് ഉണ്ടാക്കാൻ എനിക്കറിയില്ല😫",
+    "പാസ്‌വേഡ് ഉണ്ടാക്കാൻ എനിക്കറിയില്ല🙄..",
+    "പാസ്‌വേഡ് ഉണ്ടാക്കാൻ എനിക്കറിയില്ല😫", 
 )
 
 
 @Client.on_message(
-    filters.command("/pass", COMMAND_HAND_LER) &
+    filters.command("password", COMMAND_HAND_LER) &
     f_onw_fliter
 )
 async def password(_, message):
-    """ /pass strings """
+    """ /password strings """
     effective_string = random.choice(PASSWORD_STRINGS)
     if message.reply_to_message:
         await message.reply_to_message.reply_text(effective_string)
