@@ -48,7 +48,12 @@ Send /alive to check whether I am alive or not...😂😂
 Send /help if you need any help from me...😂😂
 
 """
-    
+    SOURCEJ_TXT = """<b>Source:</b>
+Jennie is a Open source project.
+
+<b>DEVS:</b>
+- <a href='https://t.me/Arjun_La_Lis_A'>Aʀᴊᴜɴ</a>
+"""
     WHOIS_TXT ="""Help: <b>WHO IS MODULE</b>
     
     Usage- Give a user details
@@ -97,6 +102,12 @@ Tʀᴀɴsʟᴀᴛᴇ ᴛᴇxᴛs ᴛᴏ ᴀ sᴘᴇᴄɪғɪᴄ ʟᴀɴɢᴜᴀ�
 • Rᴇᴘʟʏ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ ᴛᴇxᴛ ᴡʜɪᴄʜ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴛʀᴀɴsʟᴀᴛᴇ.
 • Tʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴡᴏʀᴋs ᴏɴ ʙᴏᴛʜ ᴘᴍ ᴀɴᴅ ɢʀᴏᴜᴘ.
 • Jᴇɴɴɪᴇ ᴄᴀɴ ᴛʀᴀɴsʟᴀᴛᴇ ᴛᴇxᴛs ᴛᴏ 200+ ʟᴀɴɢᴜᴀɢᴇs."""
+    PIN_TXT ="""<b>PIN MODULE</b>
+<b>Pin :</b>
+<b>All The Pin Related Commands Can Be Found Here; Keep Your Chat Up To Date On The Latest News With A Simple Pinned Message!</b>
+<b>Commands and Usage:</b>
+◉ /Pin :- Pin The Message You Replied To Message To Send A Notification To Group Members..
+◉ /Unpin :- Unpin The Current Pinned Message. If Used As A Reply, Unpins The Replied To Message"""
     PURGE_TXT = """Help: <b>Purge</b>
 Need to delete lots of messages? That's what purges are for!
 <b>Commands and Usage:</b>
@@ -105,6 +116,26 @@ Need to delete lots of messages? That's what purges are for!
 • Bot should have admin privillage.
 • These commands works on group.
 • These commands can be used by Only admin."""
+    BREAKUP_TXT = """HELP: <b>Break Up</b>
+    
+    Send me /break or /thepp..🥺🥺
+    
+    """
+    PASSWORD_GEN_TXT = """Help: <b>Password Generator</b>
+    
+There Is Nothing To Know More. Send Me The Limit Of Your Password.
+- I Will Give The Password Of That Limit.
+
+<b>Commands and Usage:</b>
+• /pass or /genpw <code>20</code>
+
+<b>NOTE:</b>
+• Only Digits Are Allowed
+• Maximum Allowed Digits Till 84 
+(I Can't Generate Passwords Above The Length 84)
+• Bot should have admin privillage.
+• These commands works on both pm and group.
+• These commands can be used by any group member."""
     TGRAPH_TXT = """Help: <b>TGraph & Paste</b>
 Do as you wish with telegra.ph module!
 <b>Commands and Usage:</b>
