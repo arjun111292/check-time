@@ -21,6 +21,6 @@ async def breakup(_, message):
     """ /breakup strings """
     effective_string = random.choice(PASSWORD_STRINGS)
     if message.reply_to_message:
-        await message.reply_photo(
+        await message.reply_to_message.reply_photo(
             photo=(PICS1_PC),
             message.reply_to_message.reply_text(effective_string)
