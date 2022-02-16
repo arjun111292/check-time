@@ -17,7 +17,7 @@ PASSWORD_STRINGS = (
     filters.command("/pass", COMMAND_HAND_LER) &
     f_onw_fliter
 )
-async def aunty(_, message):
+async def pass(_, message):
     """ /pass strings """
     effective_string = random.choice(PASSWORD_STRINGS)
     if message.reply_to_message:
