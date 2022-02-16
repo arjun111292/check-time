@@ -1,33 +1,26 @@
-#!/usr/bin/env python3
-# Copyright (C) @ZauteKm
-# This program is free software: you can redistribute it and/or modify
-# it under the terms of the GNU Affero General Public License as published by
-# the Free Software Foundation, either version 3 of the License, or
-# (at your option) any later version.
+#created by by @Arjun_La_Lis_A - tg
+#use with proper credits
 
-# This program is distributed in the hope that it will be useful,
-# but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-# GNU Affero General Public License for more details.
-
-# You should have received a copy of the GNU Affero General Public License
-# along with this program.  If not, see <https://www.gnu.org/licenses/>.
-
-import random, os
+import random
 from pyrogram import Client, filters
-from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
+from info import COMMAND_HAND_LER
+from plugins.neededshits.cust_p_filters import f_onw_fliter
 
 
-@Client.on_message(filters.command(["pass", 'genpw']))
-async def password(bot, update):
-    message = await update.reply_text(text="`Processing...`")
-    password = "abcdefghijklmnopqrstuvwxyz1234567890!@#$%^&*()_+".lower()
-    try:
-        limit = int(message.text)
-    if limit >=100:
-        text = "Sorry... Failed To Create Password, Because Limit is 1 to 100."
+PASSWORD_STRINGS = (
+    "പാസ്‌വേഡ് ഉണ്ടാക്കാൻ എനിക്കറിയില്ല🙄",
+    "പാസ്‌വേഡ് ഉണ്ടാക്കാൻ എനിക്കറിയില്ല😫", 
+)
+
+
+@Client.on_message(
+    filters.command("/pass", COMMAND_HAND_LER) &
+    f_onw_fliter
+)
+async def aunty(_, message):
+    """ /pass strings """
+    effective_string = random.choice(PASSWORD_STRINGS)
+    if message.reply_to_message:
+        await message.reply_to_message.reply_text(effective_string)
     else:
-        random_value = "".join(random.sample(password, limit))
-        text = f"**Limit :-** `{str(limit)}`.\n**Password :-** `{random_value}`**\n\n😙😙",
-        reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton('Cʀᴇᴀᴛᴇᴅ Bʏ', url='@Ercel_England_Queen_bot')]])
-    await message.edit_text(text, True)
+        await message.reply_text(effective_string)
