@@ -123,19 +123,14 @@ Need to delete lots of messages? That's what purges are for!
     """
     PASSWORD_GEN_TXT = """Help: <b>Password Generator</b>
     
-There Is Nothing To Know More. Send Me The Limit Of Your Password.
-- I Will Give The Password Of That Limit.
+- Send me /pass command.. to make a password😄.
+
+- I Will Give The Password...
 
 <b>Commands and Usage:</b>
-• /pass or /genpw <code>20</code>
+• /pass
 
-<b>NOTE:</b>
-• Only Digits Are Allowed
-• Maximum Allowed Digits Till 84 
-(I Can't Generate Passwords Above The Length 84)
-• Bot should have admin privillage.
-• These commands works on both pm and group.
-• These commands can be used by any group member."""
+"""
     TGRAPH_TXT = """Help: <b>TGraph & Paste</b>
 Do as you wish with telegra.ph module!
 <b>Commands and Usage:</b>
