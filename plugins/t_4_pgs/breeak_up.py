@@ -17,7 +17,7 @@ PASSWORD_STRINGS = (
     filters.command("/breakup", COMMAND_HAND_LER) &
     f_onw_fliter
 )
-async def breakup(_, message):
+async def password(_, message):
     """ /breakup strings """
     effective_string = random.choice(PASSWORD_STRINGS)
     if message.reply_to_message:
