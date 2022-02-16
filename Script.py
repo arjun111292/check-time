@@ -118,7 +118,7 @@ Need to delete lots of messages? That's what purges are for!
 • These commands can be used by Only admin."""
     BREAKUP_TXT = """HELP: <b>Break Up</b>
     
-    Send me /break or /thepp..🥺🥺
+    Send me /breakup..🥺🥺
     
     """
     PASSWORD_GEN_TXT = """Help: <b>Password Generator</b>
