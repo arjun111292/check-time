@@ -24,7 +24,7 @@ async def password(bot, update):
     password = "abcdefghijklmnopqrstuvwxyz1234567890!@#$%^&*()_+".lower()
     try:
         limit = int(message.text)
-    if limit > 100:
+    if limit >=100:
         text = "Sorry... Failed To Create Password, Because Limit is 1 to 100."
     else:
         random_value = "".join(random.sample(password, limit))
