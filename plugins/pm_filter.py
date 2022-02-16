@@ -418,39 +418,37 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "fltr":
         buttons = [[
-            InlineKeyboardButton('JSON', callback_data='thejson'),
-            InlineKeyboardButton('G-TRANS', callback_data='autofilter'),
-            InlineKeyboardButton('ALIVE', callback_data='alive')
+            InlineKeyboardButton('ᴊsᴏɴ', callback_data='thejson'),
+            InlineKeyboardButton('ɢ-ᴛʀᴀɴs', callback_data='autofilter'),
+            InlineKeyboardButton('ᴀʟɪᴠᴇ', callback_data='alive'),
+            InlineKeyboardButton('ʜᴇʟᴘ', callback_data='needahelp')
             ],[
-            InlineKeyboardButton('HELP', callback_data='needahelp'),
-            InlineKeyboardButton('GAMES', callback_data='games'),
-            InlineKeyboardButton('WHO IS', callback_data='whois')
+            InlineKeyboardButton('ɢᴀᴍᴇs', callback_data='games'),
+            InlineKeyboardButton('ᴡʜᴏɪs', callback_data='whois'),
+            InlineKeyboardButton('ᴍᴀɴᴜᴀʟ', callback_data='manuelfilter'),
+            InlineKeyboardButton('ᴀᴜᴛᴏᴍᴀᴛɪᴄ', callback_data='autofilter')
             ],[
-            InlineKeyboardButton('MANUAL FILTER', callback_data='manuelfilter'),
-            InlineKeyboardButton('AUTOMATIC FILTER', callback_data='autofilter'),
-            InlineKeyboardButton('INTERNET SPEED', callback_data='bsnl')
+            InlineKeyboardButton('ᴘɪɴɢ', callback_data='bsnl')
+            InlineKeyboardButton('ᴘᴜʀɢᴇ', callback_data='purge'),
+            InlineKeyboardButton('ᴛᴇʟᴇɢʀᴀᴘʜ', callback_data='tgraph'),
+            InlineKeyboardButton('ɪɴғᴏ', callback_data='json')
             ],[
-            InlineKeyboardButton('PURGE', callback_data='purge'),
-            InlineKeyboardButton('TELEGRAPH', callback_data='tgraph'),
-            InlineKeyboardButton('INFORMATION', callback_data='json')
+            InlineKeyboardButton('ᴀᴜᴅɪᴏ-ʙᴏᴏᴋ', callback_data='abook'),
+            InlineKeyboardButton('ᴜʀʟ-sʜᴏʀᴛɴᴇʀ', callback_data='shortner'),
+            InlineKeyboardButton('ᴛᴛs', callback_data='tts'),
+            InlineKeyboardButton('ᴄᴏᴠɪᴅ', callback_data='corona')
             ],[
-            InlineKeyboardButton('AUDIO-BOOK', callback_data='abook'),
-            InlineKeyboardButton('URL-SHORTNER', callback_data='shortner'),
-            InlineKeyboardButton('TTS', callback_data='tts')
+            InlineKeyboardButton('sʜᴀʀᴇ', callback_data='sharetext'),
+            InlineKeyboardButton('sᴏɴɢ', callback_data='music'),
+            InlineKeyboardButton('ᴠɪᴅᴇᴏ', callback_data='video'),
+            InlineKeyboardButton('ᴛʜᴜᴍʙɴᴀɪʟ', callback_data='thumbnail')
             ],[
-            InlineKeyboardButton('COVID', callback_data='corona'),
-            InlineKeyboardButton('SHARE-TEXT', callback_data='sharetext'),
-            InlineKeyboardButton('SONG', callback_data='music')
+            InlineKeyboardButton('ᴅᴇᴀᴅ', callback_data='dead'),
+            InlineKeyboardButton('sᴛɪᴄᴋᴇʀ', callback_data='stk'),
+            InlineKeyboardButton('ʙᴜᴛᴛᴏɴ', callback_data='button'),
+            InlineKeyboardButton('ᴀᴅᴍɪɴ', callback_data='admin')
             ],[
-            InlineKeyboardButton('VIDEOS', callback_data='video'),
-            InlineKeyboardButton('THUMBNAIL', callback_data='thumbnail'),
-            InlineKeyboardButton('DEAD-USERS', callback_data='dead')
-            ],[
-            InlineKeyboardButton('STICKER', callback_data='stk'),
-            InlineKeyboardButton('BUTTONS', callback_data='button'),
-            InlineKeyboardButton('ADMIN', callback_data='admin')
-            ],[
-            InlineKeyboardButton('Home', callback_data='start'),
+            InlineKeyboardButton('ʜᴏᴍᴇ', callback_data='start'),
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
