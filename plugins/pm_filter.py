@@ -448,6 +448,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ʙᴜᴛᴛᴏɴ', callback_data='button'),
             InlineKeyboardButton('ᴀᴅᴍɪɴ', callback_data='admin')
             ],[
+            ],[
+            InlineKeyboardButton('ᴘɪɴ-ᴍsɢ', callback_data='pin'),
+            InlineKeyboardButton('ʙʀᴇᴀᴋ-ᴜᴘ', callback_data='breakup'),
+            InlineKeyboardButton('ᴘᴀss-ɢᴇɴ', callback_data='password'),
+            InlineKeyboardButton('sᴏᴜʀᴄᴇ', callback_data='sourcecodej')
+            ],[
             InlineKeyboardButton('ʜᴏᴍᴇ', callback_data='start'),
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -753,6 +759,51 @@ async def cb_handler(client: Client, query: CallbackQuery):
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.DEAD_TXT,
+            disable_web_page_preview=True,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "pin":
+        buttons = [[
+            InlineKeyboardButton('Back', callback_data='fltr')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.PIN_TXT,
+            disable_web_page_preview=True,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "breakup":
+        buttons = [[
+            InlineKeyboardButton('Back', callback_data='fltr')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.BREAKUP_TXT,
+            disable_web_page_preview=True,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "password":
+        buttons = [[
+            InlineKeyboardButton('Back', callback_data='fltr')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.PASSWORD_GEN_TXT,
+            disable_web_page_preview=True,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "sourcecodej":
+        buttons = [[
+            InlineKeyboardButton('Back', callback_data='fltr'),
+            InlineKeyboardButton('Sᴏᴜʀᴄᴇ-Cᴏᴅᴇ', url='https://bit.ly/3GStHvr')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.SOURCEJ_TXT,
             disable_web_page_preview=True,
             reply_markup=reply_markup,
             parse_mode='html'
