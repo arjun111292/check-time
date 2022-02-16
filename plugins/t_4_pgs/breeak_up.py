@@ -25,4 +25,6 @@ async def breakup(_, message):
             photo=(PICS1_PC),
             message.reply_to_message.reply_text(effective_string)
     else:
-        await message.reply_text(effective_string)
+          await message.reply_photo(
+            photo=(PICS1_PC),
+            message.reply_text(effective_string)
