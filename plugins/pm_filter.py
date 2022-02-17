@@ -401,14 +401,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('Aᴅᴅ Mᴇ Tᴏ Gʀᴘ', url=f'http://t.me/{temp.U_NAME}?startgroup=true'),
-            InlineKeyboardButton('Sᴇᴀʀᴄʜ', switch_inline_query_current_chat='')
+            InlineKeyboardButton('𝐀𝐃𝐃 𝐌𝐄', url=f'http://t.me/{temp.U_NAME}?startgroup=true'),
+            InlineKeyboardButton('𝐒𝐄𝐀𝐑𝐂𝐇', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('Filters', callback_data='fltr')
+            InlineKeyboardButton('𝗙 𝗜 𝗟 𝗧 𝗘 𝗥 𝗦', callback_data='fltr')
             ],[
-            InlineKeyboardButton('Nᴇᴇᴅ Hᴇʟᴘ?', callback_data='help'),
-            InlineKeyboardButton('Aʙᴏᴜᴛ Mᴇ', callback_data='about'),
-            InlineKeyboardButton('Mᴏᴠɪᴇs', url='https://t.me/tomoviesall')
+            InlineKeyboardButton('𝐇𝐄𝐋𝐏', callback_data='help'),
+            InlineKeyboardButton('𝐀𝐁𝐎𝐔𝐓', callback_data='about'),
+            InlineKeyboardButton('𝐌𝐎𝐕𝐈𝐄𝐒', url='https://t.me/tomoviesall')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -433,8 +433,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ᴛᴇʟᴇɢʀᴀᴘʜ', callback_data='tgraph'),
             InlineKeyboardButton('ɪɴғᴏ', callback_data='json')
             ],[
-            InlineKeyboardButton('ᴀᴜᴅɪᴏ-ʙᴏᴏᴋ', callback_data='abook'),
-            InlineKeyboardButton('ᴜʀʟ-sʜᴏʀᴛɴᴇʀ', callback_data='shortner'),
+            InlineKeyboardButton('ᴀᴜᴅ-ʙᴏᴏᴋ', callback_data='abook'),
+            InlineKeyboardButton('ᴜʀʟ', callback_data='shortner'),
             InlineKeyboardButton('ᴛᴛs', callback_data='tts'),
             InlineKeyboardButton('ᴄᴏᴠɪᴅ', callback_data='corona')
             ],[
