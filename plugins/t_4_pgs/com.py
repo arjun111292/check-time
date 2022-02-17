@@ -8,7 +8,7 @@ from plugins.neededshits.cust_p_filters import f_onw_fliter
 
 
 COMEDY_STRINGS = (
-    "CAACAgUAAxkBAAIDTWIN7t5h_8P6FDH-fkeliFYtuTSoAAJaBAAC78rxVyVXsqnnB2vXHgQ",
+    "CAACAgUAAxkBAAIDTWIN7t5h_8P6FDH-fkeliFYtuTSoAAJaBAAC78rxVyVXsqnnB2vXHgQ, CAACAgUAAxkBAAIDTWIN7t5h_8P6FDH-fkeliFYtuTSoAAJaBAAC78rxVyVXsqnnB2vXHgQ",
     "CAACAgUAAxkBAAIDTWIN7t5h_8P6FDH-fkeliFYtuTSoAAJaBAAC78rxVyVXsqnnB2vXHgQ",
     "CAACAgUAAxkBAAIDTWIN7t5h_8P6FDH-fkeliFYtuTSoAAJaBAAC78rxVyVXsqnnB2vXHgQ", 
 )
