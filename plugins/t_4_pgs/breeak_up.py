@@ -1,6 +1,6 @@
 #created by by @Arjun_La_Lis_A - tg
 #use with proper credits
-
+  
 import random
 from pyrogram import Client, filters
 from info import COMMAND_HAND_LER
@@ -8,9 +8,9 @@ from plugins.neededshits.cust_p_filters import f_onw_fliter
 
 
 BREAK_STRINGS = (
-    "Habeebi.. Come to dubai 😂😂😂..",
-    "Habeebi.. Come to dubai 😂😂😂.",
-    "Habeebi...Come to dubaii 😂😂😂😂..", 
+    "<spoiler>Habeebi.. Come to dubai 😂😂😂..</spoiler>",
+    "<spoiler>Habeebi.. Come to dubai 😂😂😂.</spoiler>",
+    "<spoiler>Habeebi...Come to dubaii 😂😂😂😂..</spoiler>", 
 )
 
 
