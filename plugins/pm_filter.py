@@ -411,10 +411,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝐌𝐎𝐕𝐈𝐄𝐒', url='https://t.me/tomoviesall')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
-            text=script.START_TXT.format(query.from_user.mention, temp.U_NAME, temp.B_NAME),
-            reply_markup=reply_markup,
-            parse_mode='html'
+        md = InputMediaPhoto(media = "picture/216-2169839_jennie-solo..jpg",
+            caption=script.START_TXT.format(query.from_user.mention),
+            parse_mode='html')
+        await query.message.edit_media(media = md,
+            reply_markup=reply_markup
         )
     elif query.data == "fltr":
         buttons = [[
@@ -457,7 +458,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ʜᴏᴍᴇ', callback_data='start'),
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        md = InputMediaPhoto(media = "picture/indilla.jpg",
+        md = InputMediaPhoto(media = "picture/253-2538100_jennie-blackpink-wallpaper-with-high-resolution-pixel-jennie.jpg",
             caption=script.FLTR_TXT.format(query.from_user.mention),
             parse_mode='html')
         await query.message.edit_media(media = md,
@@ -472,10 +473,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Dᴀᴛᴀ', callback_data='stats')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
-            text=script.HELP_TXT.format(query.from_user.mention),
-            reply_markup=reply_markup,
-            parse_mode='html'
+        md = InputMediaPhoto(media = "picture/216-2169839_jennie-solo..jpg",
+            caption=script.HELP_TXT.format(query.from_user.mention),
+            parse_mode='html')
+        await query.message.edit_media(media = md,
+            reply_markup=reply_markup
         )
     elif query.data == "about":
         buttons= [[
@@ -490,10 +492,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Hᴏᴍᴇ', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
-            text=script.ABOUT_TXT.format(temp.B_NAME),
-            reply_markup=reply_markup,
-            parse_mode='html'
+        md = InputMediaPhoto(media = "picture/270-2705455_jennie-wallpaper-hd.jpg",
+            caption=script.ABOUT_TXT.format(query.from_user.mention),
+            parse_mode='html')
+        await query.message.edit_media(media = md,
+            reply_markup=reply_markup
         )
     elif query.data == "abook":
         buttons = [[
@@ -521,21 +524,23 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Bᴀᴄᴋ', callback_data='fltr'),
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
-            text=script.MANUELFILTER_TXT,
-            reply_markup=reply_markup,
-            parse_mode='html'
+        md = InputMediaPhoto(media = "picture/jennie1.jpg",
+            caption=script.MANUELFILTER_TXT_TXT.format(query.from_user.mention),
+            parse_mode='html')
+        await query.message.edit_media(media = md,
+            reply_markup=reply_markup
         )
     elif query.data == "autofilter":
         buttons = [[
             InlineKeyboardButton('Bᴀᴄᴋ', callback_data='fltr'),
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
-            text=script.AUTOFILTER_TXT,
-            reply_markup=reply_markup,
-            parse_mode='html'
-        )
+        md = InputMediaPhoto(media = "picture/teahub.io-jennie-wallpaper-2169993.png",
+            caption=script.AUTOFILTER_TXT_TXT.format(query.from_user.mention),
+            parse_mode='html')
+        await query.message.edit_media(media = md,
+            reply_markup=reply_markup
+        
     elif query.data == "bsnl":
         buttons = [[
             InlineKeyboardButton('Bᴀᴄᴋ', callback_data='fltr'),
@@ -579,10 +584,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Bᴀᴄᴋ', callback_data='fltr'),
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
-            text=script.GAMES_TXT,
-            reply_markup=reply_markup,
-            parse_mode='html'
+        md = InputMediaPhoto(media = "picture/74-740803_black-pink-jennie-kill-this-love.jpg",
+            caption=script.GAMES_TXT.format(query.from_user.mention),
+            parse_mode='html')
+        await query.message.edit_media(media = md,
+            reply_markup=reply_markup
         )
     elif query.data == "aunty":
         buttons = [[
