@@ -540,7 +540,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             parse_mode='html')
         await query.message.edit_media(media = md,
             reply_markup=reply_markup
-        
+        )
     elif query.data == "bsnl":
         buttons = [[
             InlineKeyboardButton('Bᴀᴄᴋ', callback_data='fltr'),
