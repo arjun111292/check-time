@@ -10,7 +10,7 @@ from database.connections_mdb import active_connection, all_connections, delete_
     make_inactive
 from info import ADMINS, AUTH_CHANNEL, AUTH_USERS, CUSTOM_FILE_CAPTION, AUTH_GROUPS, P_TTI_SHOW_OFF, IMDB, \
     SINGLE_BUTTON, SPELL_CHECK_REPLY, IMDB_TEMPLATE
-from pyrogram.types import InputMediaPhoto, InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
+from pyrogram.types import InputMediaVideo, InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
 from pyrogram.handlers import CallbackQueryHandler
 from pyrogram import Client, filters
 from pyrogram.errors import FloodWait, UserIsBlocked, MessageNotModified, PeerIdInvalid
@@ -456,7 +456,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('ʜᴏᴍᴇ', callback_data='start'),
         ]]
-        md = InputMediaPhoto(media = "<https://telegra.ph/file/0fa6f2b38c84f4aefea8c.jpg>",
+        md = InputMediaVideo(media = "https://telegra.ph/file/8117ee89446dd047d91b1.mp4",
             caption=script.FLTR_TXT.format(query.from_user.mention),
             parse_mode='html')
         await query.message.edit_media(media = md,
