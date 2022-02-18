@@ -457,10 +457,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('ʜᴏᴍᴇ', callback_data='start'),
         ]]
-        md = InputMediaPhoto(photo = "indilla",
+        md = InputMediaPhoto(media = "picture/indilla.jpg",
             caption=script.FLTR_TXT.format(query.from_user.mention),
             parse_mode='html')
-        await query.message.edit_photo(photo = md,
+        await query.message.edit_media(media = md,
             reply_markup = reply_markup
         )
     elif query.data == "help":
