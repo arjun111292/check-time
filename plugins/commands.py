@@ -41,14 +41,17 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('Aᴅᴅ Mᴇ Tᴏ Gʀᴘ', url=f'http://t.me/{temp.U_NAME}?startgroup=true'),
-            InlineKeyboardButton('Sᴇᴀʀᴄʜ', switch_inline_query_current_chat='')
+            InlineKeyboardButton('ADD ME', url=f'http://t.me/{temp.U_NAME}?startgroup=true'),
+            InlineKeyboardButton('SEARCH', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('ABOUT', callback_data='about')
             ],[
-            InlineKeyboardButton('Filters', callback_data='fltr')
+            InlineKeyboardButton('FILTERS', callback_data='fltr'),
+            InlineKeyboardButton('HELP', callback_data='help'),
+            InlineKeyboardButton('MOVIES', url='https://t.me/tomoviesall')
             ],[
-            InlineKeyboardButton('Nᴇᴇᴅ Hᴇʟᴘ?', callback_data='help'),
-            InlineKeyboardButton('Aʙᴏᴜᴛ Mᴇ', callback_data='about'),
-            InlineKeyboardButton('Mᴏᴠɪᴇs', url='https://t.me/tomoviesall')
+            InlineKeyboardButton('ALIVE', callback_data='alive'),
+            InlineKeyboardButton('STATUS', callback_data='stats'),
+            InlineKeyboardButton('CLOSE', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -83,14 +86,17 @@ async def start(client, message):
         return
     if len(message.command) ==2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton('Aᴅᴅ Mᴇ Tᴏ Gʀᴘ', url=f'http://t.me/{temp.U_NAME}?startgroup=true'),
-            InlineKeyboardButton('Sᴇᴀʀᴄʜ', switch_inline_query_current_chat='')
+            InlineKeyboardButton('ADD ME', url=f'http://t.me/{temp.U_NAME}?startgroup=true'),
+            InlineKeyboardButton('SEARCH', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('ABOUT', callback_data='about')
             ],[
-            InlineKeyboardButton('Filters', callback_data='fltr')
+            InlineKeyboardButton('FILTERS', callback_data='fltr'),
+            InlineKeyboardButton('HELP', callback_data='help'),
+            InlineKeyboardButton('MOVIES', url='https://t.me/tomoviesall')
             ],[
-            InlineKeyboardButton('Nᴇᴇᴅ Hᴇʟᴘ?', callback_data='help'),
-            InlineKeyboardButton('Aʙᴏᴜᴛ Mᴇ', callback_data='about'),
-            InlineKeyboardButton('Mᴏᴠɪᴇs', url='https://t.me/tomoviesall')
+            InlineKeyboardButton('ALIVE', callback_data='alive'),
+            InlineKeyboardButton('STATUS', callback_data='stats'),
+            InlineKeyboardButton('CLOSE', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
