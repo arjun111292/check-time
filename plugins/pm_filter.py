@@ -10,7 +10,7 @@ from database.connections_mdb import active_connection, all_connections, delete_
     make_inactive
 from info import ADMINS, AUTH_CHANNEL, AUTH_USERS, CUSTOM_FILE_CAPTION, AUTH_GROUPS, P_TTI_SHOW_OFF, IMDB, \
     SINGLE_BUTTON, SPELL_CHECK_REPLY, IMDB_TEMPLATE
-from pyrogram.types import InputMediaPhoto, InputMediaAudio, InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
+from pyrogram.types import InputMediaPhoto, InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
 from pyrogram.handlers import CallbackQueryHandler
 from pyrogram import Client, filters
 from pyrogram.errors import FloodWait, UserIsBlocked, MessageNotModified, PeerIdInvalid
@@ -459,11 +459,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         md = InputMediaPhoto(media = "picture/253-2538100_jennie-blackpink-wallpaper-with-high-resolution-pixel-jennie.jpg",
-        ad = InputMediaAudio(audio = "audio/en.mp3",        
             caption=script.FLTR_TXT.format(query.from_user.mention),
             parse_mode='html')
         await query.message.edit_media(media = md,
-        await query.message.edit_audio(audio = ad,
         reply_markup=reply_markup
         )
     elif query.data == "help":
