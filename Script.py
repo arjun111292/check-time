@@ -18,6 +18,8 @@ Tʜᴇsᴇ Aʀᴇ Tʜᴇ Aᴠᴀɪʟᴀʙʟᴇ Lɪsᴛ Oғ Mʏ Cᴏᴍᴍᴀɴ�
 
     This filter contains toxic funny stickers 😂😂😂
     
+    <b> COMMAND: </b> /ikka  ☺☺
+    
     """
     
     MANUELFILTER_TXT = """Help: <b>Mᴀɴᴜᴀʟ Fɪʟᴛᴇʀ</b>
