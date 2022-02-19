@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://telegra.ph/file/3796136a109099ca016ce.jpg" alt="Eva Maria Logo">
+  <img src="picture/216-2169839_jennie-solo..jpg" alt="J E N N I E">
 </p>
 <h1 align="center">
   <b>Eva Maria Bot</b>
