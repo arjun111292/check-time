@@ -518,7 +518,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Back', callback_data='fltr')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        md = InputMediaPhoto(media = "IKKA",
+        md = InputMediaPhoto(media = (PICS),
             caption=script.IKKA_TXT.format(query.from_user.mention),
             parse_mode='html')
         await query.message.edit_media(media = md,
