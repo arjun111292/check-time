@@ -11,6 +11,7 @@ from database.connections_mdb import active_connection, all_connections, delete_
 from info import ADMINS, AUTH_CHANNEL, AUTH_USERS, CUSTOM_FILE_CAPTION, AUTH_GROUPS, P_TTI_SHOW_OFF, IMDB, \
     SINGLE_BUTTON, SPELL_CHECK_REPLY, IMDB_TEMPLATE
 from picture.ikka.ikkachi import IKKA
+from picture.jenniekutty.jenlisa import JENNIE1
 from pyrogram.types import InputMediaPhoto, InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
 from pyrogram.handlers import CallbackQueryHandler
 from pyrogram import Client, filters
@@ -464,7 +465,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ʜᴏᴍᴇ', callback_data='start'),
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        md = InputMediaPhoto(media = "picture/253-2538100_jennie-blackpink-wallpaper-with-high-resolution-pixel-jennie.jpg",
+        md = InputMediaPhoto(media = (JENNIE1),
             caption=script.FLTR_TXT.format(query.from_user.mention),
             parse_mode='html')
         await query.message.edit_media(media = md,
