@@ -12,6 +12,14 @@ Tʜᴇsᴇ Aʀᴇ Tʜᴇ Aᴠᴀɪʟᴀʙʟᴇ Lɪsᴛ Oғ Mʏ Cᴏᴍᴍᴀɴ�
     FLTR_TXT = """Help: <b>Filters</b>
     
     These are the currently availabe features of Jennie,More features will be visible on future."""
+    IKKA_TXT = """CAUTION : <b> Ikka Fans Are Prohibited Near This area </b> 
+    
+    <b> REASON: </b>
+
+    This filter contains toxic funny stickers 😂😂😂
+    
+    """
+    
     MANUELFILTER_TXT = """Help: <b>Mᴀɴᴜᴀʟ Fɪʟᴛᴇʀ</b>
 
 - Fɪʟᴛᴇʀ ɪs ᴛʜᴇ ғᴇᴀᴛᴜʀᴇ ᴡᴇʀᴇ ᴜsᴇʀs ᴄᴀɴ sᴇᴛ ᴀᴜᴛᴏᴍᴀᴛᴇᴅ ʀᴇᴘʟɪᴇs ғᴏʀ ᴀ ᴘᴀʀᴛɪᴄᴜʟᴀʀ ᴋᴇʏᴡᴏʀᴅ ᴀɴᴅ Jᴇɴɴɪᴇ ᴡɪʟʟ ʀᴇsᴘᴏɴᴅ ᴡʜᴇɴᴇᴠᴇʀ ᴀ ᴋᴇʏᴡᴏʀᴅ ɪs ғᴏᴜɴᴅ ᴛʜᴇ ᴍᴇssᴀɢᴇ
