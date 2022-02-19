@@ -11,7 +11,7 @@ from database.connections_mdb import active_connection, all_connections, delete_
 from info import ADMINS, AUTH_CHANNEL, AUTH_USERS, CUSTOM_FILE_CAPTION, AUTH_GROUPS, P_TTI_SHOW_OFF, IMDB, \
     SINGLE_BUTTON, SPELL_CHECK_REPLY, IMDB_TEMPLATE
 from picture.ikka.ikkachi import IKKA
-from picture.jenniekutty.jenlisa import JENNIE1
+from picture.jenniekutty.jenlisa import JENNIE1, JENNIE2, JENNIE3, JENNIE4
 from pyrogram.types import InputMediaPhoto, InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
 from pyrogram.handlers import CallbackQueryHandler
 from pyrogram import Client, filters
@@ -416,7 +416,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('CLOSE', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        md = InputMediaPhoto(media = "picture/216-2169839_jennie-solo..jpg",
+        md = InputMediaPhoto(media = (JENNIE2),
             caption=script.START_TXT.format(query.from_user.mention),
             parse_mode='html')
         await query.message.edit_media(media = md,
@@ -480,10 +480,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Dᴀᴛᴀ', callback_data='stats')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
-            text=script.HELP_TXT,
-            reply_markup=reply_markup,
-            parse_mode='html'
+        md = InputMediaPhoto(media = (JENNIE4),
+            caption=script.HELP_TXT.format(query.from_user.mention),
+            parse_mode='html')
+        await query.message.edit_media(media = md,
+        reply_markup=reply_markup
         ) 
     elif query.data == "about":
         buttons= [[
@@ -498,10 +499,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Hᴏᴍᴇ', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
-            text=script.ABOUT_TXT,
-            reply_markup=reply_markup,
-            parse_mode='html'
+        md = InputMediaPhoto(media = (JENNIE3),
+            caption=script.ABOUT_TXT.format(query.from_user.mention),
+            parse_mode='html')
+        await query.message.edit_media(media = md,
+        reply_markup=reply_markup
         ) 
     elif query.data == "abook":
         buttons = [[
