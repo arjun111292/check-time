@@ -459,7 +459,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         md = InputMediaPhoto(media = "picture/253-2538100_jennie-blackpink-wallpaper-with-high-resolution-pixel-jennie.jpg",
-        ad = InputMediaAudio(media = "audio/en.mp3",        
+        ad = InputMediaAudio(audio = "audio/en.mp3",        
             caption=script.FLTR_TXT.format(query.from_user.mention),
             parse_mode='html')
         await query.message.edit_media(media = md, audio = ad
