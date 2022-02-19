@@ -401,14 +401,17 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('𝐀𝐃𝐃 𝐌𝐄', url=f'http://t.me/{temp.U_NAME}?startgroup=true'),
-            InlineKeyboardButton('𝐒𝐄𝐀𝐑𝐂𝐇', switch_inline_query_current_chat='')
+            InlineKeyboardButton('ADD ME', url=f'http://t.me/{temp.U_NAME}?startgroup=true'),
+            InlineKeyboardButton('SEARCH', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('ABOUT', callback_data='about')
             ],[
-            InlineKeyboardButton('𝗙 𝗜 𝗟 𝗧 𝗘 𝗥 𝗦', callback_data='fltr')
+            InlineKeyboardButton('FILTERS', callback_data='fltr'),
+            InlineKeyboardButton('HELP', callback_data='help'),
+            InlineKeyboardButton('MOVIES', url='https://t.me/tomoviesall')
             ],[
-            InlineKeyboardButton('𝐇𝐄𝐋𝐏', callback_data='help'),
-            InlineKeyboardButton('𝐀𝐁𝐎𝐔𝐓', callback_data='about'),
-            InlineKeyboardButton('𝐌𝐎𝐕𝐈𝐄𝐒', url='https://t.me/tomoviesall')
+            InlineKeyboardButton('ALIVE', callback_data='alive'),
+            InlineKeyboardButton('STATUS', callback_data='stats'),
+            InlineKeyboardButton('CLOSE', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         md = InputMediaPhoto(media = "picture/216-2169839_jennie-solo..jpg",
@@ -455,6 +458,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ᴘᴀss-ɢᴇɴ', callback_data='password'),
             InlineKeyboardButton('sᴏᴜʀᴄᴇ', callback_data='sourcecodej')
             ],[
+            InlineKeyboardButton('ɪᴋᴋᴀ 🔞 ғᴜɴɴʏ sᴛɪᴄᴋᴇʀs ᴍᴏᴅᴜʟᴇ', callback_data='ikka')
+            ],[
             InlineKeyboardButton('ʜᴏᴍᴇ', callback_data='start'),
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -473,12 +478,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Dᴀᴛᴀ', callback_data='stats')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        md = InputMediaPhoto(media = "picture/216-2169839_jennie-solo..jpg",
-            caption=script.HELP_TXT.format(query.from_user.mention),
-            parse_mode='html')
-        await query.message.edit_media(media = md,
-            reply_markup=reply_markup
-        )
+        await query.message.edit_text(
+            text=script.HELP_TXT,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        ) 
     elif query.data == "about":
         buttons= [[
             InlineKeyboardButton('BLΛƆKPIИK', url='https://telegra.ph/file/4d999119fe0bbf0af7037.jpg')
@@ -492,12 +496,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Hᴏᴍᴇ', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        md = InputMediaPhoto(media = "picture/270-2705455_jennie-wallpaper-hd.jpg",
-            caption=script.ABOUT_TXT.format(query.from_user.mention),
-            parse_mode='html')
-        await query.message.edit_media(media = md,
-            reply_markup=reply_markup
-        )
+        await query.message.edit_text(
+            text=script.ABOUT_TXT,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        ) 
     elif query.data == "abook":
         buttons = [[
             InlineKeyboardButton('Back', callback_data='fltr')
@@ -508,6 +511,17 @@ async def cb_handler(client: Client, query: CallbackQuery):
             disable_web_page_preview=True,
             reply_markup=reply_markup,
             parse_mode='html'
+        )
+    elif query.data == "ikka":
+        buttons = [[
+            InlineKeyboardButton('Back', callback_data='fltr')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        md = InputMediaPhoto(media = "picture/teahub.io-mammootty-wallpaper-1789548.png",
+            caption=script.IKKA_TXT.format(query.from_user.mention),
+            parse_mode='html')
+        await query.message.edit_media(media = md,
+        reply_markup=reply_markup
         )
     elif query.data == "source":
         buttons = [[
