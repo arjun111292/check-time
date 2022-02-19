@@ -462,7 +462,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ad = InputMediaAudio(audio = "audio/en.mp3",        
             caption=script.FLTR_TXT.format(query.from_user.mention),
             parse_mode='html')
-        await query.message.edit_media(media = md, audio = ad
+        await query.message.edit_media(media = md, 
+        await query.message.edit_audio(audio = ad,
             reply_markup=reply_markup
         )
     elif query.data == "help":
