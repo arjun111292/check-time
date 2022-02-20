@@ -407,7 +407,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('SEARCH', switch_inline_query_current_chat=''),
             InlineKeyboardButton('ABOUT', callback_data='about')
             ],[
-            InlineKeyboardButton('FILTERS', callback_data='fltr'),
+            InlineKeyboardButton("testlogo/1e3e21eb330855e2fa794b8eceb47a44 (1) (1).png", callback_data='fltr')
+            ],[
             InlineKeyboardButton('HELP', callback_data='help'),
             InlineKeyboardButton('MOVIES', url='https://t.me/tomoviesall')
             ],[
