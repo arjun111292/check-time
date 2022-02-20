@@ -42,14 +42,13 @@ async def start(client, message):
     if len(message.command) != 2:
         buttons = [[
             InlineKeyboardButton('ADD ME', url=f'http://t.me/{temp.U_NAME}?startgroup=true'),
-            InlineKeyboardButton('SEARCH', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('ABOUT', callback_data='about')
+            InlineKeyboardButton('SEARCH', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('FILTERS', callback_data='fltr'),
+            InlineKeyboardButton('ABOUT', callback_data='about'),
             InlineKeyboardButton('HELP', callback_data='help'),
-            InlineKeyboardButton('MOVIES', url='https://t.me/tomoviesall')
             ],[
-            InlineKeyboardButton('ALIVE', callback_data='alive'),
+            InlineKeyboardButton('FILTER', callback_data='fltr')
+            ],[
             InlineKeyboardButton('STATUS', callback_data='stats'),
             InlineKeyboardButton('CLOSE', callback_data='close_data')
         ]]
@@ -87,14 +86,13 @@ async def start(client, message):
     if len(message.command) ==2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
             InlineKeyboardButton('ADD ME', url=f'http://t.me/{temp.U_NAME}?startgroup=true'),
-            InlineKeyboardButton('SEARCH', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('ABOUT', callback_data='about')
+            InlineKeyboardButton('SEARCH', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('FILTERS', callback_data='fltr'),
+            InlineKeyboardButton('ABOUT', callback_data='about'),
             InlineKeyboardButton('HELP', callback_data='help'),
-            InlineKeyboardButton('MOVIES', url='https://t.me/tomoviesall')
             ],[
-            InlineKeyboardButton('ALIVE', callback_data='alive'),
+            InlineKeyboardButton('FILTER', callback_data='fltr')
+            ],[
             InlineKeyboardButton('STATUS', callback_data='stats'),
             InlineKeyboardButton('CLOSE', callback_data='close_data')
         ]]
