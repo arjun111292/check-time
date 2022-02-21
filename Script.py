@@ -291,10 +291,10 @@ Tʜɪs ᴍᴏᴅᴜʟᴇ ᴏɴʟʏ ᴡᴏʀᴋs ғᴏʀ ᴍʏ ᴀᴅᴍɪɴs
 • /channel - ᴛᴏ ɢᴇᴛ ʟɪsᴛ ᴏғ ᴛᴏᴛᴀʟ ᴄᴏɴɴᴇᴄᴛᴇᴅ ᴄʜᴀɴɴᴇʟs</ᴄᴏᴅᴇ>
 • /broadcast - ᴛᴏ ʙʀᴏᴀᴅᴄᴀsᴛ ᴀ ᴍᴇssᴀɢᴇ ᴛᴏ ᴀʟʟ ᴜsᴇʀs</ᴄᴏᴅᴇ>"""
     STATUS_TXT = """❊ 𝗧𝗼𝘁𝗮𝗹 𝗜𝗻𝗱𝗲𝘅𝗲𝗱 𝗙𝗶𝗹𝗲𝘀: <code>{}</code>
-❊ 𝗧𝗼𝘁𝗮𝗹 𝗨𝘀𝗲𝗿𝘀: <code>{}</code>
-❊ 𝗧𝗼𝘁𝗮𝗹 Chats: <code>{}</code>
-❊ 𝗦𝘁𝗼𝗿𝗮𝗴𝗲 𝗨𝘀𝗲𝗱: <code>{}</code> 𝙼𝚒𝙱
-❊ 𝗔𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 𝗖𝗽𝗰: <code>{}</code> 𝙼𝚒𝙱"""
+❊ USERS: <code>{}</code>
+❊ CHATS: <code>{}</code>
+❊ STORAGE: <code>{}</code> 𝙼𝚒𝙱
+❊ CAPACITY: <code>{}</code> 𝙼𝚒𝙱"""
     LOG_TEXT_G = """#NewGroup
 Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
