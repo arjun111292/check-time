@@ -4,7 +4,7 @@ from pyrogram.errors.exceptions.bad_request_400 import MessageTooLong, PeerIdInv
 from info import ADMINS, LOG_CHANNEL, SUPPORT_CHAT, MELCOW_NEW_USERS
 from database.users_chats_db import db
 from database.ia_filterdb import Media
-from utils import get_size, temp, get_settings
+from utils import get_size, temp
 from Script import script
 from pyrogram.errors import ChatAdminRequired
 
@@ -45,8 +45,7 @@ async def save_group(bot, message):
             text=f"<b>Thankyou For Adding Me In {message.chat.title} ❣️\n\nIf you have any questions & doubts about using me contact support.</b>",
             reply_markup=reply_markup)
     else:
-        settings = await get_settings(message.chat.id)
-        if settings["welcome"]:
+        if MELCOW_NEW_USERS:
             for u in message.new_chat_members:
                 if (temp.MELCOW).get('welcome') is not None:
                     try:
