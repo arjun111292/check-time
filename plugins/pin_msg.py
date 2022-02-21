@@ -1,12 +1,27 @@
+#!/usr/bin/env python3
+# Copyright (C) @ZauteKm
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU Affero General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU Affero General Public License for more details.
+
+# You should have received a copy of the GNU Affero General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
 from pyrogram import Client, filters
 from pyrogram.types import Message
 from plugins.neededshits.cust_p_filters import (
-    admin_filter_f
+    admin_fliter
 )
 
 @Client.on_message(
     filters.command(["pin"]) &
-    admin_filter_f
+    admin_fliter
 )
 async def pin(_, message: Message):
     if not message.reply_to_message:
@@ -16,7 +31,7 @@ async def pin(_, message: Message):
 
 @Client.on_message(
     filters.command(["unpin"]) &
-    admin_filter_f
+    admin_fliter
 )
 async def unpin(_, message: Message):
     if not message.reply_to_message:
