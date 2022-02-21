@@ -1,12 +1,12 @@
 from pyrogram import Client, filters
 from pyrogram.types import Message
 from plugins.neededshits.cust_p_filters import (
-    admin_filter
+    Admin_Filter
 )
 
 @Client.on_message(
     filters.command(["pin"]) &
-    admin_fliter
+    Admin_Filter
 )
 async def pin(_, message: Message):
     if not message.reply_to_message:
@@ -16,7 +16,7 @@ async def pin(_, message: Message):
 
 @Client.on_message(
     filters.command(["unpin"]) &
-    admin_filter
+    Admin_Filter
 )
 async def unpin(_, message: Message):
     if not message.reply_to_message:
