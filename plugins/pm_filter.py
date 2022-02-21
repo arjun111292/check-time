@@ -417,7 +417,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('CLOSE', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        md = InputMediaPhoto(media = (JENNIE2),
+        md = InputMediaPhoto(media = random.choice(JENMULPCTST),
             caption=script.START_TXT.format(query.from_user.mention),
             parse_mode='html')
         await query.message.edit_media(media = md,
@@ -484,7 +484,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('CLOSE', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        md = InputMediaPhoto(media = (JENNIE4),
+        md = InputMediaPhoto(media = random.choice(JENMULPCTST),
             caption=script.HELP_TXT.format(query.from_user.mention),
             parse_mode='html')
         await query.message.edit_media(media = md,
@@ -504,7 +504,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('CLOSE', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        md = InputMediaPhoto(media = (JENNIE3),
+        md = InputMediaPhoto(media = random.choice(JENMULPCTST),
             caption=script.ABOUT_TXT.format(query.from_user.mention),
             parse_mode='html')
         await query.message.edit_media(media = md,
