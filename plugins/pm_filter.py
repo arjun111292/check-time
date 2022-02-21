@@ -414,7 +414,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('FILTER', callback_data='fltr')
             ],[
-            InlineKeyboardButton('STATUS', callback_data='stats'),
             InlineKeyboardButton('CLOSE', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -464,7 +463,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('ɪᴋᴋᴀ 🔞 ғᴜɴɴʏ sᴛɪᴄᴋᴇʀs ᴍᴏᴅᴜʟᴇ', callback_data='ikka')
             ],[
-            InlineKeyboardButton('ʜᴏᴍᴇ', callback_data='start'),
+            InlineKeyboardButton('HOME', callback_data='start'),
+            InlineKeyboardButton('CLOSE', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         md = InputMediaPhoto(media = random.choice(JENMULPCTST),
@@ -480,6 +480,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('Hᴏᴍᴇ', callback_data='start'),
             InlineKeyboardButton('Dᴀᴛᴀ', callback_data='stats')
+            ],[
+            InlineKeyboardButton('CLOSE', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         md = InputMediaPhoto(media = (JENNIE4),
@@ -498,7 +500,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Nᴇᴇᴅ Hᴇʟᴘ?', callback_data='help'),
             InlineKeyboardButton('Dᴇᴠᴇʟᴏᴘᴇʀ', url='https://t.me/arigato_meow')
             ],[
-            InlineKeyboardButton('Hᴏᴍᴇ', callback_data='start')
+            InlineKeyboardButton('Hᴏᴍᴇ', callback_data='start'),
+            InlineKeyboardButton('CLOSE', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         md = InputMediaPhoto(media = (JENNIE3),
@@ -602,6 +605,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Tʜᴇ Gᴏᴀʟ Gᴀᴍᴇ', callback_data='goalg')
             ],[
             InlineKeyboardButton('Bᴀᴄᴋ', callback_data='fltr'),
+            InlineKeyboardButton('CLOSE', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -826,6 +830,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('Back', callback_data='fltr'),
             InlineKeyboardButton('Sᴏᴜʀᴄᴇ-Cᴏᴅᴇ', url='https://bit.ly/3GStHvr')
+            ],[
+            InlineKeyboardButton('CLOSE', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
