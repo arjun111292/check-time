@@ -127,7 +127,7 @@ async def who_is(client, message):
         )
     await status_message.delete()
 
-@Client.on_message(filters.command(["imdb", 'search']))
+@Client.on_message(filters.command(["imdb", 'search', 'imbd']))
 async def imdb_search(client, message):
     if ' ' in message.text:
         k = await message.reply('Searching ImDB')
@@ -146,7 +146,7 @@ async def imdb_search(client, message):
         ]
         await k.edit('Here is what i found on IMDb', reply_markup=InlineKeyboardMarkup(btn))
     else:
-        await message.reply('Give me a movie / series Name')
+        await message.reply('Give me a movie or series Name')
 
 @Client.on_callback_query(filters.regex('^imdb'))
 async def imdb_callback(bot: Client, quer_y: CallbackQuery):
