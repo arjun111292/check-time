@@ -4,13 +4,13 @@ class script(object):
     HELP_TXT = """𝙷𝙴𝚈 {}
 Tʜᴇsᴇ Aʀᴇ Tʜᴇ Aᴠᴀɪʟᴀʙʟᴇ Lɪsᴛ Oғ Mʏ Cᴏᴍᴍᴀɴᴅs."""
     ABOUT_TXT = """ 𝑯𝒆𝒚, 𝑰 𝑨𝒎 𝑱𝒆𝒏𝒏𝒊𝒆
-  ❥ 🧠 Dᴇᴠᴇʟᴏᴘᴇʀ   :  <a href=https://t.me/Username_Not_Found_404_Error>𝗔ʀᴊᴜɴ☆ IQ³⁶⁹×ˣ</a>
+  ❥ 🧠 Dᴇᴠᴇʟᴏᴘᴇʀ    :  <a href=https://t.me/Username_Not_Found_404_Error>𝗔ʀᴊᴜɴ☆ IQ³⁶⁹×ˣ</a>
   
-  ❥ 🎞 Lɪʙʀᴀʀʏ      : 𝗣𝘆𝗿𝗼𝗴𝗿𝗮𝗺
+  ❥ 🎞 Lɪʙʀᴀʀʏ        : 𝗣𝘆𝗿𝗼𝗴𝗿𝗮𝗺
   
-  ❥ 🔧 Lᴀɴɢᴜᴀɢᴇ     : 𝗣𝘆𝘁𝗵𝗼𝗻 𝟯
+  ❥ 🔧 Lᴀɴɢᴜᴀɢᴇ      : 𝗣𝘆𝘁𝗵𝗼𝗻 𝟯
   
-  ❥ 🏳 DᴀᴛᴀBᴀsᴇ     : 𝗠𝗼𝗻𝗴𝗼 𝗗𝗯
+  ❥ 🏳 DᴀᴛᴀBᴀsᴇ      : 𝗠𝗼𝗻𝗴𝗼 𝗗𝗯
  
   ❥ 🚧 Hᴏsᴛᴇᴅ Oɴ    : 𝗛𝗲𝗿𝗼𝗸𝘂
     
