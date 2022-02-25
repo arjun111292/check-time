@@ -406,15 +406,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('ADD ME', url=f'http://t.me/{temp.U_NAME}?startgroup=true'),
-            InlineKeyboardButton('SEARCH', switch_inline_query_current_chat='')
+            InlineKeyboardButton('Aᴅᴅ Mᴇ', url=f'http://t.me/{temp.U_NAME}?startgroup=true'),
+            InlineKeyboardButton('Sᴇᴀʀᴄʜ', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('ABOUT', callback_data='about'),
-            InlineKeyboardButton('HELP', callback_data='help'),
+            InlineKeyboardButton('Fɪʟᴛᴇʀs', callback_data='fltr')
             ],[
-            InlineKeyboardButton('FILTER', callback_data='fltr')
-            ],[
-            InlineKeyboardButton('CLOSE', callback_data='close_data')
+            InlineKeyboardButton('Aʙᴏᴜᴛ', callback_data='about'),
+            InlineKeyboardButton('Hᴇʟᴘ', callback_data='help'),
+            InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         md = InputMediaPhoto(media = random.choice(JENMULPCTST),
@@ -463,8 +462,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('ɪᴋᴋᴀ 🔞 ғᴜɴɴʏ sᴛɪᴄᴋᴇʀs ᴍᴏᴅᴜʟᴇ', callback_data='ikka')
             ],[
-            InlineKeyboardButton('HOME', callback_data='start'),
-            InlineKeyboardButton('CLOSE', callback_data='close_data')
+            InlineKeyboardButton('Hᴏᴍᴇ', callback_data='start'),
+            InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         md = InputMediaPhoto(media = random.choice(JENMULPCTST),
@@ -481,7 +480,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Hᴏᴍᴇ', callback_data='start'),
             InlineKeyboardButton('Dᴀᴛᴀ', callback_data='stats')
             ],[
-            InlineKeyboardButton('CLOSE', callback_data='close_data')
+            InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         md = InputMediaPhoto(media = random.choice(JENMULPCTST),
@@ -501,7 +500,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Dᴇᴠᴇʟᴏᴘᴇʀ', url='https://t.me/Username_Not_Found_404_Error')
             ],[
             InlineKeyboardButton('Hᴏᴍᴇ', callback_data='start'),
-            InlineKeyboardButton('CLOSE', callback_data='close_data')
+            InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         md = InputMediaPhoto(media = random.choice(JENMULPCTST),
@@ -605,7 +604,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Tʜᴇ Gᴏᴀʟ Gᴀᴍᴇ', callback_data='goalg')
             ],[
             InlineKeyboardButton('Bᴀᴄᴋ', callback_data='fltr'),
-            InlineKeyboardButton('CLOSE', callback_data='close_data')
+            InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
