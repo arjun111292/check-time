@@ -491,8 +491,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ) 
     elif query.data == "about":
         buttons= [[
-            InlineKeyboardButton('BLΛƆKPIИK', url='https://telegra.ph/file/4d999119fe0bbf0af7037.jpg')
-            ],[
             InlineKeyboardButton('Mʏ Fɪʟᴇs', url='https://t.me/+f2zfFt4QnHszYjll'),
             InlineKeyboardButton('Sᴏᴜʀᴄᴇ', url='https://t.me/+2II-zW8UCLw4ZTFl')
             ],[
