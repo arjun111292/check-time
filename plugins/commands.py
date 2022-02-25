@@ -45,7 +45,7 @@ async def start(client, message):
             InlineKeyboardButton('Aᴅᴅ Mᴇ', url=f'http://t.me/{temp.U_NAME}?startgroup=true'),
             InlineKeyboardButton('Sᴇᴀʀᴄʜ', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('Fɪʟᴛᴇʀ', callback_data='fltr')
+            InlineKeyboardButton('Fɪʟᴛᴇʀs', callback_data='fltr')
             ],[
             InlineKeyboardButton('Aʙᴏᴜᴛ', callback_data='about'),
             InlineKeyboardButton('Hᴇʟᴘ', callback_data='help'),
@@ -87,7 +87,7 @@ async def start(client, message):
             InlineKeyboardButton('Aᴅᴅ Mᴇ', url=f'http://t.me/{temp.U_NAME}?startgroup=true'),
             InlineKeyboardButton('Sᴇᴀʀᴄʜ', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('Fɪʟᴛᴇʀ', callback_data='fltr')
+            InlineKeyboardButton('Fɪʟᴛᴇʀs', callback_data='fltr')
             ],[
             InlineKeyboardButton('Aʙᴏᴜᴛ', callback_data='about'),
             InlineKeyboardButton('Hᴇʟᴘ', callback_data='help'),
