@@ -4,21 +4,30 @@ class script(object):
     HELP_TXT = """𝙷𝙴𝚈 {}
 Tʜᴇsᴇ Aʀᴇ Tʜᴇ Aᴠᴀɪʟᴀʙʟᴇ Lɪsᴛ Oғ Mʏ Cᴏᴍᴍᴀɴᴅs."""
     ABOUT_TXT = """ 𝑯𝒆𝒚, 𝑰 𝑨𝒎 𝑱𝒆𝒏𝒏𝒊𝒆
-  ❥ Cʀᴇᴀᴛᴏʀ:  <a href=@Arjun_La_Lis_A>𝗔𝗿𝗷𝘂𝗻</a>
-  ❥ Lɪʙʀᴀʀʏ:     𝗣𝘆𝗿𝗼𝗴𝗿𝗮𝗺
-  ❥ Lᴀɴɢᴜᴀɢᴇ:    𝗣𝘆𝘁𝗵𝗼𝗻 𝟯
-  ❥ Dᴀᴛᴀ Bᴀsᴇ:   𝗠𝗼𝗻𝗴𝗼 𝗗𝗕
-  ❥ Bᴏᴛ Sᴇʀᴠᴇʀ:  𝗛𝗲𝗿𝗼𝗸𝘂"""
-    FLTR_TXT = """Help: <b>Filters</b>
+  ❥ 🧠 Dᴇᴠᴇʟᴏᴘᴇʀ   :  <a href=https://t.me/Username_Not_Found_404_Error>𝗔ʀᴊᴜɴ☆ IQ³⁶⁹×ˣ</a>
+  
+  ❥ 🎞 Lɪʙʀᴀʀʏ      : 𝗣𝘆𝗿𝗼𝗴𝗿𝗮𝗺
+  
+  ❥ 🔧 Lᴀɴɢᴜᴀɢᴇ     : 𝗣𝘆𝘁𝗵𝗼𝗻 𝟯
+  
+  ❥ 🏳 DᴀᴛᴀBᴀsᴇ     : 𝗠𝗼𝗻𝗴𝗼 𝗗𝗯
+ 
+  ❥ 🚧 Hᴏsᴛᴇᴅ Oɴ    : 𝗛𝗲𝗿𝗼𝗸𝘂
     
-    These are the currently availabe features of Jennie,More features will be visible on future."""
-    IKKA_TXT = """CAUTION : <b> Ikka Fans Are Prohibited Near This area </b> 
+  ❥ 🕐 Bᴜɪʟᴅ Sᴛᴀᴛᴜs : 𝗩 𝟭𝟵.𝟴"""
     
-    <b> REASON: </b>
+    FLTR_TXT = """Help: <b>𝗙𝗜𝗟𝗧𝗘𝗥𝗦</b>
+    
+    ❥ 𝗧𝗵𝗲𝘀𝗲 𝗮𝗿𝗲 𝘁𝗵𝗲 𝗰𝘂𝗿𝗿𝗲𝗻𝘁𝗹𝘆 𝗮𝘃𝗮𝗶𝗹𝗮𝗯𝗲 𝗳𝗲𝗮𝘁𝘂𝗿𝗲𝘀 𝗼𝗳 𝗝𝗲𝗻𝗻𝗶𝗲..
+    
+    ❥ 𝗠𝗼𝗿𝗲 𝗳𝗲𝗮𝘁𝘂𝗿𝗲𝘀 𝘄𝗶𝗹𝗹 𝗯𝗲 𝘃𝗶𝘀𝗶𝗯𝗹𝗲 𝗼𝗻 𝗳𝘂𝘁𝘂𝗿𝗲."""
+    IKKA_TXT = """𝐂𝐀𝐔𝐓𝐈𝐎𝐍 : <b>Iᴋᴋᴀ Fᴀɴs Aʀᴇ Pʀᴏʜɪʙɪᴛᴇᴅ Nᴇᴀʀ Tʜɪs ᴀʀᴇᴀ</b> 
+    
+    <b> 𝙍𝙀𝘼𝙎𝙊𝙉: </b>
 
-    This filter contains toxic funny stickers 😂😂😂
+    Tʜɪs ғɪʟᴛᴇʀ ᴄᴏɴᴛᴀɪɴs ᴛᴏxɪᴄ ғᴜɴɴʏ sᴛɪᴄᴋᴇʀs 😂😂😂
     
-    <b> COMMAND: </b> /ikka  ☺☺
+    <b> 𝘾𝙊𝙈𝙈𝘼𝙉𝘿: </b> /ikka  ☺☺
     
     """
     
@@ -46,60 +55,59 @@ Tʜᴇsᴇ Aʀᴇ Tʜᴇ Aᴠᴀɪʟᴀʙʟᴇ Lɪsᴛ Oғ Mʏ Cᴏᴍᴍᴀɴ�
  I'ʟʟ ᴀᴅᴅ ᴀʟʟ ᴛʜᴇ ғɪʟᴇs ɪɴ ᴛʜᴀᴛ ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴍʏ ᴅʙ."""
     ALIVE_TXT = """Help: <b>Alive</b>
 
-<b>Commands:</b>
+<b>Cᴏᴍᴍᴀɴᴅs:</b>
 
-Send /alive to check whether I am alive or not...😂😂
+𝗦𝗲𝗻𝗱 /alive 𝘁𝗼 𝗰𝗵𝗲𝗰𝗸 𝘄𝗵𝗲𝘁𝗵𝗲𝗿 𝗜 𝗮𝗺 𝗮𝗹𝗶𝘃𝗲 𝗼𝗿 𝗻𝗼𝘁...😂😂
 
 """
     HELPME_TXT = """Help: <b>Help 😂</b>
 
 <b>Commands:</b>
 
-Send /help if you need any help from me...😂😂
+Sᴇɴᴅ /ʜᴇʟᴘ ɪғ ʏᴏᴜ ɴᴇᴇᴅ ᴀɴʏ ʜᴇʟᴘ ғʀᴏᴍ ᴍᴇ...😂😂
 
 """
     SOURCEJ_TXT = """<b>Source:</b>
-Jennie is a Open source project.
+Jennie is an Open source project.
 
 <b>DEVS:</b>
-- <a href='https://t.me/Arjun_La_Lis_A'>Aʀᴊᴜɴ</a>
+- <a href='https://t.me/Username_Not_Found_404_Error'>Aʀᴊᴜɴ</a>
 """
     WHOIS_TXT ="""Help: <b>WHO IS MODULE</b>
     
-    Usage- Give a user details
+    Usᴀɢᴇ- Gɪᴠᴇ ᴀ ᴜsᴇʀ ᴅᴇᴛᴀɪʟs
 
-    •/whois :-Gives Full Details Of An User.."""
+    •/ᴡʜᴏɪs :-Gɪᴠᴇs Fᴜʟʟ Dᴇᴛᴀɪʟs Oғ Aɴ Usᴇʀ.."""
         
     NETPING_TXT = """Help: <b>Ping</b>
 
 <b>Commands:</b>
 
-Send /ping to check your internet speed...
-
+Sᴇɴᴅ /ᴘɪɴɢ ᴛᴏ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ɪɴᴛᴇʀɴᴇᴛ sᴘᴇᴇᴅ...
 """
     GAMES_TXT ="""<b>FUN MODULE</b> 
     
-<b>NOTHING MUCH, JUST SOME FUN GAMES TO PASS THE TIME</b>"""
+<b>𝑵𝑶𝑻𝑯𝑰𝑵𝑮 𝑴𝑼𝑪𝑯, 𝑱𝑼𝑺𝑻 𝑺𝑶𝑴𝑬 𝑭𝑼𝑵 𝑮𝑨𝑴𝑬𝑺 𝑻𝑶 𝑷𝑨𝑺𝑺 𝑻𝑯𝑬 𝑻𝑰𝑴𝑬</b>"""
     
     AUNTY_TXT ="""<b>THE GREAT MALLU AUNTY</b>
-    
-    Send /aunty Then Mallu Aunty Will Text You Some Jokes 😂😂 """
+   
+ Sᴇɴᴅ /ᴀᴜɴᴛʏ Tʜᴇɴ Mᴀʟʟᴜ Aᴜɴᴛʏ Wɪʟʟ Tᴇxᴛ Yᴏᴜ Sᴏᴍᴇ Jᴏᴋᴇs 😂😂 """
         
     ARROW_TXT ="""<b>Throw / Dart</b>
     
-    Send /throw 𝗈𝗋 /dart - 𝖳𝗈 𝖬𝖺𝗄𝖾 Drat... 
+    Sᴇɴᴅ /ᴛʜʀᴏᴡ 𝗈𝗋 /ᴅᴀʀᴛ - 𝖳𝗈 𝖬𝖺𝗄𝖾 Dʀᴀᴛ...
     
     😄😊"""
     
     DICE_TXT ="""<b>THE DICE..</b>
     
-    Send /dice To Roll A Dice... 
+    Sᴇɴᴅ /ᴅɪᴄᴇ Tᴏ Rᴏʟʟ A Dɪᴄᴇ...
     
     😄😊"""
     
     GOAL_TXT ="""<b>THE DICE..</b>
     
-    Send /goal or /shoot - To Make A Goal Or Shoot...
+    Sᴇɴᴅ /ɢᴏᴀʟ ᴏʀ /sʜᴏᴏᴛ - Tᴏ Mᴀᴋᴇ A Gᴏᴀʟ Oʀ Sʜᴏᴏᴛ...
     
     😄😊"""
     
@@ -114,21 +122,25 @@ Tʀᴀɴsʟᴀᴛᴇ ᴛᴇxᴛs ᴛᴏ ᴀ sᴘᴇᴄɪғɪᴄ ʟᴀɴɢᴜᴀ�
 • Jᴇɴɴɪᴇ ᴄᴀɴ ᴛʀᴀɴsʟᴀᴛᴇ ᴛᴇxᴛs ᴛᴏ 200+ ʟᴀɴɢᴜᴀɢᴇs."""
     PIN_TXT ="""<b>PIN MODULE</b>
 <b>Pin :</b>
-<b>All The Pin Related Commands Can Be Found Here; Keep Your Chat Up To Date On The Latest News With A Simple Pinned Message!</b>
-<b>Commands and Usage:</b>
-◉ /Pin :- Pin The Message You Replied To Message To Send A Notification To Group Members..
-◉ /Unpin :- Unpin The Current Pinned Message. If Used As A Reply, Unpins The Replied To Message"""
+<b>Aʟʟ Tʜᴇ Pɪɴ Rᴇʟᴀᴛᴇᴅ Cᴏᴍᴍᴀɴᴅs Cᴀɴ Bᴇ Fᴏᴜɴᴅ Hᴇʀᴇ; Kᴇᴇᴘ Yᴏᴜʀ Cʜᴀᴛ Uᴘ Tᴏ Dᴀᴛᴇ Oɴ Tʜᴇ Lᴀᴛᴇsᴛ Nᴇᴡs Wɪᴛʜ A Sɪᴍᴘʟᴇ Pɪɴɴᴇᴅ Mᴇssᴀɢᴇ!</b>
+<b>Cᴏᴍᴍᴀɴᴅs ᴀɴᴅ Usᴀɢᴇ:</b>
+◉ /Pɪɴ :- Pɪɴ Tʜᴇ Mᴇssᴀɢᴇ Yᴏᴜ Rᴇᴘʟɪᴇᴅ Tᴏ Mᴇssᴀɢᴇ Tᴏ Sᴇɴᴅ A Nᴏᴛɪғɪᴄᴀᴛɪᴏɴ Tᴏ Gʀᴏᴜᴘ Mᴇᴍʙᴇʀs..
+◉ /Uɴᴘɪɴ :- Uɴᴘɪɴ Tʜᴇ Cᴜʀʀᴇɴᴛ Pɪɴɴᴇᴅ Mᴇssᴀɢᴇ. Iғ Usᴇᴅ As A Rᴇᴘʟʏ, Uɴᴘɪɴs Tʜᴇ Rᴇᴘʟɪᴇᴅ Tᴏ Mᴇssᴀɢᴇ"""
     PURGE_TXT = """Help: <b>Purge</b>
-Need to delete lots of messages? That's what purges are for!
+Nᴇᴇᴅ ᴛᴏ ᴅᴇʟᴇᴛᴇ ʟᴏᴛs ᴏғ ᴍᴇssᴀɢᴇs? Tʜᴀᴛ's ᴡʜᴀᴛ ᴘᴜʀɢᴇs ᴀʀᴇ ғᴏʀ!
+
 <b>Commands and Usage:</b>
-• /purge - delete all messages from the replied to message, to the current message.
+
+• /ᴘᴜʀɢᴇ - ᴅᴇʟᴇᴛᴇ ᴀʟʟ ᴍᴇssᴀɢᴇs ғʀᴏᴍ ᴛʜᴇ ʀᴇᴘʟɪᴇᴅ ᴛᴏ ᴍᴇssᴀɢᴇ, ᴛᴏ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ᴍᴇssᴀɢᴇ.
+
 <b>NOTE:</b>
-• Bot should have admin privillage.
-• These commands works on group.
-• These commands can be used by Only admin."""
+
+• Bᴏᴛ sʜᴏᴜʟᴅ ʜᴀᴠᴇ ᴀᴅᴍɪɴ ᴘʀɪᴠɪʟʟᴀɢᴇ.
+• Tʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴡᴏʀᴋs ᴏɴ ɢʀᴏᴜᴘ.
+• Tʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ʙʏ Oɴʟʏ ᴀᴅᴍɪɴ."""
     BREAKUP_TXT = """HELP: <b>Break Up</b>
     
-    Send me /breakup..🥺🥺
+    Sᴇɴᴅ ᴍᴇ /ʙʀᴇᴀᴋᴜᴘ..🥺🥺
     
     """
     PASSWORD_GEN_TXT = """Help: <b>Password Generator</b>
@@ -141,58 +153,85 @@ Need to delete lots of messages? That's what purges are for!
 • /password
 
 """
-    TGRAPH_TXT = """Help: <b>TGraph & Paste</b>
-Do as you wish with telegra.ph module!
+    TGRAPH_TXT = """Help: <b>Tᴇʟᴇɢʀᴀᴘʜ</b>
+    
+Dᴏ ᴀs ʏᴏᴜ ᴡɪsʜ ᴡɪᴛʜ ᴛᴇʟᴇɢʀᴀᴘʜ ᴍᴏᴅᴜʟᴇ!
+
 <b>Commands and Usage:</b>
+
 • /tgmedia or /tgraph - upload supported media (within 5MB) to telegraph.
+
 <b>NOTE:</b>
-• Bot should have admin privillage.
-• These commands works on both pm and group.
-• These commands can be used by any group member."""
+
+• Bᴏᴛ sʜᴏᴜʟᴅ ʜᴀᴠᴇ ᴀᴅᴍɪɴ ᴘʀɪᴠɪʟʟᴀɢᴇ.
+• Tʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴡᴏʀᴋs ᴏɴ ʙᴏᴛʜ ᴘᴍ ᴀɴᴅ ɢʀᴏᴜᴘ.
+• Tʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ʙʏ ᴀɴʏ ɢʀᴏᴜᴘ ᴍᴇᴍʙᴇʀ."""
     ABOOK_TXT = """➤ 𝐇𝐞𝐥𝐩: 𝖠𝗎𝖽𝗂𝗈𝖻𝗈𝗈𝗄
-𝚈𝚘𝚞 𝚌𝚊𝚗 𝚌𝚘𝚗𝚟𝚎𝚛𝚝 𝚊 𝙿𝙳𝙵 𝚏𝚒𝚕𝚎 𝚝𝚘 𝚊 𝚊𝚞𝚍𝚒𝚘 𝚏𝚒𝚕𝚎 𝚠𝚒𝚝𝚑 𝚝𝚑𝚒𝚜 𝚌𝚘𝚖𝚖𝚊𝚗𝚍 ✯
-➤ 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 𝐚𝐧𝐝 𝐔𝐬𝐚𝐠𝐞:
-➪ /audiobook: 𝖱𝖾𝗉𝗅𝗒 𝗍𝗁𝗂𝗌 𝖼𝗈𝗆𝗆𝖺𝗇𝖽 𝗍𝗈 𝖺𝗇𝗒 𝖯𝖣𝖥 𝗍𝗈 𝗀𝖾𝗇𝖾𝗋𝖺𝗍𝖾 𝗍𝗁𝖾 𝖺𝗎𝖽𝗂𝗈"""
+ Yᴏᴜ ᴄᴀɴ ᴄᴏɴᴠᴇʀᴛ ᴀ PDF ғɪʟᴇ ᴛᴏ ᴀɴ ᴀᴜᴅɪᴏ ғɪʟᴇ ᴡɪᴛʜ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ 
+
+ Cᴏᴍᴍᴀɴᴅs ᴀɴᴅ Usᴀɢᴇ:
+ 
+ /audiobook: Rᴇᴘʟʏ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ ᴀɴʏ PDF ᴛᴏ ɢᴇɴᴇʀᴀᴛᴇ ᴛʜᴇ ᴀᴜᴅɪᴏ"""
 
     INFO_TXT = """Help: <b>Information</b>
-Get information about something!
+    
+Gᴇᴛ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ sᴏᴍᴇᴛʜɪɴɢ!
+
 <b>Commands and Usage:</b>
+
 • /id - get id of a specified user.
 • /info  - get information about a user.
-• /json - get the json details of a message.
+
 <b>NOTE:</b>
-• Bot should have admin privillage.
-• These commands works on both pm and group.
-• These commands can be used by any group member."""
+
+• Bᴏᴛ sʜᴏᴜʟᴅ ʜᴀᴠᴇ ᴀᴅᴍɪɴ ᴘʀɪᴠɪʟʟᴀɢᴇ.
+• Tʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴡᴏʀᴋs ᴏɴ ʙᴏᴛʜ ᴘᴍ ᴀɴᴅ ɢʀᴏᴜᴘ.
+• Tʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ʙʏ ᴀɴʏ ɢʀᴏᴜᴘ ᴍᴇᴍʙᴇʀ."""
     JSON_TXT = """Help: <b>Json</b>
-Get information of a message!
+Gᴇᴛ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴏғ ᴀ ᴍᴇssᴀɢᴇ!
+
 <b>Commands and Usage:</b>
+
 • /json - get the json details of a message.
+
 <b>NOTE:</b>
-• Bot should have admin privillage.
-• These commands works on both pm and group.
-• These commands can be used by any group member."""
+
+• Bᴏᴛ sʜᴏᴜʟᴅ ʜᴀᴠᴇ ᴀᴅᴍɪɴ ᴘʀɪᴠɪʟʟᴀɢᴇ.
+• Tʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴡᴏʀᴋs ᴏɴ ʙᴏᴛʜ ᴘᴍ ᴀɴᴅ ɢʀᴏᴜᴘ.
+• Tʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ʙʏ ᴀɴʏ ɢʀᴏᴜᴘ ᴍᴇᴍʙᴇʀ."""
     TTS_TXT = """Help: <b>Text to Speech</b>
-A module to convert text to voice with language support.
+    
+A ᴍᴏᴅᴜʟᴇ ᴛᴏ ᴄᴏɴᴠᴇʀᴛ ᴛᴇxᴛ ᴛᴏ ᴠᴏɪᴄᴇ ᴡɪᴛʜ ʟᴀɴɢᴜᴀɢᴇ sᴜᴘᴘᴏʀᴛ.
+
 <b>Commands and Usage:</b>
+
 • /tts - Reply to any text message with language code to convert as audio.
+
 <b>NOTE:</b>
-• Bot should have admin privillage.
-• These commands works on both pm and group.
-• These commands can be used by any group member."""
-    CORONA_TXT ="""<b>Here is the help for the coron information module</b>
-➡️ /covid <code>(countryname)</code> <b>you can find a corona information of every country</b>
+
+• Bᴏᴛ sʜᴏᴜʟᴅ ʜᴀᴠᴇ ᴀᴅᴍɪɴ ᴘʀɪᴠɪʟʟᴀɢᴇ.
+• Tʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴡᴏʀᴋs ᴏɴ ʙᴏᴛʜ ᴘᴍ ᴀɴᴅ ɢʀᴏᴜᴘ.
+• Tʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ʙʏ ᴀɴʏ ɢʀᴏᴜᴘ ᴍᴇᴍʙᴇʀ."""
+    CORONA_TXT ="""<b>Hᴇʀᴇ ɪs ᴛʜᴇ ʜᴇʟᴘ ғᴏʀ ᴛʜᴇ ᴄᴏʀᴏɴ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴍᴏᴅᴜʟᴇ</b>
+    
+➡️ /covid <code>(countryname)</code> <b>ʏᴏᴜ ᴄᴀɴ ғɪɴᴅ ᴀ ᴄᴏʀᴏɴᴀ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴏғ ᴀɴʏ ᴄᴏᴜɴᴛʀʏ</b>
+
 ➡️ <b>example</b> : - /covid India"""
     URL_SHORTNER_TXT = """Help: <b>URL Shortner</b>
-Some URLs is Shortner
+    
+A ᴍᴏᴅᴜʟᴇ ᴛʜᴀᴛ ʜᴇʟᴘs ʏᴏᴜ ᴛᴏ sʜᴏʀᴛᴇɴ ᴜʀʟs
+
 <b>Commands and Usage:</b>
+
 • /short <code>(link)</code> - I will send the shorted links.
 <b>Example:</b>
 <code>/short https://t.me/tomoviesall</code>
+
 <b>NOTE:</b>
-• Bot should have admin privillage.
-• These commands works on both pm and group.
-• These commands can be used by any group member."""
+
+• Bᴏᴛ sʜᴏᴜʟᴅ ʜᴀᴠᴇ ᴀᴅᴍɪɴ ᴘʀɪᴠɪʟʟᴀɢᴇ.
+• Tʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴡᴏʀᴋs ᴏɴ ʙᴏᴛʜ ᴘᴍ ᴀɴᴅ ɢʀᴏᴜᴘ.
+• Tʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ʙʏ ᴀɴʏ ɢʀᴏᴜᴘ ᴍᴇᴍʙᴇʀ."""
     SHARE_TXT = """Help: <b>Sharing Text Maker</b>
 
 A feature to create a link to share text in the telegram.
@@ -201,42 +240,60 @@ A feature to create a link to share text in the telegram.
 • /share (text or reply to message)
 
 <b>NOTE:</b>
-• Bot should have admin privillage.
-• These commands works on both pm and group.
-• These commands can be used by any group member."""
+• Bᴏᴛ sʜᴏᴜʟᴅ ʜᴀᴠᴇ ᴀᴅᴍɪɴ ᴘʀɪᴠɪʟʟᴀɢᴇ.
+• Tʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴡᴏʀᴋs ᴏɴ ʙᴏᴛʜ ᴘᴍ ᴀɴᴅ ɢʀᴏᴜᴘ.
+• Tʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ʙʏ ᴀɴʏ ɢʀᴏᴜᴘ ᴍᴇᴍʙᴇʀ."""
     MUSIC_TXT = """Help: <b>YT Music Downloader</b>
-Music download modules, for those who love music.
+    
+Mᴜsɪᴄ ᴅᴏᴡɴʟᴏᴀᴅ ᴍᴏᴅᴜʟᴇs, ғᴏʀ ᴛʜᴏsᴇ ᴡʜᴏ ʟᴏᴠᴇ ᴍᴜsɪᴄ.
+
 <b>Commands and Usage:</b>
-• /song or /mp3 (songname) - download song from yt servers.
+
+• /song or /mp3 (songname) - ᴅᴏᴡɴʟᴏᴀᴅ sᴏɴɢ ғʀᴏᴍ ʏᴛ sᴇʀᴠᴇʀs.
+
 <b>NOTE:</b>
-• Bot should have admin privillage.
-• These commands works on both pm and group.
-• These commands can be used by any group member."""
+
+• Bᴏᴛ sʜᴏᴜʟᴅ ʜᴀᴠᴇ ᴀᴅᴍɪɴ ᴘʀɪᴠɪʟʟᴀɢᴇ.
+• Tʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴡᴏʀᴋs ᴏɴ ʙᴏᴛʜ ᴘᴍ ᴀɴᴅ ɢʀᴏᴜᴘ.
+• Tʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ʙʏ ᴀɴʏ ɢʀᴏᴜᴘ ᴍᴇᴍʙᴇʀ."""
     MP4_TXT = """Help: <b>YT Video Downloader</b>
-    Video download modules, for those who love videos.
-• /video or /mp4 (videoname) - download video from yt servers.
+    
+    Vɪᴅᴇᴏ ᴅᴏᴡɴʟᴏᴀᴅ ᴍᴏᴅᴜʟᴇs, ғᴏʀ ᴛʜᴏsᴇ ᴡʜᴏ ʟᴏᴠᴇ ᴠɪᴅᴇᴏs.
+    
+• /video or /mp4 (videoname) - ᴅᴏᴡɴʟᴏᴀᴅ ᴠɪᴅᴇᴏ ғʀᴏᴍ ʏᴛ sᴇʀᴠᴇʀs.
+
 <b>NOTE:</b>
-• Bot should have admin privillage.
-• These commands works on both pm and group.
-• These commands can be used by any group member."""
+
+• Bᴏᴛ sʜᴏᴜʟᴅ ʜᴀᴠᴇ ᴀᴅᴍɪɴ ᴘʀɪᴠɪʟʟᴀɢᴇ.
+• Tʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴡᴏʀᴋs ᴏɴ ʙᴏᴛʜ ᴘᴍ ᴀɴᴅ ɢʀᴏᴜᴘ.
+• Tʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ʙʏ ᴀɴʏ ɢʀᴏᴜᴘ ᴍᴇᴍʙᴇʀ."""
     THUMBNAIL_TXT = """Help: <b>Thumbnail Downloader</b>
-    Thumbnail download modules, for those who love Thumbnails.
+    
+    Tʜᴜᴍʙɴᴀɪʟ ᴅᴏᴡɴʟᴏᴀᴅ ᴍᴏᴅᴜʟᴇs, ғᴏʀ ᴛʜᴏsᴇ ᴡʜᴏ ʟᴏᴠᴇ Tʜᴜᴍʙɴᴀɪʟs.
+    
 <b>YouTube Thumbnail Download</b>
+
 • /ytthumb (youtube link)
+
 <b>Example:</b> <code>/ytthumb https://www.youtube.com/watch?v=dQw4w9WgXcQ&t=22s</code>
+
 <b>NOTE:</b>
-• Bot should have admin privillage.
-• These commands works on both pm and group.
-• These commands can be used by any group member."""
+
+• Bᴏᴛ sʜᴏᴜʟᴅ ʜᴀᴠᴇ ᴀᴅᴍɪɴ ᴘʀɪᴠɪʟʟᴀɢᴇ.
+• Tʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴡᴏʀᴋs ᴏɴ ʙᴏᴛʜ ᴘᴍ ᴀɴᴅ ɢʀᴏᴜᴘ.
+• Tʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ʙʏ ᴀɴʏ ɢʀᴏᴜᴘ ᴍᴇᴍʙᴇʀ."""
     DEAD_TXT = """Help: <b>Zombies</b>
-<b>Kick incative members from group. Add me as admin with ban users permission in group.</b>
+    
+<b>Kɪᴄᴋ ɪɴᴄᴀᴛɪᴠᴇ ᴍᴇᴍʙᴇʀs ғʀᴏᴍ ɢʀᴏᴜᴘ. Aᴅᴅ ᴍᴇ ᴀs ᴀᴅᴍɪɴ ᴡɪᴛʜ ʙᴀɴ ᴜsᴇʀs ᴘᴇʀᴍɪssɪᴏɴ ɪɴ ɢʀᴏᴜᴘ.</b>
+
 <b>Commands and Usage:</b>
+
 • /inkick - command with required arguments and i will kick members from group.
 • /instatus - to check current status of chat member from group.
 • /inkick within_month long_time_ago - to kick users who are offline for more than 6-7 days.
 • /inkick long_time_ago - to kick members who are offline for more than a month and Deleted Accounts.
 • /dkick - to kick deleted accounts."""
-    STICKER_TXT ="""<b>Send /stickerid As the reply to a sticker to find its ID</b>"""
+    STICKER_TXT ="""<b>Sᴇɴᴅ /stickerid As ᴛʜᴇ ʀᴇᴘʟʏ ᴛᴏ ᴀ sᴛɪᴄᴋᴇʀ ᴛᴏ ғɪɴᴅ ɪᴛs ID</b>"""
     BUTTON_TXT = """Help: <b>Buttons</b>
 
 - Jᴇɴɴɪᴇ Sᴜᴘᴘᴏʀᴛs ʙᴏᴛʜ ᴜʀʟ ᴀɴᴅ ᴀʟᴇʀᴛ ɪɴʟɪɴᴇ ʙᴜᴛᴛᴏɴs.
