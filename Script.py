@@ -1,33 +1,35 @@
 class script(object):
     START_TXT = """Hᴇʏ {},
-        Mʏ ɴᴀᴍᴇ ɪs Jᴇɴɴɪᴇ `BLΛƆKPIИK,Pʟᴇᴀsᴇ ᴜsᴇ ᴛʜᴇ ʙᴇʟᴏᴡ ᴄᴏᴍᴍᴀɴᴅs ᴛᴏ ᴋɴᴏᴡ ᴍᴏʀᴇ ᴀʙᴏᴜᴛ ᴍᴇ.."""
+        Mʏ ɴᴀᴍᴇ ɪs Jᴇɴɴɪᴇ.. ☺
+        
+        Pʟᴇᴀsᴇ ᴜsᴇ ᴛʜᴇ ʙᴇʟᴏᴡ ᴄᴏᴍᴍᴀɴᴅs ᴛᴏ ᴋɴᴏᴡ ᴍᴏʀᴇ ᴀʙᴏᴜᴛ ᴍᴇ..😄"""
     HELP_TXT = """𝙷𝙴𝚈 {}
 Tʜᴇsᴇ Aʀᴇ Tʜᴇ Aᴠᴀɪʟᴀʙʟᴇ Lɪsᴛ Oғ Mʏ Cᴏᴍᴍᴀɴᴅs."""
-    ABOUT_TXT = """ 𝑯𝒆𝒚, 𝑰 𝑨𝒎 𝑱𝒆𝒏𝒏𝒊𝒆
+    ABOUT_TXT = """ 𝑯𝒆𝒚 {}, 𝑰 𝑨𝒎 𝑱𝒆𝒏𝒏𝒊𝒆
+    
   ❥ 🧠 Dᴇᴠᴇʟᴏᴘᴇʀ     :  <a href=https://t.me/Username_Not_Found_404_Error>𝗔ʀᴊᴜɴ☆ IQ³⁶⁹×ˣ</a>
   
-  ❥ 🎞 Lɪʙʀᴀʀʏ          : 𝗣𝘆𝗿𝗼𝗴𝗿𝗮𝗺
+  ❥ 🎞 Lɪʙʀᴀʀʏ           : 𝗣𝘆𝗿𝗼𝗴𝗿𝗮𝗺
   
-  ❥ 🔧 Lᴀɴɢᴜᴀɢᴇ       : 𝗣𝘆𝘁𝗵𝗼𝗻 𝟯
+  ❥ 🔧 Lᴀɴɢᴜᴀɢᴇ        : 𝗣𝘆𝘁𝗵𝗼𝗻 𝟯
   
-  ❥ 🏳 DᴀᴛᴀBᴀsᴇ       : 𝗠𝗼𝗻𝗴𝗼 𝗗𝗯
- 
-  ❥ 🚧 Hᴏsᴛᴇᴅ Oɴ    : 𝗛𝗲𝗿𝗼𝗸𝘂
+  ❥ 🏳 DᴀᴛᴀBᴀsᴇ        : 𝗠𝗼𝗻𝗴𝗼 𝗗𝗯
+  
+  ❥ 🚧 Hᴏsᴛᴇᴅ Oɴ     : 𝗛𝗲𝗿𝗼𝗸𝘂
     
-  ❥ 🕐 Bᴜɪʟᴅ Sᴛᴀᴛᴜs : 𝗩 𝟭𝟵.𝟴"""
+  ❥ 🕐 Bᴜɪʟᴅ Sᴛᴀᴛᴜs :  𝗩 𝟭𝟵.𝟴"""
     
     FLTR_TXT = """Help: <b>𝗙𝗜𝗟𝗧𝗘𝗥𝗦</b>
     
     ❥ 𝗧𝗵𝗲𝘀𝗲 𝗮𝗿𝗲 𝘁𝗵𝗲 𝗰𝘂𝗿𝗿𝗲𝗻𝘁𝗹𝘆 𝗮𝘃𝗮𝗶𝗹𝗮𝗯𝗲 𝗳𝗲𝗮𝘁𝘂𝗿𝗲𝘀 𝗼𝗳 𝗝𝗲𝗻𝗻𝗶𝗲..
-    
-    ❥ 𝗠𝗼𝗿𝗲 𝗳𝗲𝗮𝘁𝘂𝗿𝗲𝘀 𝘄𝗶𝗹𝗹 𝗯𝗲 𝘃𝗶𝘀𝗶𝗯𝗹𝗲 𝗼𝗻 𝗳𝘂𝘁𝘂𝗿𝗲."""
+      𝗠𝗼𝗿𝗲 𝗳𝗲𝗮𝘁𝘂𝗿𝗲𝘀 𝘄𝗶𝗹𝗹 𝗯𝗲 𝘃𝗶𝘀𝗶𝗯𝗹𝗲 𝗼𝗻 𝗳𝘂𝘁𝘂𝗿𝗲."""
     IKKA_TXT = """𝐂𝐀𝐔𝐓𝐈𝐎𝐍 : <b>Iᴋᴋᴀ Fᴀɴs Aʀᴇ Pʀᴏʜɪʙɪᴛᴇᴅ Nᴇᴀʀ Tʜɪs ᴀʀᴇᴀ</b> 
     
     <b> 𝙍𝙀𝘼𝙎𝙊𝙉: </b>
 
     Tʜɪs ғɪʟᴛᴇʀ ᴄᴏɴᴛᴀɪɴs ᴛᴏxɪᴄ ғᴜɴɴʏ sᴛɪᴄᴋᴇʀs 😂😂😂
     
-    <b> 𝘾𝙊𝙈𝙈𝘼𝙉𝘿: </b> /ikka  ☺☺
+    <b> 𝘾𝙊𝙈𝙈𝘼𝙉𝘿: </b> /ikka or /guhan ☺☺
     
     """
     
@@ -64,7 +66,7 @@ Tʜᴇsᴇ Aʀᴇ Tʜᴇ Aᴠᴀɪʟᴀʙʟᴇ Lɪsᴛ Oғ Mʏ Cᴏᴍᴍᴀɴ�
 
 <b>Commands:</b>
 
-Sᴇɴᴅ /ʜᴇʟᴘ ɪғ ʏᴏᴜ ɴᴇᴇᴅ ᴀɴʏ ʜᴇʟᴘ ғʀᴏᴍ ᴍᴇ...😂😂
+Sᴇɴᴅ /help ɪғ ʏᴏᴜ ɴᴇᴇᴅ ᴀɴʏ ʜᴇʟᴘ ғʀᴏᴍ ᴍᴇ...😂😂
 
 """
     SOURCEJ_TXT = """<b>Source:</b>
@@ -73,7 +75,7 @@ Jennie is an Open source project.
 <b>DEVS:</b>
 - <a href='https://t.me/Username_Not_Found_404_Error'>Aʀᴊᴜɴ</a>
 """
-    WHOIS_TXT ="""Help: <b>WHO IS MODULE</b>
+    WHOIS_TXT ="""Help: <b>WHO IS - MODULE</b>
     
     Usᴀɢᴇ- Gɪᴠᴇ ᴀ ᴜsᴇʀ ᴅᴇᴛᴀɪʟs
 
@@ -83,7 +85,8 @@ Jennie is an Open source project.
 
 <b>Commands:</b>
 
-Sᴇɴᴅ /ᴘɪɴɢ ᴛᴏ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ɪɴᴛᴇʀɴᴇᴛ sᴘᴇᴇᴅ...
+Sᴇɴᴅ /ping ᴛᴏ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ɪɴᴛᴇʀɴᴇᴛ sᴘᴇᴇᴅ...
+
 """
     GAMES_TXT ="""<b>FUN MODULE</b> 
     
@@ -91,40 +94,52 @@ Sᴇɴᴅ /ᴘɪɴɢ ᴛᴏ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ɪɴᴛᴇʀɴᴇᴛ sᴘ�
     
     AUNTY_TXT ="""<b>THE GREAT MALLU AUNTY</b>
    
- Sᴇɴᴅ /ᴀᴜɴᴛʏ Tʜᴇɴ Mᴀʟʟᴜ Aᴜɴᴛʏ Wɪʟʟ Tᴇxᴛ Yᴏᴜ Sᴏᴍᴇ Jᴏᴋᴇs 😂😂 """
+ Sᴇɴᴅ /aunty, 
+ 
+ Tʜᴇɴ Mᴀʟʟᴜ Aᴜɴᴛʏ Wɪʟʟ Tᴇxᴛ Yᴏᴜ Sᴏᴍᴇ Jᴏᴋᴇs 😂😂 """
         
     ARROW_TXT ="""<b>Throw / Dart</b>
     
-    Sᴇɴᴅ /ᴛʜʀᴏᴡ 𝗈𝗋 /ᴅᴀʀᴛ - 𝖳𝗈 𝖬𝖺𝗄𝖾 Dʀᴀᴛ...
+    Sᴇɴᴅ /throw 𝗈𝗋 /dart - 𝖳𝗈 𝖬𝖺𝗄𝖾 Dʀᴀᴛ...
     
     😄😊"""
     
     DICE_TXT ="""<b>THE DICE..</b>
     
-    Sᴇɴᴅ /ᴅɪᴄᴇ Tᴏ Rᴏʟʟ A Dɪᴄᴇ...
+    Sᴇɴᴅ /dice Tᴏ Rᴏʟʟ A Dɪᴄᴇ...
     
     😄😊"""
     
     GOAL_TXT ="""<b>THE DICE..</b>
     
-    Sᴇɴᴅ /ɢᴏᴀʟ ᴏʀ /sʜᴏᴏᴛ - Tᴏ Mᴀᴋᴇ A Gᴏᴀʟ Oʀ Sʜᴏᴏᴛ...
+    Sᴇɴᴅ /goal ᴏʀ /shoot - Tᴏ Mᴀᴋᴇ A Gᴏᴀʟ Oʀ Sʜᴏᴏᴛ...
     
     😄😊"""
     
     GTRANS_TXT = """Help: <b>Tʀᴀɴsʟᴀᴛᴏʀ</b>
+    
 Tʀᴀɴsʟᴀᴛᴇ ᴛᴇxᴛs ᴛᴏ ᴀ sᴘᴇᴄɪғɪᴄ ʟᴀɴɢᴜᴀɢᴇ!
+
 <b>Cᴏᴍᴍᴀɴᴅs ᴀɴᴅ Usᴀɢᴇ:</b>
+
 • /tr [language code][reply] - ᴛʀᴀɴsʟᴀᴛᴇ ʀᴇᴘʟɪᴇᴅ ᴍᴇssᴀɢᴇ ᴛᴏ sᴘᴇᴄɪғɪᴄ ʟᴀɴɢᴜᴀɢᴇ.
+
 <b>NOTE:</b>
+
 • Jᴇɴɴɪᴇ sʜᴏᴜʟᴅ ʜᴀᴠᴇ ᴀᴅᴍɪɴ ᴘʀɪᴠɪʟʟᴀɢᴇ.
 • Rᴇᴘʟʏ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ ᴛᴇxᴛ ᴡʜɪᴄʜ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴛʀᴀɴsʟᴀᴛᴇ.
 • Tʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴡᴏʀᴋs ᴏɴ ʙᴏᴛʜ ᴘᴍ ᴀɴᴅ ɢʀᴏᴜᴘ.
 • Jᴇɴɴɪᴇ ᴄᴀɴ ᴛʀᴀɴsʟᴀᴛᴇ ᴛᴇxᴛs ᴛᴏ 200+ ʟᴀɴɢᴜᴀɢᴇs."""
     PIN_TXT ="""<b>PIN MODULE</b>
+    
 <b>Pin :</b>
+
 <b>Aʟʟ Tʜᴇ Pɪɴ Rᴇʟᴀᴛᴇᴅ Cᴏᴍᴍᴀɴᴅs Cᴀɴ Bᴇ Fᴏᴜɴᴅ Hᴇʀᴇ; Kᴇᴇᴘ Yᴏᴜʀ Cʜᴀᴛ Uᴘ Tᴏ Dᴀᴛᴇ Oɴ Tʜᴇ Lᴀᴛᴇsᴛ Nᴇᴡs Wɪᴛʜ A Sɪᴍᴘʟᴇ Pɪɴɴᴇᴅ Mᴇssᴀɢᴇ!</b>
+
 <b>Cᴏᴍᴍᴀɴᴅs ᴀɴᴅ Usᴀɢᴇ:</b>
+
 ◉ /Pɪɴ :- Pɪɴ Tʜᴇ Mᴇssᴀɢᴇ Yᴏᴜ Rᴇᴘʟɪᴇᴅ Tᴏ Mᴇssᴀɢᴇ Tᴏ Sᴇɴᴅ A Nᴏᴛɪғɪᴄᴀᴛɪᴏɴ Tᴏ Gʀᴏᴜᴘ Mᴇᴍʙᴇʀs..
+
 ◉ /Uɴᴘɪɴ :- Uɴᴘɪɴ Tʜᴇ Cᴜʀʀᴇɴᴛ Pɪɴɴᴇᴅ Mᴇssᴀɢᴇ. Iғ Usᴇᴅ As A Rᴇᴘʟʏ, Uɴᴘɪɴs Tʜᴇ Rᴇᴘʟɪᴇᴅ Tᴏ Mᴇssᴀɢᴇ"""
     PURGE_TXT = """Help: <b>Purge</b>
 Nᴇᴇᴅ ᴛᴏ ᴅᴇʟᴇᴛᴇ ʟᴏᴛs ᴏғ ᴍᴇssᴀɢᴇs? Tʜᴀᴛ's ᴡʜᴀᴛ ᴘᴜʀɢᴇs ᴀʀᴇ ғᴏʀ!
@@ -140,7 +155,7 @@ Nᴇᴇᴅ ᴛᴏ ᴅᴇʟᴇᴛᴇ ʟᴏᴛs ᴏғ ᴍᴇssᴀɢᴇs? Tʜᴀᴛ
 • Tʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ʙʏ Oɴʟʏ ᴀᴅᴍɪɴ."""
     BREAKUP_TXT = """HELP: <b>Break Up</b>
     
-    Sᴇɴᴅ ᴍᴇ /ʙʀᴇᴀᴋᴜᴘ..🥺🥺
+    Sᴇɴᴅ ᴍᴇ /breakup..🥺🥺
     
     """
     PASSWORD_GEN_TXT = """Help: <b>Password Generator</b>
@@ -150,6 +165,7 @@ Nᴇᴇᴅ ᴛᴏ ᴅᴇʟᴇᴛᴇ ʟᴏᴛs ᴏғ ᴍᴇssᴀɢᴇs? Tʜᴀᴛ
 - I Will Give The Password...
 
 <b>Commands and Usage:</b>
+
 • /password
 
 """
@@ -289,24 +305,33 @@ Mᴜsɪᴄ ᴅᴏᴡɴʟᴏᴀᴅ ᴍᴏᴅᴜʟᴇs, ғᴏʀ ᴛʜᴏsᴇ ᴡʜ
 <b>Commands and Usage:</b>
 
 • /inkick - command with required arguments and i will kick members from group.
+
 • /instatus - to check current status of chat member from group.
+
 • /inkick within_month long_time_ago - to kick users who are offline for more than 6-7 days.
+
 • /inkick long_time_ago - to kick members who are offline for more than a month and Deleted Accounts.
+
 • /dkick - to kick deleted accounts."""
+    
     STICKER_TXT ="""<b>Sᴇɴᴅ /stickerid As ᴛʜᴇ ʀᴇᴘʟʏ ᴛᴏ ᴀ sᴛɪᴄᴋᴇʀ ᴛᴏ ғɪɴᴅ ɪᴛs ID</b>"""
     BUTTON_TXT = """Help: <b>Buttons</b>
 
 - Jᴇɴɴɪᴇ Sᴜᴘᴘᴏʀᴛs ʙᴏᴛʜ ᴜʀʟ ᴀɴᴅ ᴀʟᴇʀᴛ ɪɴʟɪɴᴇ ʙᴜᴛᴛᴏɴs.
 
 <b>NOTE:</b>
+
 1. Tᴇʟᴇɢʀᴀᴍ ᴡɪʟʟ ɴᴏᴛ ᴀʟʟᴏᴡs ʏᴏᴜ ᴛᴏ sᴇɴᴅ ʙᴜᴛᴛᴏɴs ᴡɪᴛʜᴏᴜᴛ ᴀɴʏ ᴄᴏɴᴛᴇɴᴛ, sᴏ ᴄᴏɴᴛᴇɴᴛ ɪs ᴍᴀɴᴅᴀᴛᴏʀʏ.
 2. Jᴇɴɴɪᴇ sᴜᴘᴘᴏʀᴛs ʙᴜᴛᴛᴏɴs ᴡɪᴛʜ ᴀɴʏ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴅɪᴀ ᴛʏᴘᴇ.
 3. Bᴜᴛᴛᴏɴs sʜᴏᴜʟᴅ ʙᴇ ᴘʀᴏᴘᴇʀʟʏ ᴘᴀʀsᴇᴅ ᴀs ᴍᴀʀᴋᴅᴏᴡɴ ғᴏʀᴍᴀᴛ
+
 <b>URL buttons:</b>
 <code>[Button Text](buttonurl:https://t.me/+WqhO2sfnZxcxYjk1)</code>
 
 <b>Alert buttons:</b>
-<code>[Button Text](buttonalert:This is an alert message)</code>"""
+<code>[Button Text](buttonalert:This is an alert message)</code>
+
+"""
     CONNECTION_TXT = """Help: <b>Aᴛᴛᴀᴄʜᴍᴇɴᴛs</b>
 
 - Usᴇᴅ ᴛᴏ ᴄᴏɴɴᴇᴄᴛ ʙᴏᴛ ᴛᴏ PM ғᴏʀ ᴍᴀɴᴀɢɪɴɢ ғɪʟᴛᴇʀs 
@@ -325,7 +350,7 @@ Mᴜsɪᴄ ᴅᴏᴡɴʟᴏᴀᴅ ᴍᴏᴅᴜʟᴇs, ғᴏʀ ᴛʜᴏsᴇ ᴡʜ
 <b>NOTE:</b>
 ᴛʜᴇsᴇ ᴀʀᴇ ᴛʜᴇ ᴇxᴛʀᴀ ғᴇᴀᴛᴜʀᴇs ᴏғ Jᴇɴɴɪᴇ
 
-<ʙ>Cᴏᴍᴍᴀɴᴅs ᴀɴᴅ Usᴀɢᴇ:</ʙ>
+<b>Cᴏᴍᴍᴀɴᴅs ᴀɴᴅ Usᴀɢᴇ:</b>
 • /id - ɢᴇᴛ ɪᴅ ᴏғ ᴀ sᴘᴇᴄɪғɪᴇᴅ ᴜsᴇʀ.
 • /info  - ɢᴇᴛ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴀ ᴜsᴇʀ.
 • /imbd - ɢᴇᴛ ᴛʜᴇ ғɪʟᴍ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ғʀᴏᴍ IMDʙ sᴏᴜʀᴄᴇ.
@@ -336,22 +361,35 @@ Mᴜsɪᴄ ᴅᴏᴡɴʟᴏᴀᴅ ᴍᴏᴅᴜʟᴇs, ғᴏʀ ᴛʜᴏsᴇ ᴡʜ
 Tʜɪs ᴍᴏᴅᴜʟᴇ ᴏɴʟʏ ᴡᴏʀᴋs ғᴏʀ ᴍʏ ᴀᴅᴍɪɴs
 
 <b>Cᴏᴍᴍᴀɴᴅs ᴀɴᴅ Usᴀɢᴇ:</b>
-• /loogs - ᴛᴏ ɢᴇᴛ ᴛʜᴇ ʀᴇsᴄᴇɴᴛ ᴇʀʀᴏʀs</ᴄᴏᴅᴇ>
-• /stats - ᴛᴏ ɢᴇᴛ sᴛᴀᴛᴜs ᴏғ ғɪʟᴇs ɪɴ ᴅʙ.</ᴄᴏᴅᴇ>
-• /delete - ᴛᴏ ᴅᴇʟᴇᴛᴇ ᴀ sᴘᴇᴄɪғɪᴄ ғɪʟᴇ ғʀᴏᴍ ᴅʙ.</ᴄᴏᴅᴇ>
-• /users - ᴛᴏ ɢᴇᴛ ʟɪsᴛ ᴏғ ᴍʏ ᴜsᴇʀs ᴀɴᴅ ɪᴅs.</ᴄᴏᴅᴇ>
-• /chats - ᴛᴏ ɢᴇᴛ ʟɪsᴛ ᴏғ ᴛʜᴇ ᴍʏ ᴄʜᴀᴛs ᴀɴᴅ ɪᴅs </ᴄᴏᴅᴇ>
-• /leave  - ᴛᴏ ʟᴇᴀᴠᴇ ғʀᴏᴍ ᴀ ᴄʜᴀᴛ.</ᴄᴏᴅᴇ>
-• /disable  -  ᴅᴏ ᴅɪsᴀʙʟᴇ ᴀ ᴄʜᴀᴛ.</ᴄᴏᴅᴇ>
-• /ban  - ᴛᴏ ʙᴀɴ ᴀ ᴜsᴇʀ.</ᴄᴏᴅᴇ>
-• /unban  - ᴛᴏ ᴜɴʙᴀɴ ᴀ ᴜsᴇʀ.</ᴄᴏᴅᴇ>
-• /channel - ᴛᴏ ɢᴇᴛ ʟɪsᴛ ᴏғ ᴛᴏᴛᴀʟ ᴄᴏɴɴᴇᴄᴛᴇᴅ ᴄʜᴀɴɴᴇʟs</ᴄᴏᴅᴇ>
-• /broadcast - ᴛᴏ ʙʀᴏᴀᴅᴄᴀsᴛ ᴀ ᴍᴇssᴀɢᴇ ᴛᴏ ᴀʟʟ ᴜsᴇʀs</ᴄᴏᴅᴇ>"""
+• /logs - ᴛᴏ ɢᴇᴛ ᴛʜᴇ ʀᴇsᴄᴇɴᴛ ᴇʀʀᴏʀs.
+
+• /stats - ᴛᴏ ɢᴇᴛ sᴛᴀᴛᴜs ᴏғ ғɪʟᴇs ɪɴ ᴅʙ.
+
+• /delete - ᴛᴏ ᴅᴇʟᴇᴛᴇ ᴀ sᴘᴇᴄɪғɪᴄ ғɪʟᴇ ғʀᴏᴍ ᴅʙ.
+
+• /users - ᴛᴏ ɢᴇᴛ ʟɪsᴛ ᴏғ ᴍʏ ᴜsᴇʀs ᴀɴᴅ ɪᴅs.
+
+• /chats - ᴛᴏ ɢᴇᴛ ʟɪsᴛ ᴏғ ᴛʜᴇ ᴍʏ ᴄʜᴀᴛs ᴀɴᴅ ɪᴅs.
+
+• /leave  - ᴛᴏ ʟᴇᴀᴠᴇ ғʀᴏᴍ ᴀ ᴄʜᴀᴛ.
+
+• /disable  -  ᴅᴏ ᴅɪsᴀʙʟᴇ ᴀ ᴄʜᴀᴛ.
+
+• /ban  - ᴛᴏ ʙᴀɴ ᴀ ᴜsᴇʀ.
+
+• /unban  - ᴛᴏ ᴜɴʙᴀɴ ᴀ ᴜsᴇʀ.
+
+• /channel - ᴛᴏ ɢᴇᴛ ʟɪsᴛ ᴏғ ᴛᴏᴛᴀʟ ᴄᴏɴɴᴇᴄᴛᴇᴅ ᴄʜᴀɴɴᴇʟs.
+
+• /broadcast - ᴛᴏ ʙʀᴏᴀᴅᴄᴀsᴛ ᴀ ᴍᴇssᴀɢᴇ ᴛᴏ ᴀʟʟ ᴜsᴇʀs"""
     STATUS_TXT = """❊ 𝗧𝗼𝘁𝗮𝗹 𝗜𝗻𝗱𝗲𝘅𝗲𝗱 𝗙𝗶𝗹𝗲𝘀: <code>{}</code>
-❊ USERS: <code>{}</code>
-❊ CHATS: <code>{}</code>
-❊ STORAGE: <code>{}</code> 𝙼𝚒𝙱
-❊ CAPACITY: <code>{}</code> 𝙼𝚒𝙱"""
+ 👨‍👨‍👦‍👦 Hᴀɴᴅʟɪɴɢ Usᴇʀs : <code>{}</code>
+ 
+ 🎟 Aᴅᴅᴇᴅ Cʜᴀᴛs : <code>{}</code>
+ 
+ 🏛 Sᴛᴏʀᴀɢᴇ Usᴇᴅ : <code>{}</code> ᴍɪʙ
+ 
+ 🕋 Cᴀᴘᴀᴄɪᴛʏ : <code>{}</code> ᴍɪʙ"""
     LOG_TEXT_G = """#NewGroup
 Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
