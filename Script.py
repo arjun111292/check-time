@@ -383,13 +383,13 @@ Tʜɪs ᴍᴏᴅᴜʟᴇ ᴏɴʟʏ ᴡᴏʀᴋs ғᴏʀ ᴍʏ ᴀᴅᴍɪɴs
 
 • /broadcast - ᴛᴏ ʙʀᴏᴀᴅᴄᴀsᴛ ᴀ ᴍᴇssᴀɢᴇ ᴛᴏ ᴀʟʟ ᴜsᴇʀs"""
     STATUS_TXT = """
- 🧲  Iɴᴅᴇxᴇᴅ Fɪʟᴇs  :     <code>{}</code>
+ 🧲  Iɴᴅᴇxᴇᴅ Fɪʟᴇs  :       <code>{}</code>
     
- 👨‍👨‍👦‍👦 Hᴀɴᴅʟɪɴɢ Usᴇʀs : <code>{}</code>
+ 👨‍👨‍👦‍👦 Hᴀɴᴅʟɪɴɢ Usᴇʀs :   <code>{}</code>
  
- 🎟  Aᴅᴅᴇᴅ Cʜᴀᴛs  :      <code>{}</code>
+ 🎟  Aᴅᴅᴇᴅ Cʜᴀᴛs  :        <code>{}</code>
  
- 🏛  Sᴛᴏʀᴀɢᴇ Usᴇᴅ :     <code>{}</code> ᴍɪʙ
+ 🏛  Sᴛᴏʀᴀɢᴇ Usᴇᴅ :       <code>{}</code> ᴍɪʙ
  
  🕋 Cᴀᴘᴀᴄɪᴛʏ : <code>{}</code> ᴍɪʙ"""
     LOG_TEXT_G = """#NewGroup
