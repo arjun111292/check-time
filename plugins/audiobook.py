@@ -8,7 +8,7 @@ from pyrogram.types import User, Message, Document
 from gtts import gTTS
 from info import DOWNLOAD_LOCATION
   
-Thanks = """ Thats The End Of Your Audio Book, And Thanks for Using this Service"""
+Thanks = """ Tʜᴀᴛs Tʜᴇ Eɴᴅ Oғ Yᴏᴜʀ Aᴜᴅɪᴏ Bᴏᴏᴋ, Aɴᴅ Tʜᴀɴᴋs ғᴏʀ Usɪɴɢ ᴛʜɪs Sᴇʀᴠɪᴄᴇ"""
 
 @Client.on_message(filters.command(["audiobook"])) # PdfToText 
 async def pdf_to_text(bot, message):
