@@ -391,7 +391,7 @@ Tʜɪs ᴍᴏᴅᴜʟᴇ ᴏɴʟʏ ᴡᴏʀᴋs ғᴏʀ ᴍʏ ᴀᴅᴍɪɴs
  
  🏛  Sᴛᴏʀᴀɢᴇ Usᴇᴅ :       <code>{}</code> ᴍɪʙ
  
- 🕋 Cᴀᴘᴀᴄɪᴛʏ : <code>{}</code> ᴍɪʙ"""
+ 🕋 Cᴀᴘᴀᴄɪᴛʏ :         <code>{}</code> ᴍɪʙ"""
     LOG_TEXT_G = """#NewGroup
 Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
