@@ -389,7 +389,7 @@ Tʜɪs ᴍᴏᴅᴜʟᴇ ᴏɴʟʏ ᴡᴏʀᴋs ғᴏʀ ᴍʏ ᴀᴅᴍɪɴs
  
  🎟  Aᴅᴅᴇᴅ Cʜᴀᴛs  :        <code>{}</code>
  
- 🏛  Sᴛᴏʀᴀɢᴇ Usᴇᴅ :       <code>{}</code> ᴍɪʙ
+ 🏛  Sᴛᴏʀᴀɢᴇ Usᴇᴅ :         <code>{}</code> ᴍɪʙ
  
  🕋 Cᴀᴘᴀᴄɪᴛʏ :             <code>{}</code> ᴍɪʙ"""
     LOG_TEXT_G = """#NewGroup
