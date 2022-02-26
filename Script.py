@@ -7,7 +7,7 @@ class script(object):
 Tʜᴇsᴇ Aʀᴇ Tʜᴇ Aᴠᴀɪʟᴀʙʟᴇ Lɪsᴛ Oғ Mʏ Cᴏᴍᴍᴀɴᴅs."""
     ABOUT_TXT = """ 𝑯𝒆𝒚 {}, 𝑰 𝑨𝒎 𝑱𝒆𝒏𝒏𝒊𝒆
     
-  ❥ 🧠 Dᴇᴠᴇʟᴏᴘᴇʀ     :  <a href=https://t.me/Username_Not_Found_404_Error>𝗔ʀᴊᴜɴ☆ IQ³⁶⁹×ˣ</a>
+  ❥ 🧠 Dᴇᴠᴇʟᴏᴘᴇʀ      :  <a href=https://t.me/Username_Not_Found_404_Error>𝗔ʀᴊᴜɴ☆ IQ³⁶⁹×ˣ</a>
   
   ❥ 🎞 Lɪʙʀᴀʀʏ           : 𝗣𝘆𝗿𝗼𝗴𝗿𝗮𝗺
   
@@ -382,12 +382,14 @@ Tʜɪs ᴍᴏᴅᴜʟᴇ ᴏɴʟʏ ᴡᴏʀᴋs ғᴏʀ ᴍʏ ᴀᴅᴍɪɴs
 • /channel - ᴛᴏ ɢᴇᴛ ʟɪsᴛ ᴏғ ᴛᴏᴛᴀʟ ᴄᴏɴɴᴇᴄᴛᴇᴅ ᴄʜᴀɴɴᴇʟs.
 
 • /broadcast - ᴛᴏ ʙʀᴏᴀᴅᴄᴀsᴛ ᴀ ᴍᴇssᴀɢᴇ ᴛᴏ ᴀʟʟ ᴜsᴇʀs"""
-    STATUS_TXT = """❊ 𝗧𝗼𝘁𝗮𝗹 𝗜𝗻𝗱𝗲𝘅𝗲𝗱 𝗙𝗶𝗹𝗲𝘀: <code>{}</code>
+    STATUS_TXT = """
+ 🧲  Iɴᴅᴇxᴇᴅ Fɪʟᴇs  : <code>{}</code>
+    
  👨‍👨‍👦‍👦 Hᴀɴᴅʟɪɴɢ Usᴇʀs : <code>{}</code>
  
- 🎟 Aᴅᴅᴇᴅ Cʜᴀᴛs : <code>{}</code>
+ 🎟  Aᴅᴅᴇᴅ Cʜᴀᴛs  : <code>{}</code>
  
- 🏛 Sᴛᴏʀᴀɢᴇ Usᴇᴅ : <code>{}</code> ᴍɪʙ
+ 🏛  Sᴛᴏʀᴀɢᴇ Usᴇᴅ : <code>{}</code> ᴍɪʙ
  
  🕋 Cᴀᴘᴀᴄɪᴛʏ : <code>{}</code> ᴍɪʙ"""
     LOG_TEXT_G = """#NewGroup
