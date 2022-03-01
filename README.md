@@ -1,10 +1,10 @@
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Jennie+Lub+🥰🥰;Developer+=Arjun+TG-Username-@Username_Not_Found_404_Error;This+Is+Advanced+V9+AutoFilterBot+Enna-Tonunne 😂😂)</p>
-<img src="picture/270-2705455_jennie-wallpaper-hd.jpg" alt="ARJUNS BOT LOGO!!">
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=welcome+To+AkBotDev's+Repo!;created+by+JOKER+TG!;A+simple+tg+FILE+SENDING+bot!)</p>
+<p align="center">
+  <img src="https://telegra.ph/file/2ac16c4fcc17960deced8.jpg">
 </p>
 <h1 align="center">
-  <b>Jennie</b>
+  <b>LUCIFER BOT</b>
 </h1>
-
 
 [![Stars](https://img.shields.io/github/stars/EvamariaTG/EvaMaria?style=flat-square&color=yellow)](https://github.com/EvamariaTG/EvaMaria/stargazers)
 [![Forks](https://img.shields.io/github/forks/EvamariaTG/EvaMaria?style=flat-square&color=orange)](https://github.com/EvamariaTG/EvaMaria/fork)
