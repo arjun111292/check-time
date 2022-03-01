@@ -423,7 +423,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "fltr":
         buttons = [[
-            InlineKeyboardButton('Json', callback_data='thejson'),
+            InlineKeyboardButton('Jѕσи', callback_data='thejson'),
             InlineKeyboardButton('ɢ-тяαиѕ', callback_data='gtrans'),
             InlineKeyboardButton('αℓινє', callback_data='alive'),
             InlineKeyboardButton('нєℓρ', callback_data='needahelp')
