@@ -1,8 +1,6 @@
-<p align="center">
-  <img src="picture/216-2169839_jennie-solo..jpg" alt="J E N N I E">
-</p>
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Jennie+Lub+🥰🥰;Developer+ == + Arjun Pradeep+TG Username - @Username_Not_Found_404_Error;This+Is+Advanced+V9+Auto Filter Bot+Enna Tonunne 😂😂)</p>
 <h1 align="center">
-  <b>Eva Maria Bot</b>
+  <b>Jennie</b>
 </h1>
 
 
