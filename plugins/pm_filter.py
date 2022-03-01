@@ -406,14 +406,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('Aᴅᴅ Mᴇ', url=f'http://t.me/{temp.U_NAME}?startgroup=true'),
-            InlineKeyboardButton('Sᴇᴀʀᴄʜ', switch_inline_query_current_chat='')
+            InlineKeyboardButton('α∂∂ мє тσ gяσυρ', url=f'http://t.me/{temp.U_NAME}?startgroup=true'),
             ],[
-            InlineKeyboardButton('Fɪʟᴛᴇʀs', callback_data='fltr')
+            InlineKeyboardButton('нєℓρ', callback_data='help'),
+            InlineKeyboardButton('ѕєαя¢н', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('Aʙᴏᴜᴛ', callback_data='about'),
-            InlineKeyboardButton('Hᴇʟᴘ', callback_data='help'),
-            InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close_data')
+            InlineKeyboardButton('Fιℓтєя', callback_data='fltr')
+            ],[
+            InlineKeyboardButton('αвσυт', callback_data='about'),
+            InlineKeyboardButton('¢ℓσѕє', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         md = InputMediaPhoto(media = random.choice(JENMULPCTST),
@@ -424,46 +425,47 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "fltr":
         buttons = [[
-            InlineKeyboardButton('ᴊsᴏɴ', callback_data='thejson'),
-            InlineKeyboardButton('ɢ-ᴛʀᴀɴs', callback_data='gtrans'),
-            InlineKeyboardButton('ᴀʟɪᴠᴇ', callback_data='alive'),
-            InlineKeyboardButton('ʜᴇʟᴘ', callback_data='needahelp')
+            InlineKeyboardButton('נѕσи', callback_data='thejson'),
+            InlineKeyboardButton('ɢ-тяαиѕ', callback_data='gtrans'),
+            InlineKeyboardButton('αℓινє', callback_data='alive'),
+            InlineKeyboardButton('нєℓρ', callback_data='needahelp')
             ],[
-            InlineKeyboardButton('ɢᴀᴍᴇs', callback_data='games'),
-            InlineKeyboardButton('ᴡʜᴏɪs', callback_data='whois'),
-            InlineKeyboardButton('ᴍᴀɴᴜᴀʟ', callback_data='manuelfilter'),
-            InlineKeyboardButton('ᴀᴜᴛᴏᴍᴀᴛɪᴄ', callback_data='autofilter')
+            InlineKeyboardButton('gαмєѕ', callback_data='games'),
+            InlineKeyboardButton('ωнσ-ιѕ', callback_data='whois'),
+            InlineKeyboardButton('мαиυαℓ', callback_data='manuelfilter'),
+            InlineKeyboardButton('αυтσмαтι¢', callback_data='autofilter')
             ],[
-            InlineKeyboardButton('ᴘɪɴɢ', callback_data='bsnl'),
-            InlineKeyboardButton('ᴘᴜʀɢᴇ', callback_data='purge'),
-            InlineKeyboardButton('ᴛᴇʟᴇɢʀᴀᴘʜ', callback_data='tgraph'),
-            InlineKeyboardButton('ɪɴғᴏ', callback_data='json')
+            InlineKeyboardButton('ριиg', callback_data='bsnl'),
+            InlineKeyboardButton('ρυяgє', callback_data='purge'),
+            InlineKeyboardButton('тєℓєgяαρн', callback_data='tgraph'),
+            InlineKeyboardButton('ιиfσ', callback_data='json')
             ],[
-            InlineKeyboardButton('ᴀᴜᴅ-ʙᴏᴏᴋ', callback_data='abook'),
-            InlineKeyboardButton('ᴜʀʟ', callback_data='shortner'),
-            InlineKeyboardButton('ᴛᴛs', callback_data='tts'),
-            InlineKeyboardButton('ᴄᴏᴠɪᴅ', callback_data='corona')
+            InlineKeyboardButton('ν¢-вσσк', callback_data='abook'),
+            InlineKeyboardButton('υяℓ', callback_data='shortner'),
+            InlineKeyboardButton('ттѕ', callback_data='tts'),
+            InlineKeyboardButton('¢σνι∂', callback_data='corona')
             ],[
-            InlineKeyboardButton('sʜᴀʀᴇ', callback_data='sharetext'),
-            InlineKeyboardButton('sᴏɴɢ', callback_data='music'),
-            InlineKeyboardButton('ᴠɪᴅᴇᴏ', callback_data='video'),
-            InlineKeyboardButton('ᴛʜᴜᴍʙɴᴀɪʟ', callback_data='thumbnail')
+            InlineKeyboardButton('ѕнαяє', callback_data='sharetext'),
+            InlineKeyboardButton('ѕσиg', callback_data='music'),
+            InlineKeyboardButton('νι∂єσ', callback_data='video'),
+            InlineKeyboardButton('тнυмвиαιℓ', callback_data='thumbnail')
             ],[
-            InlineKeyboardButton('ᴅᴇᴀᴅ', callback_data='dead'),
-            InlineKeyboardButton('sᴛɪᴄᴋᴇʀ', callback_data='stk'),
-            InlineKeyboardButton('ʙᴜᴛᴛᴏɴ', callback_data='button'),
-            InlineKeyboardButton('ᴀᴅᴍɪɴ', callback_data='admin')
+            InlineKeyboardButton('∂єα∂ѕ', callback_data='dead'),
+            InlineKeyboardButton('ѕтι¢кєя', callback_data='stk'),
+            InlineKeyboardButton('вυттσиѕ', callback_data='button'),
+            InlineKeyboardButton('α∂мιи', callback_data='admin')
             ],[
             ],[
-            InlineKeyboardButton('ᴘɪɴ-ᴍsɢ', callback_data='pin'),
-            InlineKeyboardButton('ʙʀᴇᴀᴋ-ᴜᴘ', callback_data='breakup'),
-            InlineKeyboardButton('ᴘᴀss-ɢᴇɴ', callback_data='password'),
-            InlineKeyboardButton('sᴏᴜʀᴄᴇ', callback_data='sourcecodej')
+            InlineKeyboardButton('ριи-мѕg', callback_data='pin'),
+            InlineKeyboardButton('вяєαк-υρ', callback_data='breakup'),
+            InlineKeyboardButton('ραѕѕ-gєи', callback_data='password'),
+            InlineKeyboardButton('ѕσυя¢є', callback_data='sourcecodej')
             ],[
-            InlineKeyboardButton('Gᴜʜᴀɴ 🔞', callback_data='ikka')
+            InlineKeyboardButton('gυнαи', callback_data='ikka')
             ],[
-            InlineKeyboardButton('Hᴏᴍᴇ', callback_data='start'),
-            InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close_data')
+            InlineKeyboardButton('нσмє', callback_data='start'),
+            InlineKeyboardButton('ѕтαтυѕ', callback_data='thestats'),
+            InlineKeyboardButton('¢ℓσѕє', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         md = InputMediaPhoto(media = random.choice(JENMULPCTST),
@@ -919,10 +921,47 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
+    elif query.data == "thestats":
+        buttons = [[
+            InlineKeyboardButton('Bᴀᴄᴋ', callback_data='fltr'),
+            InlineKeyboardButton('Rᴇғʀᴇsʜ', callback_data='rfrsh2')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        total = await Media.count_documents()
+        users = await db.total_users_count()
+        chats = await db.total_chat_count()
+        monsize = await db.get_db_size()
+        free = 536870912 - monsize
+        monsize = get_size(monsize)
+        free = get_size(free)
+        await query.message.edit_text(
+            text=script.STATUS_TXT.format(total, users, chats, monsize, free),
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
     elif query.data == "rfrsh":
-        await query.answer("Fetching MongoDb DataBase")
+        await query.answer("fєт¢нιиg мσиgσ∂в ∂αтαвαѕє")
         buttons = [[
             InlineKeyboardButton('Bᴀᴄᴋ', callback_data='help'),
+            InlineKeyboardButton('Rᴇғʀᴇsʜ', callback_data='rfrsh')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        total = await Media.count_documents()
+        users = await db.total_users_count()
+        chats = await db.total_chat_count()
+        monsize = await db.get_db_size()
+        free = 536870912 - monsize
+        monsize = get_size(monsize)
+        free = get_size(free)
+        await query.message.edit_text(
+            text=script.STATUS_TXT.format(total, users, chats, monsize, free),
+            reply_markup=reply_markup,
+            parse_mode='html'
+      )
+    elif query.data == "rfrsh2":
+        await query.answer("fєт¢нιиg мσиgσ∂в ∂αтαвαѕє")
+        buttons = [[
+            InlineKeyboardButton('Bᴀᴄᴋ', callback_data='fltr'),
             InlineKeyboardButton('Rᴇғʀᴇsʜ', callback_data='rfrsh')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
