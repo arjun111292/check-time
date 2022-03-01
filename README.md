@@ -1,4 +1,4 @@
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=welcome+To+AkBotDev's+Repo!;created+by+JOKER+TG!;A+simple+tg+FILE+SENDING+bot!)</p>
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Hey...+Welcome+To+Arjun+Pradeep's+Repo!!;This+Bot+Is+Created+By+@Username_Not_Found_404_Error+-Telegram.. ;Jennie+Is+An+Advanced_V9+Auto+Filter+Bot,+Telegram+FILE+SENDING+Bot!)</p>
 <p align="center">
   <img src="https://telegra.ph/file/2ac16c4fcc17960deced8.jpg">
 </p>
