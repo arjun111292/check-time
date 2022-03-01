@@ -94,7 +94,10 @@ async def count_filters(group_id):
     mycol = mydb[str(group_id)]
 
     count = mycol.count()
-    return False if count == 0 else count
+    if count == 0:
+        return False
+    else:
+        return count
 
 
 async def filter_stats():
