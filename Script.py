@@ -32,7 +32,26 @@ Tʜᴇsᴇ Aʀᴇ Tʜᴇ Aᴠᴀɪʟᴀʙʟᴇ Lɪsᴛ Oғ Mʏ Cᴏᴍᴍᴀɴ�
     <b> 𝘾𝙊𝙈𝙈𝘼𝙉𝘿: </b> /guhan ☺☺
     
     """
+    APPROVE_TXT = """нєяє ιѕ тнє нєℓρ fσя<b>αρρяσναℓ</b> мσ∂υℓє:
     
+ѕσмєтιмєѕ, уσυ мιgнт тяυѕт α υѕєя иσт тσ ѕєи∂ υиωαитє∂ ¢σитєит. 
+мαувє иσт єиσυgн тσ мαкє тнєм α∂мιи, вυт уσυ мιgнт вє σк ωιтн ℓσ¢кѕ, вℓα¢кℓιѕтѕ, αи∂ αитιfℓσσ∂ иσт αρρℓуιиg тσ тнєм. 
+тнαт'ѕ ωнαт αρρяσναℓѕ αяє fσя - αρρяσνє σf тяυѕтωσятну υѕєяѕ тσ αℓℓσω тнєм тσ ѕєи∂
+
+<b>υѕєя ¢σммαи∂ѕ</b>:
+
+× /approval: Check a user's approval status in this chat.
+
+<b>α∂мιи ¢σммαи∂ѕ</b>:
+
+× /approve: Approve of a user. Locks, blacklists, and antiflood won't apply to them anymore.
+× /unapprove: Unapprove of a user. They will now be subject to locks, blacklists, and antiflood again.
+× /approved: List all approved users.
+
+<b>gяσυρ σωиєя ¢σммαи∂ѕ</b>:
+
+× /unapproveall: Unapprove ALL users in a chat. This cannot be undone."""
+
     MANUELFILTER_TXT = """Help: <b>Mᴀɴᴜᴀʟ Fɪʟᴛᴇʀ</b>
 
 - Fɪʟᴛᴇʀ ɪs ᴛʜᴇ ғᴇᴀᴛᴜʀᴇ ᴡᴇʀᴇ ᴜsᴇʀs ᴄᴀɴ sᴇᴛ ᴀᴜᴛᴏᴍᴀᴛᴇᴅ ʀᴇᴘʟɪᴇs ғᴏʀ ᴀ ᴘᴀʀᴛɪᴄᴜʟᴀʀ ᴋᴇʏᴡᴏʀᴅ ᴀɴᴅ Jᴇɴɴɪᴇ ᴡɪʟʟ ʀᴇsᴘᴏɴᴅ ᴡʜᴇɴᴇᴠᴇʀ ᴀ ᴋᴇʏᴡᴏʀᴅ ɪs ғᴏᴜɴᴅ ᴛʜᴇ ᴍᴇssᴀɢᴇ
