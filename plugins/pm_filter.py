@@ -461,7 +461,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ραѕѕ-gєи', callback_data='password'),
             InlineKeyboardButton('ѕσυя¢є', callback_data='sourcecodej')
             ],[
-            InlineKeyboardButton('gυнαи', callback_data='ikka')
+            InlineKeyboardButton('gυнαи', callback_data='ikka'),
+            InlineKeyboardButton('αρρяσνє', callback_data='approve')
             ],[
             InlineKeyboardButton('нσмє', callback_data='start'),
             InlineKeyboardButton('ѕтαтυѕ', callback_data='thestats'),
@@ -854,6 +855,17 @@ async def cb_handler(client: Client, query: CallbackQuery):
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.MP4_TXT,
+            disable_web_page_preview=True,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "approve":
+        buttons = [[
+            InlineKeyboardButton('Back', callback_data='fltr')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.APPROVE_TXT,
             disable_web_page_preview=True,
             reply_markup=reply_markup,
             parse_mode='html'
