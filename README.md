@@ -1,10 +1,3 @@
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Hey...+Welcome+To+Arjun+Pradeep's+Repo!!;This+Bot+Is+Created+By+@Username_Not_Found_404_Error+-Telegram.. ;Jennie+Is+An+Advanced+V9+Auto+Filter+Bot,+Telegram+FILE+SENDING+Bot! )</p>
-<p align="center">
-  <img src="https://telegra.ph/file/2ac16c4fcc17960deced8.jpg">
-</p>
-<h1 align="center">
-  <b>LUCIFER BOT</b>
-</h1>
 
 [![Stars](https://img.shields.io/github/stars/EvamariaTG/EvaMaria?style=flat-square&color=yellow)](https://github.com/EvamariaTG/EvaMaria/stargazers)
 [![Forks](https://img.shields.io/github/forks/EvamariaTG/EvaMaria?style=flat-square&color=orange)](https://github.com/EvamariaTG/EvaMaria/fork)
