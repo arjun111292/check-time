@@ -1,4 +1,6 @@
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Jennie+Lub+🥰🥰;Developer+ == + Arjun Pradeep+TG Username - @Username_Not_Found_404_Error;This+Is+Advanced+V9+Auto Filter Bot+Enna Tonunne 😂😂)</p>
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Jennie+Lub+🥰🥰;Developer+=Arjun+TG-Username-@Username_Not_Found_404_Error;This+Is+Advanced+V9+AutoFilterBot+Enna-Tonunne 😂😂)</p>
+<img src="picture/270-2705455_jennie-wallpaper-hd.jpg" alt="ARJUNS BOT LOGO!!">
+</p>
 <h1 align="center">
   <b>Jennie</b>
 </h1>
