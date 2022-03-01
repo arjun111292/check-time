@@ -9,6 +9,7 @@ marshmallow==3.14.1
 googletrans==3.1.0a0
 gTTS
 telegraph==1.4.1
+cachetools
 prettyconf
 umongo==3.0.1
 requests
