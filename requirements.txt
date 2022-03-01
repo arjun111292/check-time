@@ -24,6 +24,3 @@ youtube-search-python==1.4.6
 youtube_search
 youtube-dl
 requests
-shutil
-cv2
-os
