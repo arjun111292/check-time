@@ -32,7 +32,7 @@ Tʜᴇsᴇ Aʀᴇ Tʜᴇ Aᴠᴀɪʟᴀʙʟᴇ Lɪsᴛ Oғ Mʏ Cᴏᴍᴍᴀɴ�
     <b> 𝘾𝙊𝙈𝙈𝘼𝙉𝘿: </b> /guhan ☺☺
     
     """
-        LOCK_TXT = """Here is the help for the <b>Locks</b> module:
+    LOCK_TXT = """Here is the help for the <b>Locks</b> module:
         
 <b>Admin only</b>:
 
