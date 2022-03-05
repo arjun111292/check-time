@@ -460,7 +460,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ѕσυя¢є', callback_data='sourcecodej')
             ],[
             InlineKeyboardButton('gυнαи', callback_data='ikka'),
-            InlineKeyboardButton('αρρяσνє', callback_data='approve')
+            InlineKeyboardButton('αρρяσνє', callback_data='approve'),
+            InlineKeyboardButton('ℓσ¢кѕ', callback_data='lock')
             ],[
             InlineKeyboardButton('нσмє', callback_data='start'),
             InlineKeyboardButton('ѕтαтυѕ', callback_data='thestats'),
@@ -519,30 +520,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
-    elif query.data == "photo":
-        buttons = [[
-            InlineKeyboardButton(text="вяιgнт", callback_data="bright"),
-            InlineKeyboardButton(text="мιχє∂", callback_data="mix"),
-            InlineKeyboardButton(text="в & ω", callback_data="b|w")
-            ],[
-            InlineKeyboardButton(text="¢ιя¢ℓє", callback_data="circle"),
-            InlineKeyboardButton(text="вℓυя", callback_data="blur"),
-            InlineKeyboardButton(text="вσя∂єя", callback_data="border")
-            ],[
-            InlineKeyboardButton(text="ѕтι¢кєя", callback_data="stick"),
-            InlineKeyboardButton(text="яσтαтє", callback_data="rotate"),
-            InlineKeyboardButton(text="¢σитяαѕт", callback_data="contrast")
-            ],[
-            InlineKeyboardButton(text="ѕєρια", callback_data="sepia"),
-            InlineKeyboardButton(text="ρєи¢ιℓ", callback_data="pencil"),
-            InlineKeyboardButton(text="¢αятσσи", callback_data="cartoon")
-            ],[
-            InlineKeyboardButton(text="ιиνєят", callback_data="inverted"),
-            InlineKeyboardButton(text="gℓιт¢н", callback_data="glitch"),
-            InlineKeyboardButton(text="яємσνє вg", callback_data="removebg")
-            ],[
-            InlineKeyboardButton(text="¢ℓσѕє", callback_data="close_data")
-        ]]
     elif query.data == "ikka":
         buttons = [[
             InlineKeyboardButton('Back', callback_data='fltr')
@@ -651,6 +628,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.ARROW_TXT,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "lock":
+        buttons = [[
+            InlineKeyboardButton('Bᴀᴄᴋ', callback_data='fltr')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.LOCK_TXT,
             reply_markup=reply_markup,
             parse_mode='html'
         )
