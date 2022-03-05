@@ -462,7 +462,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('gυнαи', callback_data='ikka'),
             InlineKeyboardButton('αρρяσνє', callback_data='approve'),
             InlineKeyboardButton('ℓσ¢кѕ', callback_data='lock'),
-            InlineKeyboardButton('тσяяєит', callback_data='tor'),
+            InlineKeyboardButton('тσяяєит', callback_data='tor')
+            ],[
+            InlineKeyboardButton('Rυℓєѕ', callback_data='rules')
             ],[
             InlineKeyboardButton('нσмє', callback_data='start'),
             InlineKeyboardButton('ѕтαтυѕ', callback_data='thestats'),
@@ -649,6 +651,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.TORRENT_TXT,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "rules":
+        buttons = [[
+            InlineKeyboardButton('Bᴀᴄᴋ', callback_data='fltr')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.RULES_TXT,
             reply_markup=reply_markup,
             parse_mode='html'
         )
