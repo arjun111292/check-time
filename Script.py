@@ -51,6 +51,24 @@ Locking bots will stop non-admins from adding bots to the chat.
 Example:
 
 /lock media: this locks all the media messages in the chat."""
+    NOTE_TXT = """Here is the help for the <b>Notes</b> module:
+    
+Save data for future users with notes!
+Notes are great to save random tidbits of information; a phone number, a nice gif, a funny picture - anything!
+
+User commands:
+
+- /get <notename>: Get a note.
+- #notename: Same as /get.
+
+<b>Admin commands</b>:
+
+- /save <notename> <note text>: Save a new note called "word". Replying to a message will save that message. Even works on media!
+- /clear <notename>: Delete the associated note.
+- /notes: List all notes in the current chat.
+- /saved: Same as /notes.
+- /clearall: Delete ALL notes in a chat. This cannot be undone.
+- /privatenotes: Whether or not to send notes in PM. Will send a message with a button which users can click to get the note in PM."""
     TORRENT_TXT = """Help: <b>Torrent Search</b>
     
 <b>Commands and Usage</b>:
