@@ -51,6 +51,21 @@ Locking bots will stop non-admins from adding bots to the chat.
 Example:
 
 /lock media: this locks all the media messages in the chat."""
+    TORRENT_TXT = """Help: <b>Torrent Search</b>
+    
+<b>Commands and Usage</b>:
+
+• /torrent or /tor : Get Your Torrent Link From Various Resource.
+
+• FORMAT  = /torrent Movie Name
+                     OR
+            /tor Movie Name
+
+<b>NOTE:</b>
+
+• Bot should have admin privillage.
+• These commands works on both pm and group.
+• These commands can be used by any group member."""
     APPROVE_TXT = """нєяє ιѕ тнє нєℓρ fσя<b>αρρяσναℓ</b> мσ∂υℓє:
     
 ѕσмєтιмєѕ, уσυ мιgнт тяυѕт α υѕєя иσт тσ ѕєи∂ υиωαитє∂ ¢σитєит. 
