@@ -66,6 +66,22 @@ Example:
 • Bot should have admin privillage.
 • These commands works on both pm and group.
 • These commands can be used by any group member."""
+    RULES_TXT = """Here is the help for the <b>Rules</b> module:
+    
+Every chat works with different rules; this module will help make those rules clearer!
+
+<b>User commands</b>:
+
+   /rules: Check the current chat rules.
+
+<b>Admin commands</b>:
+
+   /setrules <text>: Set the rules for this chat.
+   /privaterules <yes/no/on/off>: Enable/disable whether the rules should be sent in private.
+   /resetrules: Reset the chat rules to default
+   /rulesbtn <custom text>: Sets the text of rules button.
+   /resetrulesbutton: Reset the text of rules button to default.
+   /resetrulesbtn: Same as above."""
     APPROVE_TXT = """нєяє ιѕ тнє нєℓρ fσя<b>αρρяσναℓ</b> мσ∂υℓє:
     
 ѕσмєтιмєѕ, уσυ мιgнт тяυѕт α υѕєя иσт тσ ѕєи∂ υиωαитє∂ ¢σитєит. 
