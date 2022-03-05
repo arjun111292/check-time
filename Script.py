@@ -32,6 +32,25 @@ Tʜᴇsᴇ Aʀᴇ Tʜᴇ Aᴠᴀɪʟᴀʙʟᴇ Lɪsᴛ Oғ Mʏ Cᴏᴍᴍᴀɴ�
     <b> 𝘾𝙊𝙈𝙈𝘼𝙉𝘿: </b> /guhan ☺☺
     
     """
+        LOCK_TXT = """Here is the help for the <b>Locks</b> module:
+        
+<b>Admin only</b>:
+
+× /lock <permission>: Lock Chat permission..
+
+× /unlock <permission>: Unlock Chat permission.
+
+× /locks: View Chat permission.
+
+× /locktypes: Check available lock types!
+
+Locks can be used to restrict a group's users.
+Locking urls will auto-delete all messages with urls, locking stickers will delete all stickers, etc.
+Locking bots will stop non-admins from adding bots to the chat.
+
+Example:
+
+/lock media: this locks all the media messages in the chat."""
     APPROVE_TXT = """нєяє ιѕ тнє нєℓρ fσя<b>αρρяσναℓ</b> мσ∂υℓє:
     
 ѕσмєтιмєѕ, уσυ мιgнт тяυѕт α υѕєя иσт тσ ѕєи∂ υиωαитє∂ ¢σитєит. 
