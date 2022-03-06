@@ -76,11 +76,11 @@ async def lock_mass(c: Alita, m2: Message):
         reply_markup=InlineKeyboardMarkup( [[
           InlineKeyboardButton("MOVIES ALL",url="https://t.me/tomoviesall"),
           InlineKeyboardButton("Archana 31",url="https://t.me/Archana_31_not_0ut")
-          ],[
+        ],[
           InlineKeyboardButton("HELP",url="https://t.me/Archana_31_not_0ut")
-        ]]
-        )
-    )
+      ]]
+      )
+  )
 
     elif lock_type == "media":
         media = False
