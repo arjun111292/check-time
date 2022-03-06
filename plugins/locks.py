@@ -72,7 +72,6 @@ async def lock_perm(c: Alita, m: Message):
         perm = "messages"
 async def lock_mass(c: Alita, m2: Message):
         await m2.reply_text("LOCKED")
-        return
 
     elif lock_type == "media":
         media = False
