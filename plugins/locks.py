@@ -5,6 +5,7 @@ from pyrogram.types import ChatPermissions, Message
 
 from Alita import LOGGER
 from pyrogram import Client as Alita
+from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from database.approve_db import Approve
 from Alita.tr_engine import tlang
 from Alita.utils.custom_filters import command, restrict_filter
@@ -71,7 +72,15 @@ async def lock_perm(c: Alita, m: Message):
         msg = False
         perm = "messages"
 async def lock_mass(c: Alita, m2: Message):
-        await m2.reply_text("LOCKED")
+        await m2.reply_text("LOCKED"),
+        reply_markup=InlineKeyboardMarkup( [[
+          InlineKeyboardButton("MOVIES ALL",url="https://t.me/tomoviesall"),
+          InlineKeyboardButton("Archana 31",url="https://t.me/Archana_31_not_0ut")
+          ],[
+          InlineKeyboardButton("HELP",url="https://t.me/Archana_31_not_0ut")
+        ]]
+        )
+    )
 
     elif lock_type == "media":
         media = False
