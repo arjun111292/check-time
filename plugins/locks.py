@@ -70,6 +70,7 @@ async def lock_perm(c: Alita, m: Message):
     if lock_type == "msg":
         msg = False
         perm = "messages"
+        await message.reply_text("LOCKED")
 
     elif lock_type == "media":
         media = False
