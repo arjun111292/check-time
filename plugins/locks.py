@@ -71,16 +71,6 @@ async def lock_perm(c: Alita, m: Message):
     if lock_type == "msg":
         msg = False
         perm = "messages"
-async def lock_mass(c: Alita, m2: Message):
-        await m2.reply_text("LOCKED"),
-        reply_markup=InlineKeyboardMarkup( [[
-          InlineKeyboardButton("MOVIES ALL",url="https://t.me/tomoviesall"),
-          InlineKeyboardButton("Archana 31",url="https://t.me/Archana_31_not_0ut")
-        ],[
-          InlineKeyboardButton("HELP",url="https://t.me/Archana_31_not_0ut")
-      ]]
-      )
-  )
 
     elif lock_type == "media":
         media = False
