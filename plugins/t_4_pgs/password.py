@@ -35,6 +35,6 @@ async def password(_, message):
     """ /password strings """
     effective_string = passw(20)
     if message.reply_to_message:
-        await message.reply_to_message.reply_text(effective_string)
+        await message.reply_to_message.reply_text(f"```{effective_string}```")
     else:
-        await message.reply_text(effective_string)
+        await message.reply_text(f"```{effective_string}```")
