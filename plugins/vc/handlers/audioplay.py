@@ -3,7 +3,7 @@
 from os import path
 import converter
 from callsmusic import callsmusic, queues
-from config import (
+from konfig import (
     AUD_IMG,
     BOT_USERNAME,
     DURATION_LIMIT,
