@@ -1,5 +1,5 @@
 git+https://github.com/subinps/pyrogram@inline-m
-git+https://github.com/DrKLO/Telegram@ext-m
+https://github.com/DrKLO/Telegram
 aiohttp==3.7.4
 aiofiles
 datetime
