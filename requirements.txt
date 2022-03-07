@@ -27,3 +27,4 @@ youtube-dl
 requests
 wikipedia
 telegram
+py-tgcalls
