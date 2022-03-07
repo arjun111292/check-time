@@ -1,6 +1,6 @@
 from typing import Dict, List
 
-from config import admins
+from sils import admins
 
 admins: Dict[int, List[int]] = {}
 
