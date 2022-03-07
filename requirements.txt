@@ -28,3 +28,4 @@ requests
 wikipedia
 telegram
 py-tgcalls
+pillow
