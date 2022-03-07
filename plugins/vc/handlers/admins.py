@@ -2,8 +2,8 @@
 
 from asyncio import QueueEmpty
 
-from callsmusic import callsmusic
-from callsmusic.queues import queues
+from plugins.vc.end import callsmusic
+from plugins.vc.que.queues import queues
 from config import BOT_USERNAME, que
 from cache.admins import admins
 from helpers.channelmusic import get_chat_id
