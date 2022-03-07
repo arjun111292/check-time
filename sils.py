@@ -7,6 +7,7 @@ load_dotenv()
 que = {}
 admins = {}
 SESSION_NAME = getenv("SESSION_NAME", "session")
+SUDO_USERS = ("1091859969")
 BOT_TOKEN = getenv("BOT_TOKEN")
 BOT_NAME = getenv("BOT_NAME", "Veez Music")
 BG_IMAGE = getenv("BG_IMAGE", "https://telegra.ph/file/8628c642a266a22effd8c.png")
