@@ -18,7 +18,6 @@ imdbpy
 PyPDF2
 pyshorteners
 wget
-yt-dlp
 ytthumb
 youtube-search-python==1.4.6
 youtube_search
