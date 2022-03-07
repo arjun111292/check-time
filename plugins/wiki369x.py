@@ -2,6 +2,10 @@ from telegram.ext import Updater
 from telegram.ext import MessageHandler, Filters
 import wikipedia as wiki 
 
+BOT_TOKEN= "5213266147:AAE-WZXXpnaNnuAPH-igEJUodU1DSnEflh4"
+
+updater= Updater(BOT_TOKEN)  #Bot Token is given by BotFather on Telegram while creating bot. 
+
 def get_wiki(word):
     try:
         return wiki.summary(word)
