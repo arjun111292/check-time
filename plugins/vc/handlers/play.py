@@ -9,10 +9,10 @@ import converter
 import ffmpeg
 import requests
 from cache.admins import admins as a
-from callsmusic import callsmusic
-from callsmusic.callsmusic import client as USER
-from callsmusic.queues import queues
-from config import (
+from plugins.vc.end import callsmusic
+from plugins.vc.end.callsmusic import client as USER
+from plugins.vc.que.queues import queues
+from konfig import (
     ASSISTANT_NAME,
     BOT_NAME,
     BOT_USERNAME,
@@ -23,7 +23,7 @@ from config import (
     UPDATES_CHANNEL,
     que,
 )
-from downloaders import youtube
+from plugins.vc.reciever import youtube
 from helpers.admins import get_administrators
 from helpers.channelmusic import get_chat_id
 from helpers.chattitle import CHAT_TITLE
