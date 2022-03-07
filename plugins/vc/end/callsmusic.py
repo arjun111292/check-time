@@ -4,7 +4,7 @@ from pytgcalls import PyTgCalls
 from pytgcalls.types import Update
 from pytgcalls.types.input_stream import InputAudioStream
 from pytgcalls.types.input_stream import InputStream
-from config import API_HASH, API_ID, SESSION_NAME
+from info import API_HASH, API_ID, SESSION_NAME
 
 
 client = Client(SESSION_NAME, API_ID, API_HASH)
