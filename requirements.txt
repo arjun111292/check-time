@@ -1,4 +1,3 @@
-git+https://github.com/subinps/pyrogram@inline-m
 aiohttp==3.7.4
 aiofiles
 datetime
