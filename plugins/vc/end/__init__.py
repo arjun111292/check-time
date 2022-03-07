@@ -1,2 +1,2 @@
-from plugins.vc.que import queues
-from .PIC_TESTER import pytgcalls, run
+from plugins.vc.que.queues import queues
+from .vc import pytgcalls, run
