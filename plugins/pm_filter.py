@@ -495,7 +495,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "about":
         buttons= [[
             InlineKeyboardButton('му fιℓєѕ', url='https://t.me/+f2zfFt4QnHszYjll'),
-            InlineKeyboardButton('ѕσυя¢є', url='https://t.me/+2II-zW8UCLw4ZTFl')
+            InlineKeyboardButton('ѕσυя¢є', show_alert='Nokki irunno, ippam kittum 😂')
             ],[
             InlineKeyboardButton('нєℓρ', callback_data='help'),
             InlineKeyboardButton('∂єνєℓσρєя', url='https://t.me/Username_Not_Found_404_Error')
