@@ -1,6 +1,7 @@
 # Kanged From @TroJanZheX
 import asyncio
 import re
+import time
 import ast
 
 from pyrogram.errors.exceptions.bad_request_400 import MediaEmpty, PhotoInvalidDimensions, WebpageMediaEmpty
@@ -29,6 +30,7 @@ logger.setLevel(logging.ERROR)
 BUTTONS = {}
 SPELL_CHECK = {}
 
+currentTime = time.strftime('%H:%M')   
 
 
 @Client.on_message(filters.group & filters.text & ~filters.edited & filters.incoming)
@@ -411,8 +413,19 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Mᴏᴠɪᴇs', url='https://t.me/tomoviesall')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
+        if currentTime.hour < 12 :
         await query.message.edit_text(
             text=script.START_TXT.format(query.from_user.mention, temp.U_NAME, temp.B_NAME),
+            reply_markup=reply_markup,
+            parse_mode='html'
+    elif currentTime.hour > 12 :
+        await query.message.edit_text(
+            text=script.START_TXT2.format(query.from_user.mention, temp.U_NAME, temp.B_NAME),
+            reply_markup=reply_markup,
+            parse_mode='html'
+    elif currentTime.hour > 6 : 
+        await query.message.edit_text(
+            text=script.START_TXT3.format(query.from_user.mention, temp.U_NAME, temp.B_NAME),
             reply_markup=reply_markup,
             parse_mode='html'
         )
