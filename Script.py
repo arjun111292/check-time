@@ -1,5 +1,9 @@
 class script(object):
-    START_TXT = """Hᴇʏ {},
+    START_TXT = """Hᴇʏ Good Morning {},
+        Mʏ ɴᴀᴍᴇ ɪs Jᴇɴɴɪᴇ `BLΛƆKPIИK,Pʟᴇᴀsᴇ ᴜsᴇ ᴛʜᴇ ʙᴇʟᴏᴡ ᴄᴏᴍᴍᴀɴᴅs ᴛᴏ ᴋɴᴏᴡ ᴍᴏʀᴇ ᴀʙᴏᴜᴛ ᴍᴇ.."""
+    START_TXT2 = """Hᴇʏ Good After Noon {},
+        Mʏ ɴᴀᴍᴇ ɪs Jᴇɴɴɪᴇ `BLΛƆKPIИK,Pʟᴇᴀsᴇ ᴜsᴇ ᴛʜᴇ ʙᴇʟᴏᴡ ᴄᴏᴍᴍᴀɴᴅs ᴛᴏ ᴋɴᴏᴡ ᴍᴏʀᴇ ᴀʙᴏᴜᴛ ᴍᴇ.."""
+    START_TXT3 = """Hᴇʏ Good Evening {},
         Mʏ ɴᴀᴍᴇ ɪs Jᴇɴɴɪᴇ `BLΛƆKPIИK,Pʟᴇᴀsᴇ ᴜsᴇ ᴛʜᴇ ʙᴇʟᴏᴡ ᴄᴏᴍᴍᴀɴᴅs ᴛᴏ ᴋɴᴏᴡ ᴍᴏʀᴇ ᴀʙᴏᴜᴛ ᴍᴇ.."""
     HELP_TXT = """𝙷𝙴𝚈 {}
 Tʜᴇsᴇ Aʀᴇ Tʜᴇ Aᴠᴀɪʟᴀʙʟᴇ Lɪsᴛ Oғ Mʏ Cᴏᴍᴍᴀɴᴅs."""
